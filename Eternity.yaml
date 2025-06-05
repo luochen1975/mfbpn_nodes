@@ -54,6 +54,10 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 34-0000-JP, server: 9988.mt.mt5888.top, port: 44003, type: ssr, cipher: dummy, password: mantouyun888, protocol: auth_chain_a, obfs: plain, protocol-param: 8198:CsJt8BBrKFOSrjv2, obfs-param: cbcdc8198.microsoft.com, udp: true}
+  - {name: 34-0010-HK, server: 18.167.172.112, port: 443, type: vmess, uuid: f176cf54-38c7-44ea-a7ce-8b87af2698a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 34-0011-RELAY, server: bevent.bilibili.tv, port: 443, type: vmess, uuid: 9036ed2a-a743-4fae-9694-c383cc767fdd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bevent.bilibili.tv}}, udp: true}
+  - {name: 34-0012-RELAY, server: mugen11.6bnw.top, port: 8080, type: vmess, uuid: 7b34d4b6-19d1-43e7-8c60-078ce500538d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mugen11.6bnw.top}}, udp: true}
+  - {name: 34-0013-RELAY, server: time.is, port: 80, type: vmess, uuid: 4aef3648-cf2a-4ee7-be4d-0dca7694eb73, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: time.is}}, udp: true}
   - {name: 34-0014-RELAY, server: nodie.yangmie.online, port: 80, type: vmess, uuid: e64a5eb5-8bf9-4883-93a8-2e14f5d2bd03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nodie.yangmie.online}}, udp: true}
   - {name: 34-0015-RELAY, server: bevent.bilibili.tv, port: 443, type: vmess, uuid: 7b34d4b6-19d1-43e7-8c60-078ce500538d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bevent.bilibili.tv}}, udp: true}
   - {name: 34-0016-RELAY, server: nodie.yangmie.online, port: 80, type: vmess, uuid: e5c785b3-9842-42b1-93d9-8c10ff19a856, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nodie.yangmie.online}}, udp: true}
@@ -266,16 +270,16 @@ proxies:
   - {name: 34-0223-HK, server: 18.167.172.112, port: 443, type: vmess, uuid: ccf69747-f2cc-44bf-a61d-1528a0b0dde3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 34-0224-NOWHERE, server: zz.xiao666666.site, port: 58888, type: ss, cipher: chacha20-ietf-poly1305, password: 9036ed2a-a743-4fae-9694-c383cc767fdd, udp: true}
   - {name: 34-0225-RELAY, server: bevent.bilibili.tv, port: 443, type: vmess, uuid: 2a0bc9ae-a0c1-404a-96a4-26a1efc68be8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bevent.bilibili.tv}}, udp: true}
-  - {name: 34-0226-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: ec35b94e-3d01-3d3d-9d5a-927edc38f086, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
-  - {name: 34-0227-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: ec35b94e-3d01-3d3d-9d5a-927edc38f086, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
-  - {name: 34-0228-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: ec35b94e-3d01-3d3d-9d5a-927edc38f086, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
-  - {name: 34-0229-CN, server: 19.mamamajd.site, port: 23619, type: vmess, uuid: ec35b94e-3d01-3d3d-9d5a-927edc38f086, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.mamamajd.site}}, udp: true}
-  - {name: 34-0230-CN, server: 16.mamamajd.site, port: 23616, type: vmess, uuid: ec35b94e-3d01-3d3d-9d5a-927edc38f086, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.mamamajd.site}}, udp: true}
-  - {name: 34-0231-CN, server: 18.mamamajd.site, port: 23618, type: vmess, uuid: ec35b94e-3d01-3d3d-9d5a-927edc38f086, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 18.mamamajd.site}}, udp: true}
-  - {name: 34-0232-CN, server: 15.mamamajd.site, port: 23615, type: vmess, uuid: ec35b94e-3d01-3d3d-9d5a-927edc38f086, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.mamamajd.site}}, udp: true}
-  - {name: 34-0233-CN, server: 5.mamamajd.site, port: 23605, type: vmess, uuid: ec35b94e-3d01-3d3d-9d5a-927edc38f086, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.mamamajd.site}}, udp: true}
-  - {name: 34-0234-CN, server: 13.mamamajd.site, port: 23613, type: vmess, uuid: ec35b94e-3d01-3d3d-9d5a-927edc38f086, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.mamamajd.site}}, udp: true}
-  - {name: 34-0235-CN, server: 14.mamamajd.site, port: 23614, type: vmess, uuid: ec35b94e-3d01-3d3d-9d5a-927edc38f086, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.mamamajd.site}}, udp: true}
+  - {name: 34-0226-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: e7d3786c-bb50-38e8-a5cd-26a3b2be9e2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
+  - {name: 34-0227-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: e7d3786c-bb50-38e8-a5cd-26a3b2be9e2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
+  - {name: 34-0228-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: e7d3786c-bb50-38e8-a5cd-26a3b2be9e2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
+  - {name: 34-0229-CN, server: 19.mamamajd.site, port: 23619, type: vmess, uuid: e7d3786c-bb50-38e8-a5cd-26a3b2be9e2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.mamamajd.site}}, udp: true}
+  - {name: 34-0230-CN, server: 16.mamamajd.site, port: 23616, type: vmess, uuid: e7d3786c-bb50-38e8-a5cd-26a3b2be9e2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.mamamajd.site}}, udp: true}
+  - {name: 34-0231-CN, server: 18.mamamajd.site, port: 23618, type: vmess, uuid: e7d3786c-bb50-38e8-a5cd-26a3b2be9e2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 18.mamamajd.site}}, udp: true}
+  - {name: 34-0232-CN, server: 15.mamamajd.site, port: 23615, type: vmess, uuid: e7d3786c-bb50-38e8-a5cd-26a3b2be9e2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.mamamajd.site}}, udp: true}
+  - {name: 34-0233-CN, server: 5.mamamajd.site, port: 23605, type: vmess, uuid: e7d3786c-bb50-38e8-a5cd-26a3b2be9e2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.mamamajd.site}}, udp: true}
+  - {name: 34-0234-CN, server: 13.mamamajd.site, port: 23613, type: vmess, uuid: e7d3786c-bb50-38e8-a5cd-26a3b2be9e2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.mamamajd.site}}, udp: true}
+  - {name: 34-0235-CN, server: 14.mamamajd.site, port: 23614, type: vmess, uuid: e7d3786c-bb50-38e8-a5cd-26a3b2be9e2a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.mamamajd.site}}, udp: true}
   - {name: 34-0236-RELAY, server: 1.1.1.1, port: 443, type: vmess, uuid: 36f71b02-04bf-4ab6-8f17-850a002b448d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8}, udp: true}
   - {name: 34-0237-NOWHERE, server: usbk.cfip.top, port: 8443, type: vmess, uuid: 36f71b02-04bf-4ab6-8f17-850a002b448d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: usbk.cfip.top}}, udp: true}
   - {name: 34-0238-NOWHERE, server: US-Los_Angeles-A.cfip.top, port: 8443, type: vmess, uuid: 36f71b02-04bf-4ab6-8f17-850a002b448d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: US-Los_Angeles-A.cfip.top}}, udp: true}
@@ -368,13 +372,13 @@ proxies:
   - {name: 34-0325-NOWHERE, server: klvip101.qlgq.fun, port: 10443, type: trojan, password: 3c668456-cc9c-3392-9014-0f73e5a09bb3, sni: klvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 34-0326-NOWHERE, server: klvip101.qlgq.fun, port: 20443, type: trojan, password: 3c668456-cc9c-3392-9014-0f73e5a09bb3, sni: klvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 34-0327-NOWHERE, server: klvip101.qlgq.fun, port: 30443, type: trojan, password: 3c668456-cc9c-3392-9014-0f73e5a09bb3, sni: klvip101.qlgq.fun, skip-cert-verify: true, udp: true}
-  - {name: 34-0328-RELAY, server: s1.db-link02.top, port: 8880, type: vmess, uuid: c260d708-2499-39b3-bca6-627bba4364ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.67.130, headers: {Host: s1.db-link02.top}}, udp: true}
-  - {name: 34-0329-RELAY, server: s5.db-link01.top, port: 8880, type: vmess, uuid: c260d708-2499-39b3-bca6-627bba4364ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.17.166, headers: {Host: s5.db-link01.top}}, udp: true}
-  - {name: 34-0330-RELAY, server: s1.db-link02.top, port: 2086, type: vmess, uuid: c260d708-2499-39b3-bca6-627bba4364ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.203.170, headers: {Host: s1.db-link02.top}}, udp: true}
-  - {name: 34-0331-RELAY, server: s2.db-link02.top, port: 8880, type: vmess, uuid: c260d708-2499-39b3-bca6-627bba4364ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.6.206, headers: {Host: s2.db-link02.top}}, udp: true}
-  - {name: 34-0332-RELAY, server: s4.cn-db.top, port: 2086, type: vmess, uuid: c260d708-2499-39b3-bca6-627bba4364ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.131.86, headers: {Host: s4.cn-db.top}}, udp: true}
-  - {name: 34-0333-RELAY, server: s1.db-link01.top, port: 2082, type: vmess, uuid: c260d708-2499-39b3-bca6-627bba4364ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.29.34, headers: {Host: s1.db-link01.top}}, udp: true}
-  - {name: 34-0334-RELAY, server: s2.cn-db.top, port: 8080, type: vmess, uuid: c260d708-2499-39b3-bca6-627bba4364ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.88.27, headers: {Host: s2.cn-db.top}}, udp: true}
+  - {name: 34-0328-RELAY, server: s4.db-link02.top, port: 2095, type: vmess, uuid: c260d708-2499-39b3-bca6-627bba4364ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.53.40, headers: {Host: s4.db-link02.top}}, udp: true}
+  - {name: 34-0329-RELAY, server: s3.db-link01.top, port: 8080, type: vmess, uuid: c260d708-2499-39b3-bca6-627bba4364ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.61.237, headers: {Host: s3.db-link01.top}}, udp: true}
+  - {name: 34-0330-RELAY, server: s4.db-link02.top, port: 2086, type: vmess, uuid: c260d708-2499-39b3-bca6-627bba4364ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.36.136, headers: {Host: s4.db-link02.top}}, udp: true}
+  - {name: 34-0331-RELAY, server: s2.cn-db.top, port: 2052, type: vmess, uuid: c260d708-2499-39b3-bca6-627bba4364ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.19.244.152, headers: {Host: s2.cn-db.top}}, udp: true}
+  - {name: 34-0332-RELAY, server: s4.cn-db.top, port: 2095, type: vmess, uuid: c260d708-2499-39b3-bca6-627bba4364ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.147.155, headers: {Host: s4.cn-db.top}}, udp: true}
+  - {name: 34-0333-RELAY, server: s2.db-link01.top, port: 2086, type: vmess, uuid: c260d708-2499-39b3-bca6-627bba4364ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.86.52, headers: {Host: s2.db-link01.top}}, udp: true}
+  - {name: 34-0334-RELAY, server: s2.db-link01.top, port: 8880, type: vmess, uuid: c260d708-2499-39b3-bca6-627bba4364ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.57.69, headers: {Host: s2.db-link01.top}}, udp: true}
   - {name: 34-0434-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 5d7a5065-dbdf-33bb-8bb4-fc67217bd55b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
   - {name: 34-0435-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 5d7a5065-dbdf-33bb-8bb4-fc67217bd55b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
   - {name: 34-0436-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 5d7a5065-dbdf-33bb-8bb4-fc67217bd55b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
@@ -431,11 +435,12 @@ proxies:
   - {name: 34-0487-CN, server: gy.58n.net, port: 20304, type: trojan, password: b525fa7b-d8db-3bf9-bae5-f901ad01522c, sni: z304.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 34-0488-CN, server: gy.58n.net, port: 20305, type: trojan, password: b525fa7b-d8db-3bf9-bae5-f901ad01522c, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 34-0489-CN, server: gy.58n.net, port: 20306, type: trojan, password: b525fa7b-d8db-3bf9-bae5-f901ad01522c, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 34-0490-CN, server: 43.100.9.65, port: 443, type: trojan, password: d394ce63-10b3-31c3-a81b-2f0efbb8f6ec, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
-  - {name: 34-0491-HK, server: qoi.smp-paymentservices-apple.com, port: 8443, type: trojan, password: d394ce63-10b3-31c3-a81b-2f0efbb8f6ec, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
-  - {name: 34-0492-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: d394ce63-10b3-31c3-a81b-2f0efbb8f6ec, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 34-0493-JP, server: 47.245.40.60, port: 28464, type: trojan, password: d394ce63-10b3-31c3-a81b-2f0efbb8f6ec, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 34-0494-JP, server: 47.245.31.103, port: 28460, type: trojan, password: d394ce63-10b3-31c3-a81b-2f0efbb8f6ec, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 34-0490-CN, server: 43.100.9.65, port: 443, type: trojan, password: ef49c1fe-82ba-317e-b622-285b1c317ad0, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 34-0491-HK, server: qoi.smp-paymentservices-apple.com, port: 8443, type: trojan, password: ef49c1fe-82ba-317e-b622-285b1c317ad0, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 34-0492-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: ef49c1fe-82ba-317e-b622-285b1c317ad0, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 34-0493-JP, server: 47.245.40.60, port: 28464, type: trojan, password: ef49c1fe-82ba-317e-b622-285b1c317ad0, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 34-0494-JP, server: 47.245.31.103, port: 28460, type: trojan, password: ef49c1fe-82ba-317e-b622-285b1c317ad0, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 34-0495-US, server: 52.231.97.210, port: 2053, type: trojan, password: SSorg, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 34-0496-UA, server: 141.11.252.64, port: 20630, type: vmess, uuid: b7b232d1-79ae-4fb1-8fdb-6f0bdc8a41ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /b7b232d1}, udp: true}
   - {name: 34-0497-RELAY, server: 172.67.133.248, port: 443, type: trojan, password: f0f6e76e-e5fe-4e2c-9faf-34832e021eae, sni: DDd.890604.FIlEGear-sG.Me, skip-cert-verify: true, udp: true}
   - {name: 34-0498-KR, server: p231.panda004.net, port: 11389, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
@@ -514,7 +519,7 @@ proxies:
   - {name: 34-0571-SG, server: 52.221.229.127, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123, udp: true}
   - {name: 34-0572-NOWHERE, server: vhs.88443.cf, port: 18000, type: trojan, password: !<str> 63099, sni: vhs.88443.cf, skip-cert-verify: true, udp: true}
   - {name: 34-0574-CN, server: 183.236.51.38, port: 49302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 34-0575-JP, server: usla.mjt000.com, port: 443, type: trojan, password: e4af2638-bb12-4e4a-84f1-a032e23ca63f, sni: usla.mjt000.com, skip-cert-verify: true, udp: true}
+  - {name: 34-0575-HK, server: usla.mjt000.com, port: 443, type: trojan, password: e4af2638-bb12-4e4a-84f1-a032e23ca63f, sni: usla.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 34-0576-CN, server: 183.236.51.38, port: 33919, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 34-0577-CN, server: ti3hyra4.slashdevslashnetslashtun.net, port: 15016, type: ss, cipher: aes-256-gcm, password: GUSA917ZCX1WAKMT, udp: true}
   - {name: 34-0578-CN, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v9.heduian.link}}, udp: true}
@@ -918,7 +923,6 @@ proxies:
   - {name: 34-0985-US, server: 34.218.130.79, port: 443, type: trojan, password: Aimer, sni: ngepx.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-0986-US, server: 166.1.157.228, port: 55330, type: ss, cipher: chacha20-ietf-poly1305, password: rtR4YX74vwqRJu9MGH3e1N3CQdGMWCUFkyLisijiFuvhkU9McV5TpygfkernJ4UQe63JtcDQkrQ9HfchzqQz1kLCnTRor8jg, udp: true}
   - {name: 34-0987-RELAY, server: 162.159.129.11, port: 2053, type: trojan, password: amclubs, sni: tran.amclubs.rr.nu, skip-cert-verify: true, udp: true}
-  - {name: 34-0988-US, server: 44.227.209.152, port: 443, type: trojan, password: Aimer, sni: epcch.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-0989-RELAY, server: 104.21.32.242, port: 443, type: trojan, password: 15153c1d-fc81-4b2a-9689-7b4e4a72dce5, sni: b9uujhyt.890604.dpdns.org, skip-cert-verify: true, udp: true}
   - {name: 34-0990-NL, server: 77.238.236.134, port: 8443, type: trojan, password: Aimer, sni: agepq.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-0991-RELAY, server: 141.101.121.134, port: 2053, type: trojan, password: c65dbe85-354d-4892-909d-2b288830ee37, sni: 1744156312.speed.baxsab.china.nicchina.pp.ua, skip-cert-verify: true, udp: true}
@@ -1038,6 +1042,7 @@ proxies:
   - {name: 34-1105-RELAY, server: 172.64.157.21, port: 443, type: trojan, password: Aimer, sni: epccf.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-1106-RELAY, server: 104.21.32.1, port: 2096, type: trojan, password: 8e09a4d7-80fc-4bb3-b3fb-1eb23211756a, sni: MehRnEWs.twn24.Ir, skip-cert-verify: true, udp: true}
   - {name: 34-1107-US, server: 88.210.36.107, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, udp: true}
+  - {name: 34-1108-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-1109-RELAY, server: 172.67.207.27, port: 443, type: trojan, password: a926af96-2cfe-4169-8107-6c5f0d74a938, sni: yu765.taipei108.dpdns.org, skip-cert-verify: true, udp: true}
   - {name: 34-1110-ZA, server: 160.123.255.243, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, udp: true}
   - {name: 34-1111-RELAY, server: 108.165.152.31, port: 2083, type: trojan, password: Aimer, sni: epccx.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
@@ -1135,12 +1140,12 @@ proxies:
   - {name: 34-1203-RELAY, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
   - {name: 34-1204-RELAY, server: s4.db-link02.top, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.239.131, headers: {Host: s4.db-link02.top}}, udp: true}
   - {name: 34-1205-KR, server: 52.141.25.42, port: 443, type: trojan, password: SSorg, sni: sstjj.esslh.filegear-sg.me, skip-cert-verify: true, udp: true}
-  - {name: 34-1206-KR, server: 52.231.97.210, port: 2053, type: trojan, password: SSorg, sni: sstjj.esslh.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-1207-RELAY, server: s5.db-link01.top, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.74.23, headers: {Host: s5.db-link01.top}}, udp: true}
   - {name: 34-1208-NL, server: 185.204.109.190, port: 8443, type: trojan, password: SSorg, sni: sstjj.esslh.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-1209-KR, server: 121.174.111.147, port: 10936, type: trojan, password: SSorg, sni: sstjj.esslh.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-1210-KR, server: 61.81.181.169, port: 14985, type: trojan, password: SSorg, sni: sstjj.esslh.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-1211-RELAY, server: s5.cn-db.top, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.127.124, headers: {Host: s5.cn-db.top}}, udp: true}
+  - {name: 34-1212-KR, server: 218.147.114.82, port: 50000, type: trojan, password: SSorg, sni: sstjj.esslh.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-1213-US, server: 38.47.113.19, port: 34237, type: trojan, password: SSorg, sni: sstjj.esslh.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-1215-KR, server: 106.240.1.52, port: 20443, type: trojan, password: SSorg, sni: sstjj.esslh.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-1216-RELAY, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
@@ -1237,18 +1242,14 @@ proxies:
   - {name: 34-1311-KR, server: 125.141.26.12, port: 4857, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 34-1312-CN, server: 204bdce4-sxaf40-t5bgb3-l4nv.cm5.cnkuaishou.com, port: 27231, type: trojan, password: 1469e09e-027c-11ec-a0fc-f23c913c8d2b, sni: 204bdce4-sxaf40-t5bgb3-l4nv.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
   - {name: 34-1313-KR, server: p080.panda001.net, port: 36379, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: 34-1329-US, server: 104.167.197.25, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
-  - {name: 34-1525-VN, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
-  - {name: 34-1529-US, server: 104.167.197.25, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
-  - {name: 34-1544-KR, server: 125.141.26.12, port: 4857, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: 34-1546-KR, server: p080.panda001.net, port: 36379, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: 34-1555-HK, server: 9a6be8fa-sxhts0-sxkcyq-b4pt.hkt.east.wctype.com, port: 460, type: vmess, uuid: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 9a6be8fa-sxhts0-sxkcyq-b4pt.hkt.east.wctype.com}}, udp: true}
-  - {name: 34-1556-HK, server: 28073b7c-sxfz40-tckngf-5fdt.hkt.east.wctype.com, port: 460, type: vmess, uuid: 712bdc36-24be-11ee-be53-f23c9313b177, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 28073b7c-sxfz40-tckngf-5fdt.hkt.east.wctype.com}}, udp: true}
-  - {name: 34-1557-HK, server: 8f062a6e-sxhts0-t00qxu-1glq.hkt.east.wctype.com, port: 460, type: vmess, uuid: df7bed3c-06eb-11f0-8ebc-f23c93141fad, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 8f062a6e-sxhts0-t00qxu-1glq.hkt.east.wctype.com}}, udp: true}
-  - {name: 34-1563-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: bc2a0c83-11f2-4acf-b13a-a9b4830f495c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 34-1568-FR, server: fr1.test3.net, port: 443, type: trojan, password: f2ab1dd0-3f0f-11f0-a0bc-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: 34-1569-FR, server: fr1.test3.net, port: 443, type: trojan, password: cdb2a960-3f0f-11f0-83ae-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: 34-1575-RELAY, server: tci1.tiamoci.us.kg, port: 80, type: vmess, uuid: ac10b60b-5077-4c02-9055-bb93deb20435, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tci1.tiamoci.us.kg}}, udp: true}
+  - {name: 34-1524-VN, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
+  - {name: 34-1528-US, server: 104.167.197.25, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
+  - {name: 34-1545-KR, server: p080.panda001.net, port: 36379, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 34-1556-HK, server: 8f062a6e-sxhts0-t00qxu-1glq.hkt.east.wctype.com, port: 460, type: vmess, uuid: df7bed3c-06eb-11f0-8ebc-f23c93141fad, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 8f062a6e-sxhts0-t00qxu-1glq.hkt.east.wctype.com}}, udp: true}
+  - {name: 34-1567-FR, server: fr1.test3.net, port: 443, type: trojan, password: f2ab1dd0-3f0f-11f0-a0bc-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 34-1568-FR, server: fr1.test3.net, port: 443, type: trojan, password: cdb2a960-3f0f-11f0-83ae-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 34-1574-RELAY, server: tci1.tiamoci.us.kg, port: 80, type: vmess, uuid: ac10b60b-5077-4c02-9055-bb93deb20435, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tci1.tiamoci.us.kg}}, udp: true}
+  - {name: 34-1578-RELAY, server: cs.flha.ru, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.flha.ru}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1260,6 +1261,10 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 34-0000-JP
+      - 34-0010-HK
+      - 34-0011-RELAY
+      - 34-0012-RELAY
+      - 34-0013-RELAY
       - 34-0014-RELAY
       - 34-0015-RELAY
       - 34-0016-RELAY
@@ -1642,6 +1647,7 @@ proxy-groups:
       - 34-0492-HK
       - 34-0493-JP
       - 34-0494-JP
+      - 34-0495-US
       - 34-0496-UA
       - 34-0497-RELAY
       - 34-0498-KR
@@ -1720,7 +1726,7 @@ proxy-groups:
       - 34-0571-SG
       - 34-0572-NOWHERE
       - 34-0574-CN
-      - 34-0575-JP
+      - 34-0575-HK
       - 34-0576-CN
       - 34-0577-CN
       - 34-0578-CN
@@ -2124,7 +2130,6 @@ proxy-groups:
       - 34-0985-US
       - 34-0986-US
       - 34-0987-RELAY
-      - 34-0988-US
       - 34-0989-RELAY
       - 34-0990-NL
       - 34-0991-RELAY
@@ -2244,6 +2249,7 @@ proxy-groups:
       - 34-1105-RELAY
       - 34-1106-RELAY
       - 34-1107-US
+      - 34-1108-US
       - 34-1109-RELAY
       - 34-1110-ZA
       - 34-1111-RELAY
@@ -2341,12 +2347,12 @@ proxy-groups:
       - 34-1203-RELAY
       - 34-1204-RELAY
       - 34-1205-KR
-      - 34-1206-KR
       - 34-1207-RELAY
       - 34-1208-NL
       - 34-1209-KR
       - 34-1210-KR
       - 34-1211-RELAY
+      - 34-1212-KR
       - 34-1213-US
       - 34-1215-KR
       - 34-1216-RELAY
@@ -2443,18 +2449,14 @@ proxy-groups:
       - 34-1311-KR
       - 34-1312-CN
       - 34-1313-KR
-      - 34-1329-US
-      - 34-1525-VN
-      - 34-1529-US
-      - 34-1544-KR
-      - 34-1546-KR
-      - 34-1555-HK
+      - 34-1524-VN
+      - 34-1528-US
+      - 34-1545-KR
       - 34-1556-HK
-      - 34-1557-HK
-      - 34-1563-RELAY
+      - 34-1567-FR
       - 34-1568-FR
-      - 34-1569-FR
-      - 34-1575-RELAY
+      - 34-1574-RELAY
+      - 34-1578-RELAY
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2470,6 +2472,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 34-0011-RELAY
       - 34-0016-RELAY
       - 34-0021-TW
       - 34-0026-RELAY
@@ -2687,7 +2690,6 @@ proxy-groups:
       - 34-1191-RELAY
       - 34-1196-HK
       - 34-1201-GB
-      - 34-1206-KR
       - 34-1211-RELAY
       - 34-1216-RELAY
       - 34-1221-NO
@@ -2708,13 +2710,13 @@ proxy-groups:
       - 34-1296-HK
       - 34-1306-CN
       - 34-1311-KR
-      - 34-1546-KR
       - 34-1556-HK
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 34-0012-RELAY
       - 34-0017-RELAY
       - 34-0022-RELAY
       - 34-0027-RELAY
@@ -2931,6 +2933,7 @@ proxy-groups:
       - 34-1197-SG
       - 34-1202-HK
       - 34-1207-RELAY
+      - 34-1212-KR
       - 34-1217-RELAY
       - 34-1222-NO
       - 34-1227-RELAY
@@ -2950,12 +2953,13 @@ proxy-groups:
       - 34-1297-CN
       - 34-1302-JP
       - 34-1312-CN
-      - 34-1557-HK
+      - 34-1567-FR
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 34-0013-RELAY
       - 34-0018-RELAY
       - 34-0023-NOWHERE
       - 34-0028-NOWHERE
@@ -3128,7 +3132,6 @@ proxy-groups:
       - 34-0973-RELAY
       - 34-0978-RELAY
       - 34-0983-RELAY
-      - 34-0988-US
       - 34-0993-RELAY
       - 34-0998-RELAY
       - 34-1003-RELAY
@@ -3152,6 +3155,7 @@ proxy-groups:
       - 34-1093-RELAY
       - 34-1098-RELAY
       - 34-1103-RELAY
+      - 34-1108-US
       - 34-1113-FR
       - 34-1118-RELAY
       - 34-1123-RELAY
@@ -3193,8 +3197,9 @@ proxy-groups:
       - 34-1303-CN
       - 34-1308-CN
       - 34-1313-KR
-      - 34-1563-RELAY
+      - 34-1528-US
       - 34-1568-FR
+      - 34-1578-RELAY
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -3437,16 +3442,15 @@ proxy-groups:
       - 34-1294-KR
       - 34-1299-SG
       - 34-1309-CN
-      - 34-1329-US
-      - 34-1529-US
-      - 34-1544-KR
-      - 34-1569-FR
+      - 34-1524-VN
+      - 34-1574-RELAY
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - 34-0000-JP
+      - 34-0010-HK
       - 34-0015-RELAY
       - 34-0020-RELAY
       - 34-0025-RELAY
@@ -3523,6 +3527,7 @@ proxy-groups:
       - 34-0480-CN
       - 34-0485-CN
       - 34-0490-CN
+      - 34-0495-US
       - 34-0500-RELAY
       - 34-0505-RELAY
       - 34-0510-RELAY
@@ -3538,7 +3543,7 @@ proxy-groups:
       - 34-0560-CN
       - 34-0565-CN
       - 34-0570-CN
-      - 34-0575-JP
+      - 34-0575-HK
       - 34-0580-TW
       - 34-0585-CN
       - 34-0590-KR
@@ -3683,9 +3688,7 @@ proxy-groups:
       - 34-1295-CN
       - 34-1300-CN
       - 34-1310-CN
-      - 34-1525-VN
-      - 34-1555-HK
-      - 34-1575-RELAY
+      - 34-1545-KR
   - name: 广告拦截
     type: select
     proxies:
