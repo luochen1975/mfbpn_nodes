@@ -54,6 +54,7 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 34-0000-AR, server: 38.54.45.129, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 34-0010-CN, server: 36.151.251.62, port: 23770, type: trojan, password: VdWBGFmg, sni: TG.WangCai2, skip-cert-verify: true, udp: true}
   - {name: 34-0011-CN, server: 36.151.251.62, port: 23770, type: trojan, password: xHiFGGTy, sni: TG.WangCai2, skip-cert-verify: true, udp: true}
   - {name: 34-0012-CN, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v36.heduian.link}}, udp: true}
   - {name: 34-0013-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -1244,7 +1245,6 @@ proxies:
   - {name: 34-1495-VN, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
   - {name: 34-1500-JP, server: 54.168.216.169, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
   - {name: 34-1514-VN, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-1523-MD, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-1538-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-1539-VN, server: 103.186.154.22, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 34-1540-VN, server: 103.186.155.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
@@ -1260,6 +1260,7 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 34-0000-AR
+      - 34-0010-CN
       - 34-0011-CN
       - 34-0012-CN
       - 34-0013-NL
@@ -2450,7 +2451,6 @@ proxy-groups:
       - 34-1495-VN
       - 34-1500-JP
       - 34-1514-VN
-      - 34-1523-MD
       - 34-1538-NL
       - 34-1539-VN
       - 34-1540-VN
@@ -3194,7 +3194,6 @@ proxy-groups:
       - 34-1303-CN
       - 34-1308-JP
       - 34-1313-CN
-      - 34-1523-MD
       - 34-1538-NL
   - name: 测速4分组
     type: url-test
@@ -3446,6 +3445,7 @@ proxy-groups:
     interval: 60
     proxies:
       - 34-0000-AR
+      - 34-0010-CN
       - 34-0020-RELAY
       - 34-0025-CN
       - 34-0030-CN
