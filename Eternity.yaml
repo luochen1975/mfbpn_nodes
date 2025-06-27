@@ -54,12 +54,10 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 34-0000-AR, server: 38.54.45.129, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-0008-CN, server: xd-js.timiwc.com, port: 21603, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k61.tudou211.com, skip-cert-verify: true, udp: true}
   - {name: 34-0009-CN, server: 36.151.251.62, port: 23770, type: trojan, password: VdWBGFmg, sni: 36.151.251.62, skip-cert-verify: true, udp: true}
   - {name: 34-0010-CN, server: 36.151.251.62, port: 23770, type: trojan, password: VdWBGFmg, sni: TG.WangCai2, skip-cert-verify: true, udp: true}
   - {name: 34-0011-CN, server: 36.151.251.62, port: 23770, type: trojan, password: xHiFGGTy, sni: TG.WangCai2, skip-cert-verify: true, udp: true}
   - {name: 34-0012-CN, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v36.heduian.link}}, udp: true}
-  - {name: 34-0013-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0014-KR, server: 221.150.109.20, port: 50345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 34-0016-RELAY, server: 104.21.3.189, port: 443, type: trojan, password: 509ed9b7-8d64-4204-8ec8-6b749020ac3f, sni: CcCVfGTyU.89060004.Xyz, skip-cert-verify: true, udp: true}
   - {name: 34-0017-HK, server: tianmao-zz.legeth.xyz, port: 26112, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YWY5MzI2Y2Q3NDM5OTM5Mw==:NTJiMjc5YjAtMjllMS00ZQ==, udp: true}
@@ -215,6 +213,7 @@ proxies:
   - {name: 34-0267-SE, server: 185.186.78.220, port: 20035, type: ss, cipher: aes-256-gcm, password: CSF7RS5O1OVPYNUP, udp: true}
   - {name: 34-0268-PL, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: 7905a32b-012c-4711-89e2-73b6713eca75, udp: true}
   - {name: 34-0269-CN, server: 36.156.184.33, port: 21603, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k61.tudou211.com, skip-cert-verify: true, udp: true}
+  - {name: 34-0270-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0271-LT, server: 185.237.185.77, port: 20036, type: ss, cipher: aes-256-gcm, password: E95HYLF806NPZ1B3, udp: true}
   - {name: 34-0272-CN, server: v40.heduian.link, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: v40.heduian.link}}, udp: true}
   - {name: 34-0273-CN, server: 42.240.152.238, port: 8842, type: trojan, password: 1b4c16925f934c57b954a9f0f23dea33, sni: brwx.spvpv.com, skip-cert-verify: true, udp: true}
@@ -1157,7 +1156,7 @@ proxies:
   - {name: 34-1226-CN, server: 120.233.128.68, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, skip-cert-verify: true, udp: true}
   - {name: 34-1227-CN, server: 120.232.206.14, port: 30032, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
   - {name: 34-1228-CN, server: free-relay.t01.themars.top, port: 49900, type: ss, cipher: chacha20-ietf-poly1305, password: c376082c-95c3-452e-88e4-6bb6a5daab41, udp: true}
-  - {name: 34-1229-USss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@51.15.17.169989#34-0270-NL, server: 87.251.79.34, port: 20684, type: ss, cipher: chacha20-ietf-poly1305, password: 6pmgeUx8lJnzxXcYxxU6Z6, udp: true}
+  - {name: 34-1229-USss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@51.15.17.169989#34-0013-NL, server: 87.251.79.34, port: 20684, type: ss, cipher: chacha20-ietf-poly1305, password: 6pmgeUx8lJnzxXcYxxU6Z6, udp: true}
   - {name: 34-1230-CN, server: wb.kaiqsz.com, port: 42765, type: trojan, password: a25ed269-105b-4f15-bee2-bc2785d38912, sni: wb.kaiqsz.com, skip-cert-verify: true, udp: true}
   - {name: 34-1231-JP, server: 91.194.160.151, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: WHBl6OWPkluIE8NtbkbHSJ, udp: true}
   - {name: 34-1232-CN, server: 120.232.206.57, port: 30018, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
@@ -1247,6 +1246,7 @@ proxies:
   - {name: 34-1316-CN, server: 120.198.71.219, port: 49355, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 34-1325-NL, server: 77.246.102.112, port: 60117, type: ss, cipher: chacha20-ietf-poly1305, password: XiTNVTB8REsXB2n5DzLhFb, udp: true}
   - {name: 34-1495-VN, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
+  - {name: 34-1514-VN, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-1538-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-1539-VN, server: 103.186.154.22, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 34-1540-VN, server: 103.186.155.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
@@ -1262,12 +1262,10 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 34-0000-AR
-      - 34-0008-CN
       - 34-0009-CN
       - 34-0010-CN
       - 34-0011-CN
       - 34-0012-CN
-      - 34-0013-NL
       - 34-0014-KR
       - 34-0016-RELAY
       - 34-0017-HK
@@ -1423,6 +1421,7 @@ proxy-groups:
       - 34-0267-SE
       - 34-0268-PL
       - 34-0269-CN
+      - 34-0270-NL
       - 34-0271-LT
       - 34-0272-CN
       - 34-0273-CN
@@ -2365,7 +2364,7 @@ proxy-groups:
       - 34-1226-CN
       - 34-1227-CN
       - 34-1228-CN
-      - 34-1229-USss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@51.15.17.169989#34-0270-NL
+      - 34-1229-USss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@51.15.17.169989#34-0013-NL
       - 34-1230-CN
       - 34-1231-JP
       - 34-1232-CN
@@ -2455,6 +2454,7 @@ proxy-groups:
       - 34-1316-CN
       - 34-1325-NL
       - 34-1495-VN
+      - 34-1514-VN
       - 34-1538-NL
       - 34-1539-VN
       - 34-1540-VN
@@ -2964,8 +2964,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 34-0008-CN
-      - 34-0013-NL
       - 34-0018-CN
       - 34-0028-CN
       - 34-0033-US
@@ -3183,6 +3181,7 @@ proxy-groups:
       - 34-1218-US
       - 34-1223-CN
       - 34-1228-CN
+      - 34-1229-USss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@51.15.17.169989#34-0013-NL
       - 34-1233-CN
       - 34-1238-CN
       - 34-1243-CN
@@ -3427,7 +3426,7 @@ proxy-groups:
       - 34-1214-US
       - 34-1219-US
       - 34-1224-CN
-      - 34-1229-USss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@51.15.17.169989#34-0270-NL
+      - 34-1229-USss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@51.15.17.169989#34-0013-NL
       - 34-1234-CN
       - 34-1239-CN
       - 34-1244-SE
@@ -3445,6 +3444,7 @@ proxy-groups:
       - 34-1304-CN
       - 34-1309-CN
       - 34-1314-CN
+      - 34-1514-VN
       - 34-1539-VN
   - name: 测速5分组
     type: url-test
@@ -3484,6 +3484,7 @@ proxy-groups:
       - 34-0255-CN
       - 34-0260-CN
       - 34-0265-CN
+      - 34-0270-NL
       - 34-0275-SI
       - 34-0280-CN
       - 34-0285-CN
@@ -3671,7 +3672,6 @@ proxy-groups:
       - 34-1215-CN
       - 34-1220-CN
       - 34-1225-CN
-      - 34-1229-USss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@51.15.17.169989#34-0270-NL
       - 34-1230-CN
       - 34-1235-CN
       - 34-1240-CN
