@@ -245,7 +245,7 @@ proxies:
   - {name: 34-0203-LT, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-0204-FR, server: 45.158.171.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-0205-NL, server: 193.29.139.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-  - {name: 34-0206-FR, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 34-0206-LT, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-0207-LT, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-0208-LT, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: 34-0209-LT, server: 45.87.175.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
@@ -1287,7 +1287,7 @@ proxy-groups:
       - 34-0203-LT
       - 34-0204-FR
       - 34-0205-NL
-      - 34-0206-FR
+      - 34-0206-LT
       - 34-0207-LT
       - 34-0208-LT
       - 34-0209-LT
@@ -2182,7 +2182,7 @@ proxy-groups:
       - 34-0191-CA
       - 34-0196-FR
       - 34-0201-LT
-      - 34-0206-FR
+      - 34-0206-LT
       - 34-0211-LT
       - 34-0216-GB
       - 34-0221-GB
