@@ -237,6 +237,7 @@ proxies:
   - {name: 34-192-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-193-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-194-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-195-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-196-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-197-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-198-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -260,7 +261,7 @@ proxies:
   - {name: 34-216-FR, server: 45.158.171.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-217-LT, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: 34-218-FR, server: 45.158.171.141, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 34-219-FR, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 34-219-LT, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-220-GB, server: 85.210.120.237, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
   - {name: 34-221-LT, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-222-FR, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -836,7 +837,6 @@ proxies:
   - {name: 34-812-CN, server: fgewgew.20210420.xyz, port: 20741, type: vmess, uuid: 042b0562-678a-3f83-ac35-96b40d20eb3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /A6oo3nYC, headers: {Host: fgewgew.20210420.xyz}}, udp: true}
   - {name: 34-813-CH, server: 204.136.10.115, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H, udp: true}
   - {name: 34-814-LT, server: 45.87.175.28, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-  - {name: 34-815-US, server: 172.233.128.126, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H, udp: true}
   - {name: 34-816-DE, server: 45.150.32.13, port: 14628, type: ss, cipher: chacha20-ietf-poly1305, password: DKyRdoqQIebdKZVYs5GzW8, udp: true}
   - {name: 34-817-DE, server: 45.144.54.33, port: 34803, type: ss, cipher: chacha20-ietf-poly1305, password: LiHQX9cDbdooBHlIg0eiqQ, udp: true}
   - {name: 34-818-NL, server: 213.109.147.242, port: 62685, type: ss, cipher: chacha20-ietf-poly1305, password: VpKABcOpNNA0l5G2AVOmw8, udp: true}
@@ -857,7 +857,7 @@ proxies:
   - {name: 34-833-CN, server: usa04.20210420.xyz, port: 20705, type: trojan, password: 042b0562-678a-3f83-ac35-96b40d20eb3f, sni: usa04-ssl.20210420.xyz, skip-cert-verify: true, udp: true}
   - {name: 34-834-KR, server: 43.203.249.172, port: 443, type: ss, cipher: aes-256-cfb, password: yijian0503, udp: true}
   - {name: 34-836-CN, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, udp: true}
-  - {name: 34-837-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-195-US, server: 137.220.142.140, port: 36937, type: ss, cipher: chacha20-ietf-poly1305, password: ac9df7aab595, udp: true}
+  - {name: 34-837-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMStpaGxmS2c4MjZI@172.233.128.1261866#34-815-US, server: 137.220.142.140, port: 36937, type: ss, cipher: chacha20-ietf-poly1305, password: ac9df7aab595, udp: true}
   - {name: 34-838-CN, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18008, type: ss, cipher: aes-256-gcm, password: QZVFNGZY8253LZYP, udp: true}
   - {name: 34-839-CN, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18009, type: ss, cipher: aes-256-gcm, password: MNOORIVKRQF4KGJP, udp: true}
   - {name: 34-840-CN, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18013, type: ss, cipher: aes-256-gcm, password: WHTSN6UOO84T3RVI, udp: true}
@@ -1060,6 +1060,7 @@ proxy-groups:
       - 34-192-US
       - 34-193-US
       - 34-194-US
+      - 34-195-US
       - 34-196-US
       - 34-197-US
       - 34-198-US
@@ -1083,7 +1084,7 @@ proxy-groups:
       - 34-216-FR
       - 34-217-LT
       - 34-218-FR
-      - 34-219-FR
+      - 34-219-LT
       - 34-220-GB
       - 34-221-LT
       - 34-222-FR
@@ -1659,7 +1660,6 @@ proxy-groups:
       - 34-812-CN
       - 34-813-CH
       - 34-814-LT
-      - 34-815-US
       - 34-816-DE
       - 34-817-DE
       - 34-818-NL
@@ -1680,7 +1680,7 @@ proxy-groups:
       - 34-833-CN
       - 34-834-KR
       - 34-836-CN
-      - 34-837-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-195-US
+      - 34-837-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMStpaGxmS2c4MjZI@172.233.128.1261866#34-815-US
       - 34-838-CN
       - 34-839-CN
       - 34-840-CN
@@ -2040,7 +2040,7 @@ proxy-groups:
       - 34-822-RELAY
       - 34-827-RELAY
       - 34-832-CN
-      - 34-837-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-195-US
+      - 34-837-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMStpaGxmS2c4MjZI@172.233.128.1261866#34-815-US
       - 34-842-CN
   - name: 测速3分组
     type: url-test
@@ -2254,7 +2254,7 @@ proxy-groups:
       - 34-204-RELAY
       - 34-209-US
       - 34-214-FR
-      - 34-219-FR
+      - 34-219-LT
       - 34-224-GB
       - 34-229-GB
       - 34-234-GB
@@ -2413,6 +2413,7 @@ proxy-groups:
       - 34-180-CN
       - 34-185-CN
       - 34-190-CN
+      - 34-195-US
       - 34-200-US
       - 34-205-CA
       - 34-210-US
@@ -2531,11 +2532,10 @@ proxy-groups:
       - 34-800-HK
       - 34-805-HK
       - 34-810-KR
-      - 34-815-US
       - 34-820-PL
       - 34-825-CN
       - 34-830-CN
-      - 34-837-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-195-US
+      - 34-837-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMStpaGxmS2c4MjZI@172.233.128.1261866#34-815-US
       - 34-840-CN
       - 34-845-VN
   - name: 广告拦截
