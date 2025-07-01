@@ -222,7 +222,6 @@ proxies:
   - {name: 34-0178-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0179-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0180-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0181-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0182-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0183-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0184-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -244,7 +243,7 @@ proxies:
   - {name: 34-0200-FR, server: 45.158.171.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-0201-LT, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: 34-0202-FR, server: 45.158.171.141, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 34-0203-FR, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 34-0203-LT, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-0204-GB, server: 85.210.120.237, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
   - {name: 34-0205-LT, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-0206-FR, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -419,6 +418,7 @@ proxies:
   - {name: 34-0375-US, server: 38.68.134.202, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 34-0376-CH, server: 204.136.10.115, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H, udp: true}
   - {name: 34-0377-LT, server: 45.87.175.28, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: 34-0378-US, server: 172.233.128.126, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H, udp: true}
   - {name: 34-0379-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0380-RELAY, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}, udp: true}
   - {name: 34-0381-DE, server: 45.150.32.13, port: 14628, type: ss, cipher: chacha20-ietf-poly1305, password: DKyRdoqQIebdKZVYs5GzW8, udp: true}
@@ -442,7 +442,6 @@ proxies:
   - {name: 34-0399-RELAY, server: 188.114.99.18, port: 80, type: vmess, uuid: d2866d01-d76d-4a08-8bae-04fb3c502588, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 34-0400-US, server: 104.167.197.25, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
   - {name: 34-0401-FR, server: 107.191.63.241, port: 30665, type: ss, cipher: chacha20-ietf-poly1305, password: 44fe4b7d-cd48-45fc-a036-60ea40e4a96c, udp: true}
-  - {name: 34-0402-RELAY, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /horsen, headers: {Host: orvps2.horsenma.net}}, udp: true}
   - {name: 34-0403-RELAY, server: time.is, port: 80, type: vmess, uuid: 66ddd790-10ed-4a16-b334-0b7e3577b5b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: time.is}}, udp: true}
   - {name: 34-0404-RELAY, server: www.shopify.com, port: 443, type: vmess, uuid: e9b4bdbd-cc5b-4a90-9616-ea0f1092ec7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /VgtsOrriMf1sdep5KKSues, headers: {Host: www.shopify.com}}, udp: true}
   - {name: 34-0405-RELAY, server: rrrrrrrrrt.11890604.xyz, port: 443, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, headers: {Host: rrrrrrrrrt.11890604.xyz}}, udp: true}
@@ -925,6 +924,7 @@ proxies:
   - {name: 34-0884-MD, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0885-CN, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18009, type: ss, cipher: aes-256-gcm, password: MNOORIVKRQF4KGJP, udp: true}
   - {name: 34-0886-CN, server: v33.heduian.link, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v33.heduian.link}}, udp: true}
+  - {name: 34-0887-RELAY, server: cg1c07.waimaoglobaldirect.cc, port: 443, type: vmess, uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v1/graphql, headers: {Host: cg1c07.waimaoglobaldirect.cc}}, udp: true}
   - {name: 34-0888-CN, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}, udp: true}
   - {name: 34-0889-VN, server: 103.186.154.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 34-0890-RELAY, server: yx1.niaoba.top, port: 2082, type: vmess, uuid: 763b29f0-ffba-42e8-a054-d595092135e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yx1.niaoba.top}}, udp: true}
@@ -1337,7 +1337,6 @@ proxy-groups:
       - 34-0178-US
       - 34-0179-US
       - 34-0180-US
-      - 34-0181-US
       - 34-0182-US
       - 34-0183-US
       - 34-0184-US
@@ -1359,7 +1358,7 @@ proxy-groups:
       - 34-0200-FR
       - 34-0201-LT
       - 34-0202-FR
-      - 34-0203-FR
+      - 34-0203-LT
       - 34-0204-GB
       - 34-0205-LT
       - 34-0206-FR
@@ -1534,6 +1533,7 @@ proxy-groups:
       - 34-0375-US
       - 34-0376-CH
       - 34-0377-LT
+      - 34-0378-US
       - 34-0379-CA
       - 34-0380-RELAY
       - 34-0381-DE
@@ -1557,7 +1557,6 @@ proxy-groups:
       - 34-0399-RELAY
       - 34-0400-US
       - 34-0401-FR
-      - 34-0402-RELAY
       - 34-0403-RELAY
       - 34-0404-RELAY
       - 34-0405-RELAY
@@ -2040,6 +2039,7 @@ proxy-groups:
       - 34-0884-MD
       - 34-0885-CN
       - 34-0886-CN
+      - 34-0887-RELAY
       - 34-0888-CN
       - 34-0889-VN
       - 34-0890-RELAY
@@ -2320,7 +2320,6 @@ proxy-groups:
       - 34-0166-CN
       - 34-0171-CN
       - 34-0176-US
-      - 34-0181-US
       - 34-0186-US
       - 34-0191-US
       - 34-0196-LT
@@ -2590,7 +2589,6 @@ proxy-groups:
       - 34-0387-FR
       - 34-0392-RELAY
       - 34-0397-FR
-      - 34-0402-RELAY
       - 34-0407-CN
       - 34-0412-RELAY
       - 34-0417-CN
@@ -2685,6 +2683,7 @@ proxy-groups:
       - 34-0862-CN
       - 34-0867-CN
       - 34-0882-NOWHERE
+      - 34-0887-RELAY
       - 34-0892-RELAY
       - 34-0897-PL
       - 34-0907-CN
@@ -2771,7 +2770,7 @@ proxy-groups:
       - 34-0188-RELAY
       - 34-0193-US
       - 34-0198-FR
-      - 34-0203-FR
+      - 34-0203-LT
       - 34-0208-GB
       - 34-0213-GB
       - 34-0218-GB
@@ -2806,6 +2805,7 @@ proxy-groups:
       - 34-0363-US
       - 34-0368-VN
       - 34-0373-US
+      - 34-0378-US
       - 34-0383-RELAY
       - 34-0388-NL
       - 34-0393-RELAY
