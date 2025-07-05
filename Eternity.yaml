@@ -272,7 +272,6 @@ proxies:
   - {name: 34-0229-RELAY, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: orvps2.horsenma.net}}, udp: true}
   - {name: 34-0230-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0231-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0232-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0233-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0234-US, server: 212.102.47.132, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0235-US, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -466,6 +465,7 @@ proxies:
   - {name: 34-0423-HK, server: a35e4867-sv6hs0-t7hu58-1q1la.hk.p5pv.com, port: 80, type: vmess, uuid: 25b46954-9a33-11ee-8b86-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a35e4867-sv6hs0-t7hu58-1q1la.hk.p5pv.com}}, udp: true}
   - {name: 34-0424-CH, server: 204.136.10.115, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H, udp: true}
   - {name: 34-0425-LT, server: 45.87.175.28, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: 34-0426-US, server: 172.233.128.126, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H, udp: true}
   - {name: 34-0427-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0428-RELAY, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}, udp: true}
   - {name: 34-0429-DE, server: 45.150.32.13, port: 14628, type: ss, cipher: chacha20-ietf-poly1305, password: DKyRdoqQIebdKZVYs5GzW8, udp: true}
@@ -754,16 +754,16 @@ proxies:
   - {name: 34-0725-NOWHERE, server: htsub-2024.899696998.xyz, port: 20011, type: vmess, uuid: eb9b6d07-8644-437f-a1c5-dbed378d38ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2024, headers: {Host: htsub-2024.899696998.xyz}}, udp: true}
   - {name: 34-0726-NOWHERE, server: htsub-2024.899696998.xyz, port: 20011, type: vmess, uuid: eb9b6d07-8644-437f-a1c5-dbed378d38ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2024, headers: {Host: htsub-2024.899696998.xyz}}, udp: true}
   - {name: 34-0727-NOWHERE, server: htsub-2024.899696998.xyz, port: 20011, type: vmess, uuid: eb9b6d07-8644-437f-a1c5-dbed378d38ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2024, headers: {Host: htsub-2024.899696998.xyz}}, udp: true}
-  - {name: 34-0728-CN, server: 15.mamamajd.site, port: 23615, type: vmess, uuid: 7ed9624e-df4c-307d-9a5e-38fbd569bf73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.mamamajd.site}}, udp: true}
-  - {name: 34-0729-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 7ed9624e-df4c-307d-9a5e-38fbd569bf73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
-  - {name: 34-0730-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 7ed9624e-df4c-307d-9a5e-38fbd569bf73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
-  - {name: 34-0731-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 7ed9624e-df4c-307d-9a5e-38fbd569bf73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
-  - {name: 34-0732-CN, server: 19.mamamajd.site, port: 23619, type: vmess, uuid: 7ed9624e-df4c-307d-9a5e-38fbd569bf73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.mamamajd.site}}, udp: true}
-  - {name: 34-0733-CN, server: 16.mamamajd.site, port: 23616, type: vmess, uuid: 7ed9624e-df4c-307d-9a5e-38fbd569bf73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.mamamajd.site}}, udp: true}
-  - {name: 34-0734-CN, server: 18.mamamajd.site, port: 23618, type: vmess, uuid: 7ed9624e-df4c-307d-9a5e-38fbd569bf73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 18.mamamajd.site}}, udp: true}
-  - {name: 34-0735-CN, server: 5.mamamajd.site, port: 23605, type: vmess, uuid: 7ed9624e-df4c-307d-9a5e-38fbd569bf73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.mamamajd.site}}, udp: true}
-  - {name: 34-0736-CN, server: 13.mamamajd.site, port: 23613, type: vmess, uuid: 7ed9624e-df4c-307d-9a5e-38fbd569bf73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.mamamajd.site}}, udp: true}
-  - {name: 34-0737-CN, server: 14.mamamajd.site, port: 23614, type: vmess, uuid: 7ed9624e-df4c-307d-9a5e-38fbd569bf73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.mamamajd.site}}, udp: true}
+  - {name: 34-0728-CN, server: 15.mamamajd.site, port: 23615, type: vmess, uuid: 546e20be-1692-3764-9d4d-22e21eb73a9e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.mamamajd.site}}, udp: true}
+  - {name: 34-0729-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 546e20be-1692-3764-9d4d-22e21eb73a9e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
+  - {name: 34-0730-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 546e20be-1692-3764-9d4d-22e21eb73a9e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
+  - {name: 34-0731-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 546e20be-1692-3764-9d4d-22e21eb73a9e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
+  - {name: 34-0732-CN, server: 19.mamamajd.site, port: 23619, type: vmess, uuid: 546e20be-1692-3764-9d4d-22e21eb73a9e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.mamamajd.site}}, udp: true}
+  - {name: 34-0733-CN, server: 16.mamamajd.site, port: 23616, type: vmess, uuid: 546e20be-1692-3764-9d4d-22e21eb73a9e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.mamamajd.site}}, udp: true}
+  - {name: 34-0734-CN, server: 18.mamamajd.site, port: 23618, type: vmess, uuid: 546e20be-1692-3764-9d4d-22e21eb73a9e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 18.mamamajd.site}}, udp: true}
+  - {name: 34-0735-CN, server: 5.mamamajd.site, port: 23605, type: vmess, uuid: 546e20be-1692-3764-9d4d-22e21eb73a9e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.mamamajd.site}}, udp: true}
+  - {name: 34-0736-CN, server: 13.mamamajd.site, port: 23613, type: vmess, uuid: 546e20be-1692-3764-9d4d-22e21eb73a9e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.mamamajd.site}}, udp: true}
+  - {name: 34-0737-CN, server: 14.mamamajd.site, port: 23614, type: vmess, uuid: 546e20be-1692-3764-9d4d-22e21eb73a9e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.mamamajd.site}}, udp: true}
   - {name: 34-0738-NOWHERE, server: usbk.cfip.top, port: 8443, type: vmess, uuid: 36f71b02-04bf-4ab6-8f17-850a002b448d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: usbk.cfip.top}}, udp: true}
   - {name: 34-0739-NOWHERE, server: US-Los_Angeles-A.cfip.top, port: 8443, type: vmess, uuid: 36f71b02-04bf-4ab6-8f17-850a002b448d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: US-Los_Angeles-A.cfip.top}}, udp: true}
   - {name: 34-0740-NOWHERE, server: US-Los_Angeles-B.cfip.top, port: 8443, type: vmess, uuid: 36f71b02-04bf-4ab6-8f17-850a002b448d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: US-Los_Angeles-B.cfip.top}}, udp: true}
@@ -847,34 +847,34 @@ proxies:
   - {name: 34-0842-CN, server: pjknkhkd.hjdfghfc.asia, port: 65500, type: vmess, uuid: 16f000d7-7805-459d-9130-200d00180b7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/market?ed=512", headers: {Host: pjknkhkd.hjdfghfc.asia}}, udp: true}
   - {name: 34-0843-CN, server: 3.link-hub.click, port: 40239, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
   - {name: 34-0844-CN, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: aes-256-gcm, password: C30PYDD22BUKL6OB, udp: true}
-  - {name: 34-0845-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: e7ffaf73-0f39-4aba-a647-c7446ae1443d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0846-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 4ee86851-c7e1-42fd-8c71-0dc0e539686f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0847-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 49e93426-2739-4611-a2b2-351462f652fd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0848-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 9f4e46bf-22e8-4416-84b4-c9e2af227d90, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0849-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 95c7934a-a138-414e-87aa-b359ecb4d9bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0850-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 149e1aed-9ce4-498b-a79a-bec6d3629cd7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0851-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: aff54802-244c-478b-a62c-28cd3d05f6d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0852-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 9a8b5c74-a850-4464-8957-d33f979fca16, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0853-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 22f62c59-30d3-4cf4-ae13-2b386b0d3ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0854-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 0bfd8e51-2c62-4fa7-9cd6-67c7472e99c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0855-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: cd603046-2b85-435d-9780-ab1ef8e824ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0856-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 59820e73-fadf-4664-aef2-07d70f1cbe6f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0857-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: babe8cc0-d752-413c-aeaf-aea5e564b11f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0858-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 76febe8a-8de3-45be-80f1-65c45349aa62, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0859-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 743fe3dd-98f8-495a-bf6d-9745bdea4a6a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0860-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 89a45bd4-e71e-423d-b381-ee2aa4b8b0a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0861-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 7541ee5a-4810-46f1-b26b-7ecbd94e2510, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0862-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 539fb99d-424e-45c7-adf3-1f8db74284df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0863-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: e6d62cc4-4789-4acc-8932-f6ab59688c04, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0864-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: bc53960a-8d7e-40e6-ab9d-e638812636cb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0865-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: f58c256b-2cc3-4431-89b3-faa8e66f6b93, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0866-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 584fde7d-faa7-4386-9d8d-dd63341d74d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0867-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: e27a98aa-f648-4b24-9481-de084c92a400, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0868-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: db0e6640-ab23-4cb8-94f2-95bdb575fb9f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0869-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 316e5a88-db5f-4d18-a01b-564ef98e14b5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0870-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 941b131b-be79-45d9-9371-ae4d37709e70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0871-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 02e4eb44-e351-4f2a-98e0-240d51de81ae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
-  - {name: 34-0872-RELAY, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 67bda315-8407-413a-8d3d-b71eba5f2d63, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0845-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: e7ffaf73-0f39-4aba-a647-c7446ae1443d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0846-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 4ee86851-c7e1-42fd-8c71-0dc0e539686f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0847-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 49e93426-2739-4611-a2b2-351462f652fd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0848-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 9f4e46bf-22e8-4416-84b4-c9e2af227d90, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0849-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 95c7934a-a138-414e-87aa-b359ecb4d9bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0850-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 149e1aed-9ce4-498b-a79a-bec6d3629cd7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0851-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: aff54802-244c-478b-a62c-28cd3d05f6d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0852-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 9a8b5c74-a850-4464-8957-d33f979fca16, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0853-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 22f62c59-30d3-4cf4-ae13-2b386b0d3ea7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0854-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 0bfd8e51-2c62-4fa7-9cd6-67c7472e99c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0855-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: cd603046-2b85-435d-9780-ab1ef8e824ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0856-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 59820e73-fadf-4664-aef2-07d70f1cbe6f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0857-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: babe8cc0-d752-413c-aeaf-aea5e564b11f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0858-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 76febe8a-8de3-45be-80f1-65c45349aa62, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0859-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 743fe3dd-98f8-495a-bf6d-9745bdea4a6a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0860-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 89a45bd4-e71e-423d-b381-ee2aa4b8b0a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0861-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 7541ee5a-4810-46f1-b26b-7ecbd94e2510, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0862-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 539fb99d-424e-45c7-adf3-1f8db74284df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0863-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: e6d62cc4-4789-4acc-8932-f6ab59688c04, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0864-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: bc53960a-8d7e-40e6-ab9d-e638812636cb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0865-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: f58c256b-2cc3-4431-89b3-faa8e66f6b93, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0866-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 584fde7d-faa7-4386-9d8d-dd63341d74d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0867-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: e27a98aa-f648-4b24-9481-de084c92a400, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0868-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: db0e6640-ab23-4cb8-94f2-95bdb575fb9f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0869-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 316e5a88-db5f-4d18-a01b-564ef98e14b5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0870-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 941b131b-be79-45d9-9371-ae4d37709e70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0871-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 02e4eb44-e351-4f2a-98e0-240d51de81ae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
+  - {name: 34-0872-NOWHERE, server: tabnak.andishehnegariran.ir, port: 8443, type: vmess, uuid: 67bda315-8407-413a-8d3d-b71eba5f2d63, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: tabnak.andishehnegariran.ir}}, udp: true}
   - {name: 34-0873-RELAY, server: cloudgetservice2.mcloudservice.site, port: 443, type: vmess, uuid: c208e0ae-6f6d-4745-99da-44a44744c530, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkwsrt, headers: {Host: cloudgetservice2.mcloudservice.site}}, udp: true}
   - {name: 34-0874-FR, server: de-freevmess.privateip.net, port: 8443, type: ss, cipher: aes-256-gcm, password: 5bda2736-81e7-43b4-86fc-286f8f8e6578, udp: true}
   - {name: 34-0875-CN, server: v33.heduian.link, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v33.heduian.link}}, udp: true}
@@ -1096,7 +1096,7 @@ proxies:
   - {name: 34-1093-CN, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, udp: true}
   - {name: 34-1094-TW, server: 3ce8ee8.hb.gladns.com, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, udp: true}
   - {name: 34-1095-CN, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, udp: true}
-  - {name: 34-1096-SGss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMStpaGxmS2c4MjZI@172.233.128.1261866#34-0426-US, server: 134.122.155.213, port: 10349, type: ss, cipher: aes-256-gcm, password: fd86b4005afd, udp: true}
+  - {name: 34-1096-SGss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169443#34-0232-US, server: 134.122.155.213, port: 10349, type: ss, cipher: aes-256-gcm, password: fd86b4005afd, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1326,7 +1326,6 @@ proxy-groups:
       - 34-0229-RELAY
       - 34-0230-US
       - 34-0231-US
-      - 34-0232-US
       - 34-0233-US
       - 34-0234-US
       - 34-0235-US
@@ -1520,6 +1519,7 @@ proxy-groups:
       - 34-0423-HK
       - 34-0424-CH
       - 34-0425-LT
+      - 34-0426-US
       - 34-0427-CA
       - 34-0428-RELAY
       - 34-0429-DE
@@ -1901,34 +1901,34 @@ proxy-groups:
       - 34-0842-CN
       - 34-0843-CN
       - 34-0844-CN
-      - 34-0845-RELAY
-      - 34-0846-RELAY
-      - 34-0847-RELAY
-      - 34-0848-RELAY
-      - 34-0849-RELAY
-      - 34-0850-RELAY
-      - 34-0851-RELAY
-      - 34-0852-RELAY
-      - 34-0853-RELAY
-      - 34-0854-RELAY
-      - 34-0855-RELAY
-      - 34-0856-RELAY
-      - 34-0857-RELAY
-      - 34-0858-RELAY
-      - 34-0859-RELAY
-      - 34-0860-RELAY
-      - 34-0861-RELAY
-      - 34-0862-RELAY
-      - 34-0863-RELAY
-      - 34-0864-RELAY
-      - 34-0865-RELAY
-      - 34-0866-RELAY
-      - 34-0867-RELAY
-      - 34-0868-RELAY
-      - 34-0869-RELAY
-      - 34-0870-RELAY
-      - 34-0871-RELAY
-      - 34-0872-RELAY
+      - 34-0845-NOWHERE
+      - 34-0846-NOWHERE
+      - 34-0847-NOWHERE
+      - 34-0848-NOWHERE
+      - 34-0849-NOWHERE
+      - 34-0850-NOWHERE
+      - 34-0851-NOWHERE
+      - 34-0852-NOWHERE
+      - 34-0853-NOWHERE
+      - 34-0854-NOWHERE
+      - 34-0855-NOWHERE
+      - 34-0856-NOWHERE
+      - 34-0857-NOWHERE
+      - 34-0858-NOWHERE
+      - 34-0859-NOWHERE
+      - 34-0860-NOWHERE
+      - 34-0861-NOWHERE
+      - 34-0862-NOWHERE
+      - 34-0863-NOWHERE
+      - 34-0864-NOWHERE
+      - 34-0865-NOWHERE
+      - 34-0866-NOWHERE
+      - 34-0867-NOWHERE
+      - 34-0868-NOWHERE
+      - 34-0869-NOWHERE
+      - 34-0870-NOWHERE
+      - 34-0871-NOWHERE
+      - 34-0872-NOWHERE
       - 34-0873-RELAY
       - 34-0874-FR
       - 34-0875-CN
@@ -2150,7 +2150,7 @@ proxy-groups:
       - 34-1093-CN
       - 34-1094-TW
       - 34-1095-CN
-      - 34-1096-SGss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMStpaGxmS2c4MjZI@172.233.128.1261866#34-0426-US
+      - 34-1096-SGss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169443#34-0232-US
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2248,6 +2248,7 @@ proxy-groups:
       - 34-0411-LT
       - 34-0416-HK
       - 34-0421-HK
+      - 34-0426-US
       - 34-0431-RELAY
       - 34-0436-NL
       - 34-0441-RELAY
@@ -2327,12 +2328,12 @@ proxy-groups:
       - 34-0826-CN
       - 34-0831-CN
       - 34-0841-CN
-      - 34-0846-RELAY
-      - 34-0851-RELAY
-      - 34-0856-RELAY
-      - 34-0861-RELAY
-      - 34-0866-RELAY
-      - 34-0871-RELAY
+      - 34-0846-NOWHERE
+      - 34-0851-NOWHERE
+      - 34-0856-NOWHERE
+      - 34-0861-NOWHERE
+      - 34-0866-NOWHERE
+      - 34-0871-NOWHERE
       - 34-0876-CN
       - 34-0881-SG
       - 34-0886-CN
@@ -2377,7 +2378,7 @@ proxy-groups:
       - 34-1081-SG
       - 34-1086-JP
       - 34-1091-RELAY
-      - 34-1096-SGss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMStpaGxmS2c4MjZI@172.233.128.1261866#34-0426-US
+      - 34-1096-SGss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169443#34-0232-US
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2426,7 +2427,6 @@ proxy-groups:
       - 34-0217-RELAY
       - 34-0222-CN
       - 34-0227-US
-      - 34-0232-US
       - 34-0237-US
       - 34-0242-US
       - 34-0247-RELAY
@@ -2543,12 +2543,12 @@ proxy-groups:
       - 34-0832-CN
       - 34-0837-CN
       - 34-0842-CN
-      - 34-0847-RELAY
-      - 34-0852-RELAY
-      - 34-0857-RELAY
-      - 34-0862-RELAY
-      - 34-0867-RELAY
-      - 34-0872-RELAY
+      - 34-0847-NOWHERE
+      - 34-0852-NOWHERE
+      - 34-0857-NOWHERE
+      - 34-0862-NOWHERE
+      - 34-0867-NOWHERE
+      - 34-0872-NOWHERE
       - 34-0877-MD
       - 34-0882-CN
       - 34-0887-CN
@@ -2593,6 +2593,7 @@ proxy-groups:
       - 34-1082-CN
       - 34-1087-KR
       - 34-1092-JP
+      - 34-1096-SGss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169443#34-0232-US
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2759,11 +2760,11 @@ proxy-groups:
       - 34-0833-CN
       - 34-0838-CN
       - 34-0843-CN
-      - 34-0848-RELAY
-      - 34-0853-RELAY
-      - 34-0858-RELAY
-      - 34-0863-RELAY
-      - 34-0868-RELAY
+      - 34-0848-NOWHERE
+      - 34-0853-NOWHERE
+      - 34-0858-NOWHERE
+      - 34-0863-NOWHERE
+      - 34-0868-NOWHERE
       - 34-0873-RELAY
       - 34-0878-SG
       - 34-0883-CN
@@ -2967,11 +2968,11 @@ proxy-groups:
       - 34-0834-SG
       - 34-0839-CN
       - 34-0844-CN
-      - 34-0849-RELAY
-      - 34-0854-RELAY
-      - 34-0859-RELAY
-      - 34-0864-RELAY
-      - 34-0869-RELAY
+      - 34-0849-NOWHERE
+      - 34-0854-NOWHERE
+      - 34-0859-NOWHERE
+      - 34-0864-NOWHERE
+      - 34-0869-NOWHERE
       - 34-0874-FR
       - 34-0879-CN
       - 34-0884-CN
@@ -3180,12 +3181,12 @@ proxy-groups:
       - 34-0830-CN
       - 34-0835-SG
       - 34-0840-VN
-      - 34-0845-RELAY
-      - 34-0850-RELAY
-      - 34-0855-RELAY
-      - 34-0860-RELAY
-      - 34-0865-RELAY
-      - 34-0870-RELAY
+      - 34-0845-NOWHERE
+      - 34-0850-NOWHERE
+      - 34-0855-NOWHERE
+      - 34-0860-NOWHERE
+      - 34-0865-NOWHERE
+      - 34-0870-NOWHERE
       - 34-0875-CN
       - 34-0880-CN
       - 34-0885-CN
