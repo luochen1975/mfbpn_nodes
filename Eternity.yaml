@@ -392,6 +392,7 @@ proxies:
   - {name: 34-0352-FR, server: 45.158.171.132, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-0353-DE, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 34-0354-RU, server: 45.139.24.24, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
+  - {name: 34-0355-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0356-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 34-0357-LT, server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 34-0358-RELAY, server: 104.21.3.189, port: 2053, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -546,7 +547,6 @@ proxies:
   - {name: 34-0507-RELAY, server: 188.114.99.18, port: 80, type: vmess, uuid: d2866d01-d76d-4a08-8bae-04fb3c502588, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 34-0508-US, server: 104.167.197.25, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
   - {name: 34-0509-FR, server: 107.191.63.241, port: 30665, type: ss, cipher: chacha20-ietf-poly1305, password: 44fe4b7d-cd48-45fc-a036-60ea40e4a96c, udp: true}
-  - {name: 34-0510-RELAY, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /horsen, headers: {Host: orvps2.horsenma.net}}, udp: true}
   - {name: 34-0511-RELAY, server: time.is, port: 80, type: vmess, uuid: 66ddd790-10ed-4a16-b334-0b7e3577b5b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: time.is}}, udp: true}
   - {name: 34-0512-CN, server: 183.240.179.89, port: 31253, type: trojan, password: 4d631e24-97f7-11ea-8fc9-f23c913c8d2b, skip-cert-verify: true, udp: true}
   - {name: 34-0513-CN, server: 183.240.179.89, port: 31233, type: trojan, password: 21a74582-f139-11ed-ab21-f23c913c8d2b, skip-cert-verify: true, udp: true}
@@ -1509,6 +1509,7 @@ proxy-groups:
       - 34-0352-FR
       - 34-0353-DE
       - 34-0354-RU
+      - 34-0355-NL
       - 34-0356-NL
       - 34-0357-LT
       - 34-0358-RELAY
@@ -1663,7 +1664,6 @@ proxy-groups:
       - 34-0507-RELAY
       - 34-0508-US
       - 34-0509-FR
-      - 34-0510-RELAY
       - 34-0511-RELAY
       - 34-0512-CN
       - 34-0513-CN
@@ -3266,6 +3266,7 @@ proxy-groups:
       - 34-0340-GB
       - 34-0345-CH
       - 34-0350-GB
+      - 34-0355-NL
       - 34-0360-JP
       - 34-0365-RELAY
       - 34-0370-RELAY
@@ -3296,7 +3297,6 @@ proxy-groups:
       - 34-0495-FR
       - 34-0500-RELAY
       - 34-0505-FR
-      - 34-0510-RELAY
       - 34-0515-CN
       - 34-0520-CN
       - 34-0525-CN
