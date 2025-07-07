@@ -275,6 +275,7 @@ proxies:
   - {name: 34-0233-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0234-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0235-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-0236-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0237-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0238-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0239-US, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -315,7 +316,6 @@ proxies:
   - {name: 34-0274-GB, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0275-SK, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0276-RELAY, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: orvps2.horsenma.net}}, udp: true}
-  - {name: 34-0277-US, server: 212.102.47.129, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0278-GB, server: admin.c3.webramz.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
   - {name: 34-0279-CZ, server: 195.181.160.6, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0280-NO, server: 185.213.23.226, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -1457,6 +1457,7 @@ proxy-groups:
       - 34-0233-US
       - 34-0234-US
       - 34-0235-US
+      - 34-0236-US
       - 34-0237-US
       - 34-0238-US
       - 34-0239-US
@@ -1497,7 +1498,6 @@ proxy-groups:
       - 34-0274-GB
       - 34-0275-SK
       - 34-0276-RELAY
-      - 34-0277-US
       - 34-0278-GB
       - 34-0279-CZ
       - 34-0280-NO
@@ -2468,6 +2468,7 @@ proxy-groups:
       - 34-0221-US
       - 34-0226-US
       - 34-0231-SG
+      - 34-0236-US
       - 34-0241-US
       - 34-0246-FR
       - 34-0251-FR
@@ -2721,7 +2722,6 @@ proxy-groups:
       - 34-0262-GB
       - 34-0267-GB
       - 34-0272-GB
-      - 34-0277-US
       - 34-0282-GB
       - 34-0287-GB
       - 34-0292-GB
