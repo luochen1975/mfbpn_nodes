@@ -271,8 +271,8 @@ proxies:
   - {name: 34-0229-SG, server: 103.172.116.103, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
   - {name: 34-0230-US, server: 23.150.152.16, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: 34-0231-SG, server: 47.129.0.210, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 34-0232-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0233-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-0234-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0235-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0236-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0237-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -1453,8 +1453,8 @@ proxy-groups:
       - 34-0229-SG
       - 34-0230-US
       - 34-0231-SG
-      - 34-0232-US
       - 34-0233-US
+      - 34-0234-US
       - 34-0235-US
       - 34-0236-US
       - 34-0237-US
@@ -2713,7 +2713,6 @@ proxy-groups:
       - 34-0217-US
       - 34-0222-SG
       - 34-0227-US
-      - 34-0232-US
       - 34-0237-US
       - 34-0242-RELAY
       - 34-0247-LT
@@ -3191,6 +3190,7 @@ proxy-groups:
       - 34-0219-US
       - 34-0224-GB
       - 34-0229-SG
+      - 34-0234-US
       - 34-0239-US
       - 34-0244-FR
       - 34-0249-LT
