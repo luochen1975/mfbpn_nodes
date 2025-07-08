@@ -447,7 +447,7 @@ proxies:
   - {name: 34-0411-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0412-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0413-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0415-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-0414-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0416-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0417-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0418-US, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -1653,7 +1653,7 @@ proxy-groups:
       - 34-0411-US
       - 34-0412-US
       - 34-0413-US
-      - 34-0415-US
+      - 34-0414-US
       - 34-0416-US
       - 34-0417-US
       - 34-0418-US
@@ -3281,6 +3281,7 @@ proxy-groups:
       - 34-0399-RELAY
       - 34-0404-RU
       - 34-0409-RELAY
+      - 34-0414-US
       - 34-0419-US
       - 34-0424-NL
       - 34-0429-US
@@ -3529,7 +3530,6 @@ proxy-groups:
       - 34-0400-RELAY
       - 34-0405-RELAY
       - 34-0410-US
-      - 34-0415-US
       - 34-0420-US
       - 34-0425-FR
       - 34-0430-FR
