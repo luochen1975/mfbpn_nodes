@@ -42,7 +42,6 @@ Fork from TopFreeProxies.
     trojan://Aimer@45.80.209.25:81?allowInsecure=1#34-0009-LU
     trojan://Aimer@45.134.21.8:2053?allowInsecure=1#34-0010-NL
     trojan://Aimer@45.67.215.217:2087?allowInsecure=1#34-0011-RU
-    trojan://Aimer@192.200.160.169:2096?allowInsecure=1#34-0012-US
     trojan://Aimer@103.116.7.133:2083?allowInsecure=1#34-0013-RELAY
     trojan://Aimer@108.165.152.55:2096?allowInsecure=1#34-0014-RELAY
     trojan://Aimer@108.165.152.55:2096?allowInsecure=1#34-0015-RELAY
@@ -93,6 +92,7 @@ Fork from TopFreeProxies.
     trojan://Aimer@213.241.198.189:2053?allowInsecure=1&sni=epmk.ambercc.filegear-sg.me#34-0065-RELAY
     trojan://Aimer@192.200.160.169:2096?allowInsecure=1&sni=epml.ambercc.filegear-sg.me#34-0066-US
     trojan://Aimer@46.254.93.243:8443?allowInsecure=1&sni=epmk.ambercc.filegear-sg.me#34-0067-RELAY
+    trojan://Aimer@199.34.228.178:8443?allowInsecure=1&sni=epmk.ambercc.filegear-sg.me#34-0068-US
     trojan://Aimer@188.164.159.74:8443?allowInsecure=1&sni=epml.ambercc.filegear-sg.me#34-0069-RELAY
     trojan://Aimer@103.116.7.220:2096?allowInsecure=1&sni=epmk.ambercc.filegear-sg.me#34-0070-RELAY
     trojan://Aimer@45.67.214.3:2096?allowInsecure=1&sni=epml.ambercc.filegear-sg.me#34-0071-RELAY
@@ -347,7 +347,7 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@79.127.233.170:990#34-0328-CA
     ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@104.192.226.106:989#34-0329-US
     ss://YWVzLTI1Ni1jZmI6MjE3MGY4@45.55.2.232:14293#34-0330-US
-    ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.236:443#34-0331-US
+    ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160:443#34-0332-US
     vmess://eyJ2IjoiMiIsInBzIjoiMzQtMDMzMy1SRUxBWSIsImFkZCI6IjEwNC4yMS4yMC4xNjIiLCJwb3J0IjoiODQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI1N2U1OTVlNi1lZjU0LTRlMGQtYjhkZi1lOTZkYjk2MTJiOTkiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiJ0bHMifQ==
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.241:443#34-0334-JP
     vmess://eyJ2IjoiMiIsInBzIjoiMzQtMDMzNS1DQSIsImFkZCI6IjEzNC4xOTUuMTk4LjE0NyIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoidGxzIn0=
@@ -1059,7 +1059,7 @@ Fork from TopFreeProxies.
     ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8774#34-1073-CN
     ss://YWVzLTI1Ni1nY206OWJmZGRlNzFiNGMw@103.103.245.158:636#34-1074-HK
     ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8766#34-1075-CN
-    ss://YWVzLTI1Ni1nY206ODIzZTEzNWVkMTAz@137.220.191.40:636#34-1076-JPss%2F%2FYWVzLTEyOC1nY206c2hhZG93c29ja3M%4037.19.198.160443%2334-0332-US
+    ss://YWVzLTI1Ni1nY206ODIzZTEzNWVkMTAz@137.220.191.40:636#34-1076-JPss%2F%2FYWVzLTEyOC1nY206c2hhZG93c29ja3M%4037.19.198.236443%2334-0331-US
     
 
 
