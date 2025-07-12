@@ -65,7 +65,6 @@ proxies:
   - {name: 34-0009-LU, server: 45.80.209.25, port: 81, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
   - {name: 34-0010-NL, server: 45.134.21.8, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
   - {name: 34-0011-RU, server: 45.67.215.217, port: 2087, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
-  - {name: 34-0012-US, server: 192.200.160.169, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
   - {name: 34-0013-RELAY, server: 103.116.7.133, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
   - {name: 34-0014-RELAY, server: 108.165.152.55, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
   - {name: 34-0015-RELAY, server: 108.165.152.55, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
@@ -116,6 +115,7 @@ proxies:
   - {name: 34-0065-RELAY, server: 213.241.198.189, port: 2053, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-0066-US, server: 192.200.160.169, port: 2096, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-0067-RELAY, server: 46.254.93.243, port: 8443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
+  - {name: 34-0068-US, server: 199.34.228.178, port: 8443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-0069-RELAY, server: 188.164.159.74, port: 8443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-0070-RELAY, server: 103.116.7.220, port: 2096, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-0071-RELAY, server: 45.67.214.3, port: 2096, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
@@ -370,7 +370,7 @@ proxies:
   - {name: 34-0328-CA, server: 79.127.233.170, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0329-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0330-US, server: 45.55.2.232, port: 14293, type: ss, cipher: aes-256-cfb, password: 2170f8, udp: true}
-  - {name: 34-0331-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-0332-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0333-RELAY, server: 104.21.20.162, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 34-0334-JP, server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0335-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1082,7 +1082,7 @@ proxies:
   - {name: 34-1073-CN, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, udp: true}
   - {name: 34-1074-HK, server: 103.103.245.158, port: 636, type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0, udp: true}
   - {name: 34-1075-CN, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, udp: true}
-  - {name: 34-1076-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-0332-US, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, udp: true}
+  - {name: 34-1076-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.236443#34-0331-US, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1105,7 +1105,6 @@ proxy-groups:
       - 34-0009-LU
       - 34-0010-NL
       - 34-0011-RU
-      - 34-0012-US
       - 34-0013-RELAY
       - 34-0014-RELAY
       - 34-0015-RELAY
@@ -1156,6 +1155,7 @@ proxy-groups:
       - 34-0065-RELAY
       - 34-0066-US
       - 34-0067-RELAY
+      - 34-0068-US
       - 34-0069-RELAY
       - 34-0070-RELAY
       - 34-0071-RELAY
@@ -1410,7 +1410,7 @@ proxy-groups:
       - 34-0328-CA
       - 34-0329-US
       - 34-0330-US
-      - 34-0331-US
+      - 34-0332-US
       - 34-0333-RELAY
       - 34-0334-JP
       - 34-0335-CA
@@ -2122,7 +2122,7 @@ proxy-groups:
       - 34-1073-CN
       - 34-1074-HK
       - 34-1075-CN
-      - 34-1076-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-0332-US
+      - 34-1076-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.236443#34-0331-US
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2201,7 +2201,6 @@ proxy-groups:
       - 34-0316-US
       - 34-0321-RELAY
       - 34-0326-US
-      - 34-0331-US
       - 34-0336-JP
       - 34-0341-FR
       - 34-0346-FR
@@ -2343,7 +2342,7 @@ proxy-groups:
       - 34-1061-CN
       - 34-1066-CN
       - 34-1071-RU
-      - 34-1076-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-0332-US
+      - 34-1076-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.236443#34-0331-US
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2351,7 +2350,6 @@ proxy-groups:
     proxies:
       - 34-0002-CN
       - 34-0007-RELAY
-      - 34-0012-US
       - 34-0017-RELAY
       - 34-0027-CN
       - 34-0032-CN
@@ -2413,6 +2411,7 @@ proxy-groups:
       - 34-0317-US
       - 34-0322-US
       - 34-0327-RELAY
+      - 34-0332-US
       - 34-0337-NL
       - 34-0342-LT
       - 34-0347-NL
@@ -2552,7 +2551,6 @@ proxy-groups:
       - 34-1062-CN
       - 34-1067-CN
       - 34-1072-SG
-      - 34-1076-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-0332-US
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2571,6 +2569,7 @@ proxy-groups:
       - 34-0053-RELAY
       - 34-0058-RELAY
       - 34-0063-RELAY
+      - 34-0068-US
       - 34-0073-RELAY
       - 34-0078-US
       - 34-0083-RELAY
