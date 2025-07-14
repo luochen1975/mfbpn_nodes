@@ -359,11 +359,11 @@ proxies:
   - {name: 34-0317-US, server: 212.102.47.129, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0318-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0319-US, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-0320-US, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0321-RELAY, server: 172.67.131.27, port: 2053, type: vmess, uuid: 350e2b01-d410-44a6-90ba-6483f1062972, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 34-0322-US, server: 212.102.47.132, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0323-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0324-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0325-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0326-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0327-RELAY, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: orvps2.horsenma.net}}, udp: true}
   - {name: 34-0328-CA, server: 79.127.233.170, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -1082,7 +1082,7 @@ proxies:
   - {name: 34-1073-CN, server: cn01.efan8867801.xyz, port: 8774, type: ss, cipher: rc4-md5, password: efanccyun, udp: true}
   - {name: 34-1074-HK, server: 103.103.245.158, port: 636, type: ss, cipher: aes-256-gcm, password: 9bfdde71b4c0, udp: true}
   - {name: 34-1075-CN, server: cn01.efan8867801.xyz, port: 8766, type: ss, cipher: rc4-md5, password: efanccyun, udp: true}
-  - {name: 34-1076-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.6443#34-0320-US, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, udp: true}
+  - {name: 34-1076-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170443#34-0325-US, server: 137.220.191.40, port: 636, type: ss, cipher: aes-256-gcm, password: 823e135ed103, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1399,11 +1399,11 @@ proxy-groups:
       - 34-0317-US
       - 34-0318-US
       - 34-0319-US
+      - 34-0320-US
       - 34-0321-RELAY
       - 34-0322-US
       - 34-0323-US
       - 34-0324-US
-      - 34-0325-US
       - 34-0326-US
       - 34-0327-RELAY
       - 34-0328-CA
@@ -2122,7 +2122,7 @@ proxy-groups:
       - 34-1073-CN
       - 34-1074-HK
       - 34-1075-CN
-      - 34-1076-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.6443#34-0320-US
+      - 34-1076-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170443#34-0325-US
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2343,7 +2343,7 @@ proxy-groups:
       - 34-1061-CN
       - 34-1066-CN
       - 34-1071-RU
-      - 34-1076-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.6443#34-0320-US
+      - 34-1076-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170443#34-0325-US
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -3040,7 +3040,7 @@ proxy-groups:
       - 34-0305-RELAY
       - 34-0310-RELAY
       - 34-0315-US
-      - 34-0325-US
+      - 34-0320-US
       - 34-0330-US
       - 34-0335-CA
       - 34-0340-NL
@@ -3188,7 +3188,7 @@ proxy-groups:
       - 34-1065-CN
       - 34-1070-SG
       - 34-1075-CN
-      - 34-1076-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.6443#34-0320-US
+      - 34-1076-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170443#34-0325-US
   - name: 广告拦截
     type: select
     proxies:
