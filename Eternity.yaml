@@ -151,7 +151,6 @@ proxies:
   - {name: 34-108-CN, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}, udp: true}
   - {name: 34-109-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-110-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-111-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-112-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-113-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-114-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -161,6 +160,7 @@ proxies:
   - {name: 34-118-US, server: 212.102.47.132, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-119-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-120-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-121-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-122-US, server: 212.102.47.129, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-123-US, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-124-RELAY, server: 172.67.131.27, port: 2053, type: vmess, uuid: 350e2b01-d410-44a6-90ba-6483f1062972, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -442,6 +442,7 @@ proxies:
   - {name: 34-401-CN, server: 36.151.251.7, port: 32962, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 34-402-RELAY, server: s2.cn-db.top, port: 8880, type: vmess, uuid: 82ff3066-1fbd-3dd2-9b15-7c46a865317c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.69.28, headers: {Host: s2.cn-db.top}}, udp: true}
   - {name: 34-403-NL, server: 193.29.139.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
+  - {name: 34-404-US, server: 35.94.141.91, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU, udp: true}
   - {name: 34-405-HK, server: 103.224.80.50, port: 39804, type: vmess, uuid: 5ec8f9dc-5dad-4555-80a4-a5b1a75b71a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 34-407-CN, server: 183.249.207.249, port: 40180, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 34-409-KR, server: p141.panda001.net, port: 4652, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA, udp: true}
@@ -754,7 +755,6 @@ proxies:
   - {name: 34-735-RELAY, server: 104.21.63.135, port: 443, type: trojan, password: fa050497-fc2a-45ee-89c0-96670c4ecb65, sni: Rrr4.8906004.xYZ, skip-cert-verify: true, udp: true}
   - {name: 34-736-RELAY, server: 104.21.26.17, port: 443, type: trojan, password: 07a3df8f-2a2c-42f8-ad92-65889d90f3bf, sni: rrrRrRRrT.459.pp.ua, skip-cert-verify: true, udp: true}
   - {name: 34-737-RELAY, server: 222222r.11890604.xyz, port: 80, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, headers: {Host: 222222r.11890604.xyz}}, udp: true}
-  - {name: 34-738-US, server: 35.94.141.91, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 34-740-CN, server: 36.151.192.238, port: 2078, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 34-741-CN, server: 36.151.251.7, port: 443, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: m.avhxc.cn, skip-cert-verify: true, udp: true}
   - {name: 34-745-CN, server: 36.151.251.7, port: 40937, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
@@ -805,7 +805,7 @@ proxies:
   - {name: 34-791-VN, server: 103.186.154.29, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 34-792-VN, server: 103.186.154.35, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 34-793-AR, server: 190.103.176.32, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-794-KRss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@79.127.233.170989#34-121-CA, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 34-794-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167443#34-111-US, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -914,7 +914,6 @@ proxy-groups:
       - 34-108-CN
       - 34-109-US
       - 34-110-US
-      - 34-111-US
       - 34-112-US
       - 34-113-US
       - 34-114-US
@@ -924,6 +923,7 @@ proxy-groups:
       - 34-118-US
       - 34-119-US
       - 34-120-US
+      - 34-121-CA
       - 34-122-US
       - 34-123-US
       - 34-124-RELAY
@@ -1205,6 +1205,7 @@ proxy-groups:
       - 34-401-CN
       - 34-402-RELAY
       - 34-403-NL
+      - 34-404-US
       - 34-405-HK
       - 34-407-CN
       - 34-409-KR
@@ -1517,7 +1518,6 @@ proxy-groups:
       - 34-735-RELAY
       - 34-736-RELAY
       - 34-737-RELAY
-      - 34-738-US
       - 34-740-CN
       - 34-741-CN
       - 34-745-CN
@@ -1568,7 +1568,7 @@ proxy-groups:
       - 34-791-VN
       - 34-792-VN
       - 34-793-AR
-      - 34-794-KRss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@79.127.233.170989#34-121-CA
+      - 34-794-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167443#34-111-US
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -1605,8 +1605,8 @@ proxy-groups:
       - 34-096-CN
       - 34-101-CN
       - 34-106-CN
-      - 34-111-US
       - 34-116-US
+      - 34-121-CA
       - 34-126-US
       - 34-131-AE
       - 34-136-LT
@@ -1737,7 +1737,7 @@ proxy-groups:
       - 34-781-CN
       - 34-786-CN
       - 34-791-VN
-      - 34-794-KRss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@79.127.233.170989#34-121-CA
+      - 34-794-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167443#34-111-US
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2036,7 +2036,6 @@ proxy-groups:
       - 34-713-PL
       - 34-718-IS
       - 34-723-RELAY
-      - 34-738-US
       - 34-748-CN
       - 34-753-CN
       - 34-758-CN
@@ -2130,6 +2129,7 @@ proxy-groups:
       - 34-389-TW
       - 34-394-CN
       - 34-399-CN
+      - 34-404-US
       - 34-409-KR
       - 34-414-SK
       - 34-419-NOWHERE
@@ -2203,7 +2203,7 @@ proxy-groups:
       - 34-779-RELAY
       - 34-784-CN
       - 34-789-NL
-      - 34-794-KRss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@79.127.233.170989#34-121-CA
+      - 34-794-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167443#34-111-US
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
