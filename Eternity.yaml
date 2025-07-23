@@ -176,6 +176,7 @@ proxies:
   - {name: 34-134-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-135-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-136-US, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-137-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-138-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-139-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-140-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -187,11 +188,12 @@ proxies:
   - {name: 34-146-US, server: blog.aihi.uk, port: 3306, type: vmess, uuid: fdf7dcdc-96f0-4d36-a412-1866c737c3fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: blog.aihi.uk}}, udp: true}
   - {name: 34-147-RELAY, server: www.visa.com.sg, port: 8880, type: vmess, uuid: 92e886f3-53c4-41a9-de97-a54f3abbdd9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.visa.com.sg}}, udp: true}
   - {name: 34-148-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 34-149-GB, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-150-FR, server: 45.158.171.110, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-151-LT, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-152-AE, server: 151.242.251.153, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-153-FR, server: 45.158.171.136, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-  - {name: 34-154-LT, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 34-154-AE, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-155-NL, server: 193.29.139.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-156-LT, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: 34-157-AE, server: 151.242.251.147, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
@@ -227,7 +229,6 @@ proxies:
   - {name: 34-187-GB, server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-188-GB, server: 212.102.53.79, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-189-NO, server: 185.213.23.226, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-190-US, server: 212.102.47.129, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-191-RELAY, server: www.meter.net, port: 2083, type: vmess, uuid: c208e0ae-6f6d-4745-99da-44a44744c530, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.meter.net}}, udp: true}
   - {name: 34-192-GB, server: 212.102.53.198, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-193-RELAY, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudgetservice.mcloudservice.site}}, udp: true}
@@ -368,7 +369,6 @@ proxies:
   - {name: 34-328-LT, server: 45.87.175.28, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-329-US, server: 172.233.128.126, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H, udp: true}
   - {name: 34-330-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-331-RELAY, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}, udp: true}
   - {name: 34-332-DE, server: 45.150.32.13, port: 14628, type: ss, cipher: chacha20-ietf-poly1305, password: DKyRdoqQIebdKZVYs5GzW8, udp: true}
   - {name: 34-333-DE, server: 45.144.54.33, port: 34803, type: ss, cipher: chacha20-ietf-poly1305, password: LiHQX9cDbdooBHlIg0eiqQ, udp: true}
   - {name: 34-334-RELAY, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top}}, udp: true}
@@ -792,6 +792,7 @@ proxies:
   - {name: 34-771-RELAY, server: www.wto.org, port: 443, type: vmess, uuid: f7ad7f68-b4a7-4514-9458-f1e75505c05f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /f7ad7f68, headers: {Host: www.wto.org}}, udp: true}
   - {name: 34-772-RELAY, server: ssssssssssssfffffffgh.2032.pp.ua, port: 443, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: ssssssssssssfffffffgh.2032.pp.ua}}, udp: true}
   - {name: 34-774-RELAY, server: 172.67.219.196, port: 443, type: trojan, password: f108e0e2-5f12-42b6-9e67-1b2f073ffb2b, sni: CCcvfgt6.852224.dpdns.org, skip-cert-verify: true, udp: true}
+  - {name: 34-776-US, server: 135.84.73.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
   - {name: 34-777-CN, server: 2.linkhub.support, port: 40211, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
   - {name: 34-778-KR, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 34-779-CN, server: v30.heduian.link, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v30.heduian.link}}, udp: true}
@@ -873,7 +874,7 @@ proxies:
   - {name: 34-862-VN, server: 103.186.154.29, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 34-863-VN, server: 103.186.154.35, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 34-864-AR, server: 190.103.176.32, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-865-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.236443#34-137-US, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 34-865-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.129443#34-190-US, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1007,6 +1008,7 @@ proxy-groups:
       - 34-134-US
       - 34-135-CA
       - 34-136-US
+      - 34-137-US
       - 34-138-US
       - 34-139-US
       - 34-140-US
@@ -1018,11 +1020,12 @@ proxy-groups:
       - 34-146-US
       - 34-147-RELAY
       - 34-148-NL
+      - 34-149-GB
       - 34-150-FR
       - 34-151-LT
       - 34-152-AE
       - 34-153-FR
-      - 34-154-LT
+      - 34-154-AE
       - 34-155-NL
       - 34-156-LT
       - 34-157-AE
@@ -1058,7 +1061,6 @@ proxy-groups:
       - 34-187-GB
       - 34-188-GB
       - 34-189-NO
-      - 34-190-US
       - 34-191-RELAY
       - 34-192-GB
       - 34-193-RELAY
@@ -1199,7 +1201,6 @@ proxy-groups:
       - 34-328-LT
       - 34-329-US
       - 34-330-CA
-      - 34-331-RELAY
       - 34-332-DE
       - 34-333-DE
       - 34-334-RELAY
@@ -1623,6 +1624,7 @@ proxy-groups:
       - 34-771-RELAY
       - 34-772-RELAY
       - 34-774-RELAY
+      - 34-776-US
       - 34-777-CN
       - 34-778-KR
       - 34-779-CN
@@ -1704,7 +1706,7 @@ proxy-groups:
       - 34-862-VN
       - 34-863-VN
       - 34-864-AR
-      - 34-865-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.236443#34-137-US
+      - 34-865-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.129443#34-190-US
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -1783,7 +1785,6 @@ proxy-groups:
       - 34-316-JP
       - 34-321-SG
       - 34-326-SG
-      - 34-331-RELAY
       - 34-336-RELAY
       - 34-341-RELAY
       - 34-346-DE
@@ -1869,6 +1870,7 @@ proxy-groups:
       - 34-756-RELAY
       - 34-766-RELAY
       - 34-771-RELAY
+      - 34-776-US
       - 34-781-CN
       - 34-786-RELAY
       - 34-791-NOWHERE
@@ -1916,6 +1918,7 @@ proxy-groups:
       - 34-122-RELAY
       - 34-127-CN
       - 34-132-US
+      - 34-137-US
       - 34-142-RELAY
       - 34-147-RELAY
       - 34-152-AE
@@ -2056,7 +2059,6 @@ proxy-groups:
       - 34-852-CN
       - 34-857-CN
       - 34-862-VN
-      - 34-865-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.236443#34-137-US
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2256,7 +2258,8 @@ proxy-groups:
       - 34-134-US
       - 34-139-US
       - 34-144-US
-      - 34-154-LT
+      - 34-149-GB
+      - 34-154-AE
       - 34-159-LT
       - 34-164-LT
       - 34-169-LT
@@ -2434,7 +2437,6 @@ proxy-groups:
       - 34-175-NL
       - 34-180-NL
       - 34-185-GB
-      - 34-190-US
       - 34-195-SK
       - 34-200-GB
       - 34-205-CZ
@@ -2561,7 +2563,7 @@ proxy-groups:
       - 34-850-RELAY
       - 34-855-CN
       - 34-860-NL
-      - 34-865-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.236443#34-137-US
+      - 34-865-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.129443#34-190-US
   - name: 广告拦截
     type: select
     proxies:
