@@ -184,7 +184,6 @@ proxies:
   - {name: 34-143-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-144-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-145-US, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-146-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-147-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-148-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-149-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -196,7 +195,6 @@ proxies:
   - {name: 34-155-US, server: blog.aihi.uk, port: 3306, type: vmess, uuid: fdf7dcdc-96f0-4d36-a412-1866c737c3fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: blog.aihi.uk}}, udp: true}
   - {name: 34-156-RELAY, server: www.visa.com.sg, port: 8880, type: vmess, uuid: 92e886f3-53c4-41a9-de97-a54f3abbdd9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.visa.com.sg}}, udp: true}
   - {name: 34-157-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-158-GB, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-159-FR, server: 45.158.171.110, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-160-LT, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-161-AE, server: 151.242.251.153, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
@@ -377,6 +375,8 @@ proxies:
   - {name: 34-336-CH, server: 204.136.10.115, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H, udp: true}
   - {name: 34-337-LT, server: 45.87.175.28, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-338-US, server: 172.233.128.126, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H, udp: true}
+  - {name: 34-339-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 34-340-RELAY, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}, udp: true}
   - {name: 34-341-DE, server: 45.150.32.13, port: 14628, type: ss, cipher: chacha20-ietf-poly1305, password: DKyRdoqQIebdKZVYs5GzW8, udp: true}
   - {name: 34-342-DE, server: 45.144.54.33, port: 34803, type: ss, cipher: chacha20-ietf-poly1305, password: LiHQX9cDbdooBHlIg0eiqQ, udp: true}
   - {name: 34-343-RELAY, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top}}, udp: true}
@@ -747,7 +747,6 @@ proxies:
   - {name: 34-722-HK, server: gy.58n.net, port: 20308, type: trojan, password: a6ba0ada-cef1-3009-98dc-a1300ca76ed6, sni: z308.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 34-723-HK, server: gy.58n.net, port: 16895, type: trojan, password: a6ba0ada-cef1-3009-98dc-a1300ca76ed6, sni: x40.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 34-724-HK, server: gy.58n.net, port: 21970, type: trojan, password: a6ba0ada-cef1-3009-98dc-a1300ca76ed6, sni: x41.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 34-725-HK, server: gy.58n.net, port: 30767, type: trojan, password: a6ba0ada-cef1-3009-98dc-a1300ca76ed6, sni: z61.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 34-726-HK, server: gy.58n.net, port: 56783, type: trojan, password: a6ba0ada-cef1-3009-98dc-a1300ca76ed6, sni: z266.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 34-727-HK, server: gy.58n.net, port: 20288, type: trojan, password: a6ba0ada-cef1-3009-98dc-a1300ca76ed6, sni: z288.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 34-728-HK, server: gy.58n.net, port: 25238, type: trojan, password: a6ba0ada-cef1-3009-98dc-a1300ca76ed6, sni: z267.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -863,7 +862,7 @@ proxies:
   - {name: 34-853-VN, server: 103.186.154.29, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 34-854-VN, server: 103.186.154.35, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 34-855-AR, server: 190.103.176.32, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-856-KRss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@79.127.233.170989#34-339-CA, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 34-856-KR, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1005,7 +1004,6 @@ proxy-groups:
       - 34-143-US
       - 34-144-CA
       - 34-145-US
-      - 34-146-US
       - 34-147-US
       - 34-148-US
       - 34-149-US
@@ -1017,7 +1015,6 @@ proxy-groups:
       - 34-155-US
       - 34-156-RELAY
       - 34-157-NL
-      - 34-158-GB
       - 34-159-FR
       - 34-160-LT
       - 34-161-AE
@@ -1198,6 +1195,8 @@ proxy-groups:
       - 34-336-CH
       - 34-337-LT
       - 34-338-US
+      - 34-339-CA
+      - 34-340-RELAY
       - 34-341-DE
       - 34-342-DE
       - 34-343-RELAY
@@ -1568,7 +1567,6 @@ proxy-groups:
       - 34-722-HK
       - 34-723-HK
       - 34-724-HK
-      - 34-725-HK
       - 34-726-HK
       - 34-727-HK
       - 34-728-HK
@@ -1684,7 +1682,7 @@ proxy-groups:
       - 34-853-VN
       - 34-854-VN
       - 34-855-AR
-      - 34-856-KRss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@79.127.233.170989#34-339-CA
+      - 34-856-KR
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -1724,7 +1722,6 @@ proxy-groups:
       - 34-131-CN
       - 34-136-US
       - 34-141-US
-      - 34-146-US
       - 34-151-RELAY
       - 34-156-RELAY
       - 34-161-AE
@@ -1860,7 +1857,7 @@ proxy-groups:
       - 34-841-RELAY
       - 34-846-CN
       - 34-851-NL
-      - 34-856-KRss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@79.127.233.170989#34-339-CA
+      - 34-856-KR
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2067,7 +2064,6 @@ proxy-groups:
       - 34-143-US
       - 34-148-US
       - 34-153-US
-      - 34-158-GB
       - 34-163-LT
       - 34-168-LT
       - 34-173-LT
@@ -2270,6 +2266,7 @@ proxy-groups:
       - 34-324-GB
       - 34-329-SG
       - 34-334-CA
+      - 34-339-CA
       - 34-344-NL
       - 34-349-RELAY
       - 34-354-RELAY
@@ -2366,7 +2363,6 @@ proxy-groups:
       - 34-844-CN
       - 34-849-CN
       - 34-854-VN
-      - 34-856-KRss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@79.127.233.170989#34-339-CA
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2437,6 +2433,7 @@ proxy-groups:
       - 34-325-JP
       - 34-330-SG
       - 34-335-SG
+      - 34-340-RELAY
       - 34-345-RELAY
       - 34-350-RELAY
       - 34-355-DE
@@ -2509,7 +2506,6 @@ proxy-groups:
       - 34-710-HK
       - 34-715-HK
       - 34-720-HK
-      - 34-725-HK
       - 34-730-HK
       - 34-735-RELAY
       - 34-740-NOWHERE
