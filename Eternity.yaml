@@ -273,11 +273,11 @@ proxies:
   - {name: 34-232-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-233-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-234-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-235-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-236-US, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-237-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-238-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-239-CA, server: 79.127.233.170, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-240-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-241-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-242-FR, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-243-FR, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -1005,7 +1005,7 @@ proxies:
   - {name: 34-994-VN, server: 103.186.154.29, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 34-995-VN, server: 103.186.154.35, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 34-996-AR, server: 190.103.176.32, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-997-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.168443#34-235-US, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 34-997-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.131443#34-240-US, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1236,11 +1236,11 @@ proxy-groups:
       - 34-232-US
       - 34-233-US
       - 34-234-US
+      - 34-235-US
       - 34-236-US
       - 34-237-CA
       - 34-238-US
       - 34-239-CA
-      - 34-240-US
       - 34-241-US
       - 34-242-FR
       - 34-243-FR
@@ -1968,7 +1968,7 @@ proxy-groups:
       - 34-994-VN
       - 34-995-VN
       - 34-996-AR
-      - 34-997-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.168443#34-235-US
+      - 34-997-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.131443#34-240-US
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2370,7 +2370,7 @@ proxy-groups:
       - 34-982-RELAY
       - 34-987-NOWHERE
       - 34-992-NL
-      - 34-997-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.168443#34-235-US
+      - 34-997-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.131443#34-240-US
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2807,7 +2807,7 @@ proxy-groups:
       - 34-220-CN
       - 34-225-RELAY
       - 34-230-US
-      - 34-240-US
+      - 34-235-US
       - 34-245-NL
       - 34-250-AE
       - 34-255-AE
@@ -2957,7 +2957,7 @@ proxy-groups:
       - 34-985-NOWHERE
       - 34-990-NOWHERE
       - 34-995-VN
-      - 34-997-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.168443#34-235-US
+      - 34-997-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.131443#34-240-US
   - name: 广告拦截
     type: select
     proxies:
