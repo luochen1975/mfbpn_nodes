@@ -441,6 +441,7 @@ proxies:
   - {name: 34-0397-JP, server: 23.147.232.65, port: 8443, type: trojan, password: Aimer, sni: epgi.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-0398-KR, server: 115.94.98.93, port: 50000, type: trojan, password: Aimer, sni: epgi.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-0399-JP, server: 152.70.101.24, port: 16993, type: trojan, password: Aimer, sni: epgi.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
+  - {name: 34-0400-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0401-CA, server: 79.127.233.170, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0402-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0403-US, server: 212.102.47.132, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -455,12 +456,10 @@ proxies:
   - {name: 34-0412-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0413-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0414-US, server: 45.55.2.232, port: 14293, type: ss, cipher: aes-256-cfb, password: 2170f8, udp: true}
-  - {name: 34-0415-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0416-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0417-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0418-JP, server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0419-JP, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0420-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 34-0421-FR, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0422-LT, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 34-0423-US, server: 64.74.163.130, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -1067,6 +1066,7 @@ proxies:
   - {name: 34-1052-CN, server: cu.awslcn.info, port: 25276, type: vmess, uuid: 4e1704e8-991d-43c6-bbe0-823602c17872, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
   - {name: 34-1053-FR, server: 35.180.162.83, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
   - {name: 34-1054-FR, server: 35.180.162.83, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 34-1055-RELAY, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}, udp: true}
   - {name: 34-1056-FR, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-1057-RELAY, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linvkws, headers: {Host: cloudgetservice.mcloudservice.site}}, udp: true}
   - {name: 34-1058-AE, server: ae-1.stunnel.cc, port: 8444, type: ss, cipher: chacha20-ietf-poly1305, password: tunnel-astrovpn_official_ae, udp: true}
@@ -1103,7 +1103,7 @@ proxies:
   - {name: 34-1089-NL, server: 193.29.139.138, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 34-1090-PT, server: 31.129.22.32, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: GTIZXGoe0wkt, udp: true}
   - {name: 34-1091-KR, server: 118.45.154.78, port: 17776, type: trojan, password: Aimer, sni: epgz.aimercc.filegear-sg.me, skip-cert-verify: true, udp: true}
-  - {name: 34-1092-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.131443#34-0400-US, server: 15.165.12.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 34-1092-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-0415-US, server: 15.165.12.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1502,6 +1502,7 @@ proxy-groups:
       - 34-0397-JP
       - 34-0398-KR
       - 34-0399-JP
+      - 34-0400-US
       - 34-0401-CA
       - 34-0402-CA
       - 34-0403-US
@@ -1516,12 +1517,10 @@ proxy-groups:
       - 34-0412-US
       - 34-0413-US
       - 34-0414-US
-      - 34-0415-US
       - 34-0416-US
       - 34-0417-US
       - 34-0418-JP
       - 34-0419-JP
-      - 34-0420-NL
       - 34-0421-FR
       - 34-0422-LT
       - 34-0423-US
@@ -2128,6 +2127,7 @@ proxy-groups:
       - 34-1052-CN
       - 34-1053-FR
       - 34-1054-FR
+      - 34-1055-RELAY
       - 34-1056-FR
       - 34-1057-RELAY
       - 34-1058-AE
@@ -2164,7 +2164,7 @@ proxy-groups:
       - 34-1089-NL
       - 34-1090-PT
       - 34-1091-KR
-      - 34-1092-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.131443#34-0400-US
+      - 34-1092-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-0415-US
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2608,7 +2608,7 @@ proxy-groups:
       - 34-1077-US
       - 34-1082-RELAY
       - 34-1087-RELAY
-      - 34-1092-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.131443#34-0400-US
+      - 34-1092-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-0415-US
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -3121,10 +3121,9 @@ proxy-groups:
       - 34-0385-US
       - 34-0390-JP
       - 34-0395-SG
+      - 34-0400-US
       - 34-0405-US
       - 34-0410-US
-      - 34-0415-US
-      - 34-0420-NL
       - 34-0425-AE
       - 34-0430-FR
       - 34-0435-FR
@@ -3244,6 +3243,7 @@ proxy-groups:
       - 34-1040-RELAY
       - 34-1045-RELAY
       - 34-1050-CN
+      - 34-1055-RELAY
       - 34-1060-RELAY
       - 34-1065-RELAY
       - 34-1070-RELAY
@@ -3251,7 +3251,7 @@ proxy-groups:
       - 34-1080-RELAY
       - 34-1085-CN
       - 34-1090-PT
-      - 34-1092-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.131443#34-0400-US
+      - 34-1092-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-0415-US
   - name: 广告拦截
     type: select
     proxies:
