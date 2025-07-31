@@ -70,7 +70,7 @@ proxies:
   - {name: 34-0014-RELAY, server: aio.zipzap.biz.id, port: 443, type: trojan, password: f282b878-8711-45a1-8c69-5564172123c1, sni: aio.zipzap.biz.id, skip-cert-verify: true, udp: true}
   - {name: 34-0015-NL, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
   - {name: 34-0016-RELAY, server: fastcup.net, port: 8443, type: trojan, password: 1688c7ee-35b3-4bfb-ab88-f8ce846daeb6, sni: fastcup.net, skip-cert-verify: true, udp: true}
-  - {name: 34-0017-KR, server: 43.203.107.212, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 34-0017-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170443#34-0264-US, server: 43.203.107.212, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 34-0018-CN, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v9.heduian.link}}, udp: true}
   - {name: 34-0020-CN, server: 36.151.192.243, port: 3221, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 34-0021-CN, server: 36.151.192.243, port: 446, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
@@ -238,6 +238,7 @@ proxies:
   - {name: 34-0186-SG, server: 5.253.36.226, port: 39231, type: trojan, password: Aimer, sni: epgi.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-0187-HK, server: 52.175.20.222, port: 443, type: trojan, password: Aimer, sni: epgi.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-0188-HK, server: 46.232.106.207, port: 2053, type: trojan, password: Aimer, sni: epgi.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
+  - {name: 34-0189-SG, server: 47.236.71.6, port: 443, type: trojan, password: Aimer, sni: epgi.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-0190-SG, server: 52.187.64.229, port: 443, type: trojan, password: Aimer, sni: epgi.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-0191-JP, server: 23.147.232.65, port: 8443, type: trojan, password: Aimer, sni: epgi.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 34-0192-KR, server: 115.94.98.93, port: 50000, type: trojan, password: Aimer, sni: epgi.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
@@ -315,7 +316,6 @@ proxies:
   - {name: 34-0273-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 34-0274-US, server: 107.151.182.253, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 34-0275-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0276-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 34-0277-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0278-FR, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0279-FR, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -363,6 +363,7 @@ proxies:
   - {name: 34-0321-GB, server: series-a2-mec.varzesh360.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true}
   - {name: 34-0322-GB, server: admin.c2.webramz.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: WstuSnlu4ieA9M0L, udp: true}
   - {name: 34-0323-SK, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 34-0324-GB, server: 212.102.53.81, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0325-US, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0326-RELAY, server: www.meter.net, port: 2083, type: vmess, uuid: d218dfe5-fae6-408e-b615-8666df7f0924, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.meter.net}}, udp: true}
   - {name: 34-0327-NL, server: 149.34.244.68, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -1063,7 +1064,7 @@ proxy-groups:
       - 34-0014-RELAY
       - 34-0015-NL
       - 34-0016-RELAY
-      - 34-0017-KR
+      - 34-0017-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170443#34-0264-US
       - 34-0018-CN
       - 34-0020-CN
       - 34-0021-CN
@@ -1231,6 +1232,7 @@ proxy-groups:
       - 34-0186-SG
       - 34-0187-HK
       - 34-0188-HK
+      - 34-0189-SG
       - 34-0190-SG
       - 34-0191-JP
       - 34-0192-KR
@@ -1308,7 +1310,6 @@ proxy-groups:
       - 34-0273-CA
       - 34-0274-US
       - 34-0275-US
-      - 34-0276-NL
       - 34-0277-NL
       - 34-0278-FR
       - 34-0279-FR
@@ -1356,6 +1357,7 @@ proxy-groups:
       - 34-0321-GB
       - 34-0322-GB
       - 34-0323-SK
+      - 34-0324-GB
       - 34-0325-US
       - 34-0326-RELAY
       - 34-0327-NL
@@ -2098,7 +2100,6 @@ proxy-groups:
       - 34-0261-US
       - 34-0266-US
       - 34-0271-US
-      - 34-0276-NL
       - 34-0281-LT
       - 34-0286-LT
       - 34-0291-LT
@@ -2253,7 +2254,7 @@ proxy-groups:
       - 34-0002-IS
       - 34-0007-RELAY
       - 34-0012-RELAY
-      - 34-0017-KR
+      - 34-0017-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170443#34-0264-US
       - 34-0027-CN
       - 34-0037-RELAY
       - 34-0042-CN
@@ -2655,6 +2656,7 @@ proxy-groups:
       - 34-0004-CN
       - 34-0009-RELAY
       - 34-0014-RELAY
+      - 34-0017-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170443#34-0264-US
       - 34-0024-JP
       - 34-0029-SG
       - 34-0034-US
@@ -2688,6 +2690,7 @@ proxy-groups:
       - 34-0174-RELAY
       - 34-0179-US
       - 34-0184-JP
+      - 34-0189-SG
       - 34-0194-IN
       - 34-0204-KR
       - 34-0214-CN
@@ -2711,6 +2714,7 @@ proxy-groups:
       - 34-0309-CZ
       - 34-0314-GB
       - 34-0319-GB
+      - 34-0324-GB
       - 34-0329-SE
       - 34-0334-CH
       - 34-0339-GB
