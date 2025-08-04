@@ -106,6 +106,7 @@ proxies:
   - {name: 34-048-RELAY, server: 172.67.220.32, port: 443, type: trojan, password: ffcf7ec1-3e09-4821-b3d9-b426a107b73b, skip-cert-verify: true, udp: true}
   - {name: 34-049-IN, server: 3.110.161.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 34-050-CN, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v9.heduian.link}}, udp: true}
+  - {name: 34-052-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 34-053-HK, server: 58.152.30.37, port: 443, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 34-054-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 6e313598-a088-11ea-a22e-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 34-055-CN, server: 36.156.102.125, port: 444, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.ithome.com, skip-cert-verify: true, udp: true}
@@ -215,7 +216,7 @@ proxies:
   - {name: 34-171-US, server: 7u.huvicloud.com, port: 443, type: vmess, uuid: d4dbeb78-b3b3-4e9a-98dc-9bae152846c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 7u.huvicloud.com}}, udp: true}
   - {name: 34-172-US, server: 45.55.2.232, port: 14293, type: ss, cipher: aes-256-cfb, password: 2170f8, udp: true}
   - {name: 34-173-NOWHERE, server: u3.huvicloud.com, port: 443, type: vmess, uuid: e2af4e61-f654-4baf-95df-a5262af71008, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: u3.huvicloud.com}}, udp: true}
-  - {name: 34-175-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-174-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-176-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 34-177-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-178-RELAY, server: cc2dash.89060004.xyz, port: 2096, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc2dash.89060004.xyz}}, udp: true}
@@ -243,6 +244,7 @@ proxies:
   - {name: 34-200-FR, server: 45.158.171.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-201-LT, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 34-202-NL, server: 193.29.139.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
+  - {name: 34-203-AE, server: 151.242.251.144, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-204-LT, server: 45.87.175.28, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-205-LT, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 34-206-FR, server: 45.158.171.110, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
@@ -301,7 +303,6 @@ proxies:
   - {name: 34-259-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 34-260-GB, server: 141.98.101.178, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-261-AT, server: 95.163.176.37, port: 8506, type: ss, cipher: chacha20-ietf-poly1305, password: eUh4lSpi7nOYj0vSrqLUh0, udp: true}
-  - {name: 34-262-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 34-263-RELAY, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}, udp: true}
   - {name: 34-264-DE, server: 147.45.178.200, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: a58fa62b4944ddbf, udp: true}
   - {name: 34-265-LT, server: 78.153.131.96, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 7jvHHF5SaFob, udp: true}
@@ -341,7 +342,6 @@ proxies:
   - {name: 34-299-HK, server: 5019a345-t049s0-t1kmeg-mv7m.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 94d40708-8273-11ea-8fc9-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5019a345-t049s0-t1kmeg-mv7m.hkt.tcpbbr.net}}, udp: true}
   - {name: 34-300-VN, server: 103.163.218.2, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-301-HK, server: 84b1f651-svwf40-t94bdb-mrtr.hk.p5pv.com, port: 80, type: vmess, uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 84b1f651-svwf40-t94bdb-mrtr.hk.p5pv.com}}, udp: true}
-  - {name: 34-302-HK, server: dcf99c60-sv0xs0-tasors-1tdqt.hk.p5pv.com, port: 80, type: vmess, uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcf99c60-sv0xs0-tasors-1tdqt.hk.p5pv.com}}, udp: true}
   - {name: 34-303-HK, server: 303b05c3-sv2sg0-t3q3xd-1sai0.hk.p5pv.com, port: 80, type: vmess, uuid: 4551f124-65ca-11ef-8c8e-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 303b05c3-sv2sg0-t3q3xd-1sai0.hk.p5pv.com}}, udp: true}
   - {name: 34-304-HK, server: 3654dbfd-sv0xs0-t5cryd-4w8.hk.p5pv.com, port: 80, type: vmess, uuid: ba7a37e3-033a-e1ab-06f6-9027aa4630f5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 3654dbfd-sv0xs0-t5cryd-4w8.hk.p5pv.com}}, udp: true}
   - {name: 34-305-HK, server: 2eed1a9a-sv0xs0-sv7gs8-1lkbs.hk.p5pv.com, port: 80, type: vmess, uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 2eed1a9a-sv0xs0-sv7gs8-1lkbs.hk.p5pv.com}}, udp: true}
@@ -951,6 +951,7 @@ proxy-groups:
       - 34-048-RELAY
       - 34-049-IN
       - 34-050-CN
+      - 34-052-HK
       - 34-053-HK
       - 34-054-HK
       - 34-055-CN
@@ -1060,7 +1061,7 @@ proxy-groups:
       - 34-171-US
       - 34-172-US
       - 34-173-NOWHERE
-      - 34-175-US
+      - 34-174-US
       - 34-176-CA
       - 34-177-US
       - 34-178-RELAY
@@ -1088,6 +1089,7 @@ proxy-groups:
       - 34-200-FR
       - 34-201-LT
       - 34-202-NL
+      - 34-203-AE
       - 34-204-LT
       - 34-205-LT
       - 34-206-FR
@@ -1146,7 +1148,6 @@ proxy-groups:
       - 34-259-DE
       - 34-260-GB
       - 34-261-AT
-      - 34-262-NL
       - 34-263-RELAY
       - 34-264-DE
       - 34-265-LT
@@ -1186,7 +1187,6 @@ proxy-groups:
       - 34-299-HK
       - 34-300-VN
       - 34-301-HK
-      - 34-302-HK
       - 34-303-HK
       - 34-304-HK
       - 34-305-HK
@@ -1928,6 +1928,7 @@ proxy-groups:
       - 34-037-RELAY
       - 34-042-RELAY
       - 34-047-RELAY
+      - 34-052-HK
       - 34-062-CN
       - 34-067-CN
       - 34-072-RELAY
@@ -1966,7 +1967,6 @@ proxy-groups:
       - 34-247-CH
       - 34-252-DE
       - 34-257-LT
-      - 34-262-NL
       - 34-267-FI
       - 34-272-HK
       - 34-277-DE
@@ -1974,7 +1974,6 @@ proxy-groups:
       - 34-287-HK
       - 34-292-HK
       - 34-297-HK
-      - 34-302-HK
       - 34-307-HK
       - 34-312-HK
       - 34-317-TR
@@ -2127,6 +2126,7 @@ proxy-groups:
       - 34-188-LT
       - 34-193-LT
       - 34-198-NL
+      - 34-203-AE
       - 34-208-FR
       - 34-213-LT
       - 34-218-AE
@@ -2290,6 +2290,7 @@ proxy-groups:
       - 34-159-US
       - 34-164-US
       - 34-169-US
+      - 34-174-US
       - 34-179-JP
       - 34-184-US
       - 34-189-NL
@@ -2467,7 +2468,6 @@ proxy-groups:
       - 34-160-US
       - 34-165-CA
       - 34-170-US
-      - 34-175-US
       - 34-180-RELAY
       - 34-185-NL
       - 34-190-NL
