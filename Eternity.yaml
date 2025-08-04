@@ -201,7 +201,6 @@ proxies:
   - {name: 34-156-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-157-US, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-158-US, server: 212.102.47.129, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-159-US, server: 212.102.47.132, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-160-US, server: hicai5u.huvicloud.com, port: 443, type: vmess, uuid: bd33cc6a-5a55-4ae9-8a3a-7960138467c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hicai5u.huvicloud.com}}, udp: true}
   - {name: 34-161-US, server: test13.huvicloud.com, port: 443, type: vmess, uuid: b7087817-b967-474a-8e38-027e7c92a980, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: test13.huvicloud.com}}, udp: true}
   - {name: 34-162-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -216,6 +215,7 @@ proxies:
   - {name: 34-171-US, server: 7u.huvicloud.com, port: 443, type: vmess, uuid: d4dbeb78-b3b3-4e9a-98dc-9bae152846c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 7u.huvicloud.com}}, udp: true}
   - {name: 34-172-US, server: 45.55.2.232, port: 14293, type: ss, cipher: aes-256-cfb, password: 2170f8, udp: true}
   - {name: 34-173-NOWHERE, server: u3.huvicloud.com, port: 443, type: vmess, uuid: e2af4e61-f654-4baf-95df-a5262af71008, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: u3.huvicloud.com}}, udp: true}
+  - {name: 34-174-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-175-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-176-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 34-177-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -342,6 +342,7 @@ proxies:
   - {name: 34-299-HK, server: 5019a345-t049s0-t1kmeg-mv7m.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 94d40708-8273-11ea-8fc9-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5019a345-t049s0-t1kmeg-mv7m.hkt.tcpbbr.net}}, udp: true}
   - {name: 34-300-VN, server: 103.163.218.2, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-301-HK, server: 84b1f651-svwf40-t94bdb-mrtr.hk.p5pv.com, port: 80, type: vmess, uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 84b1f651-svwf40-t94bdb-mrtr.hk.p5pv.com}}, udp: true}
+  - {name: 34-302-HK, server: dcf99c60-sv0xs0-tasors-1tdqt.hk.p5pv.com, port: 80, type: vmess, uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcf99c60-sv0xs0-tasors-1tdqt.hk.p5pv.com}}, udp: true}
   - {name: 34-303-HK, server: 303b05c3-sv2sg0-t3q3xd-1sai0.hk.p5pv.com, port: 80, type: vmess, uuid: 4551f124-65ca-11ef-8c8e-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 303b05c3-sv2sg0-t3q3xd-1sai0.hk.p5pv.com}}, udp: true}
   - {name: 34-304-HK, server: 3654dbfd-sv0xs0-t5cryd-4w8.hk.p5pv.com, port: 80, type: vmess, uuid: ba7a37e3-033a-e1ab-06f6-9027aa4630f5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 3654dbfd-sv0xs0-t5cryd-4w8.hk.p5pv.com}}, udp: true}
   - {name: 34-305-HK, server: 2eed1a9a-sv0xs0-sv7gs8-1lkbs.hk.p5pv.com, port: 80, type: vmess, uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 2eed1a9a-sv0xs0-sv7gs8-1lkbs.hk.p5pv.com}}, udp: true}
@@ -871,7 +872,6 @@ proxies:
   - {name: 34-854-TR, server: tr-1.stunnel.cc, port: 8444, type: ss, cipher: chacha20-ietf-poly1305, password: tunnel-fbrof, udp: true}
   - {name: 34-855-MD, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-856-SG, server: 128.199.88.201, port: 14956, type: ss, cipher: chacha20-ietf-poly1305, password: HBWP5MZVXfvDu2NcrqctpIcs3so/B3IuxPR7nNGxhJc=, udp: true}
-  - {name: 34-857-JP, server: x1-japan-linode-v2-pwlzp.devefun.org, port: 1935, type: trojan, password: 7ZkPnMNGly, sni: x1-japan-linode-v2-pwlzp.devefun.org, skip-cert-verify: true, udp: true}
   - {name: 34-858-FR, server: 51.44.54.149, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
   - {name: 34-859-FR, server: 51.44.54.149, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: 34-860-LT, server: 192.36.61.59, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -1045,7 +1045,6 @@ proxy-groups:
       - 34-156-US
       - 34-157-US
       - 34-158-US
-      - 34-159-US
       - 34-160-US
       - 34-161-US
       - 34-162-US
@@ -1060,6 +1059,7 @@ proxy-groups:
       - 34-171-US
       - 34-172-US
       - 34-173-NOWHERE
+      - 34-174-US
       - 34-175-US
       - 34-176-CA
       - 34-177-US
@@ -1186,6 +1186,7 @@ proxy-groups:
       - 34-299-HK
       - 34-300-VN
       - 34-301-HK
+      - 34-302-HK
       - 34-303-HK
       - 34-304-HK
       - 34-305-HK
@@ -1715,7 +1716,6 @@ proxy-groups:
       - 34-854-TR
       - 34-855-MD
       - 34-856-SG
-      - 34-857-JP
       - 34-858-FR
       - 34-859-FR
       - 34-860-LT
@@ -1971,6 +1971,7 @@ proxy-groups:
       - 34-287-HK
       - 34-292-HK
       - 34-297-HK
+      - 34-302-HK
       - 34-307-HK
       - 34-312-HK
       - 34-317-TR
@@ -2078,7 +2079,6 @@ proxy-groups:
       - 34-842-HK
       - 34-847-HK
       - 34-852-HK
-      - 34-857-JP
       - 34-862-RELAY
       - 34-867-US
       - 34-872-VN
@@ -2289,9 +2289,9 @@ proxy-groups:
       - 34-144-CN
       - 34-149-CN
       - 34-154-RELAY
-      - 34-159-US
       - 34-164-US
       - 34-169-US
+      - 34-174-US
       - 34-179-JP
       - 34-184-US
       - 34-189-NL
