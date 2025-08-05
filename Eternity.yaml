@@ -291,6 +291,7 @@ proxies:
   - {name: 34-248-GB, server: 212.102.53.81, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-249-NO, server: 185.213.23.226, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-250-GB, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-251-US, server: 212.102.47.129, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-252-GB, server: 212.102.53.78, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-253-CA, server: 79.127.233.170, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-254-GB, server: 85.210.120.237, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
@@ -607,7 +608,6 @@ proxies:
   - {name: 34-572-RELAY, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess, headers: {Host: test.flha.ru}}, udp: true}
   - {name: 34-573-RELAY, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess, headers: {Host: test.flha.ru}}, udp: true}
   - {name: 34-574-CN, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}, udp: true}
-  - {name: 34-575-US, server: 162.243.245.151, port: 31100, type: ss, cipher: chacha20-ietf-poly1305, password: DkA7OxSabRttPJzO9Ccf7L, udp: true}
   - {name: 34-576-CN, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}, udp: true}
   - {name: 34-577-NOWHERE, server: sslvpn.51job.com, port: 1443, type: vmess, uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /634c5c4f9782, headers: {Host: sslvpn.51job.com}}, udp: true}
   - {name: 34-578-SK, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -770,7 +770,7 @@ proxies:
   - {name: 34-751-DE, server: universal.opengate.wiki, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: trErto8XzLALaQEslTp_jw, udp: true}
   - {name: 34-752-DE, server: 85.208.139.158, port: 25607, type: ss, cipher: chacha20-ietf-poly1305, password: 7PPaSwxp3LLgJmWcpSclK6, udp: true}
   - {name: 34-753-JP, server: 104.233.174.39, port: 34001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927}, udp: true}
-  - {name: 34-754-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.129443#34-251-US, server: sakura.outlinekeys.net, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: rhGz9UAp47At0PKbD4Lo5A, udp: true}
+  - {name: 34-754-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEa0E3T3hTYWJSdHRQSnpPOUNjZjdM@162.243.245.15131100#34-575-US, server: sakura.outlinekeys.net, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: rhGz9UAp47At0PKbD4Lo5A, udp: true}
   - {name: 34-755-FR, server: 109.172.55.38, port: 22695, type: ss, cipher: chacha20-ietf-poly1305, password: uE1eKTXRZcZHOnPSfB6jgz, udp: true}
   - {name: 34-756-US, server: fox-usa.outlinekeys.net, port: 34868, type: ss, cipher: chacha20-ietf-poly1305, password: um2h1vWlmNLwKcN18ySgLQ, udp: true}
   - {name: 34-757-US, server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, udp: true}
@@ -1035,6 +1035,7 @@ proxy-groups:
       - 34-248-GB
       - 34-249-NO
       - 34-250-GB
+      - 34-251-US
       - 34-252-GB
       - 34-253-CA
       - 34-254-GB
@@ -1351,7 +1352,6 @@ proxy-groups:
       - 34-572-RELAY
       - 34-573-RELAY
       - 34-574-CN
-      - 34-575-US
       - 34-576-CN
       - 34-577-NOWHERE
       - 34-578-SK
@@ -1514,7 +1514,7 @@ proxy-groups:
       - 34-751-DE
       - 34-752-DE
       - 34-753-JP
-      - 34-754-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.129443#34-251-US
+      - 34-754-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEa0E3T3hTYWJSdHRQSnpPOUNjZjdM@162.243.245.15131100#34-575-US
       - 34-755-FR
       - 34-756-US
       - 34-757-US
@@ -1592,6 +1592,7 @@ proxy-groups:
       - 34-236-US
       - 34-241-GB
       - 34-246-GB
+      - 34-251-US
       - 34-256-CH
       - 34-261-CH
       - 34-266-RO
@@ -1688,7 +1689,6 @@ proxy-groups:
       - 34-741-CN
       - 34-746-HK
       - 34-751-DE
-      - 34-754-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.129443#34-251-US
       - 34-756-US
       - 34-761-NOWHERE
       - 34-766-NOWHERE
@@ -2143,7 +2143,7 @@ proxy-groups:
       - 34-734-CN
       - 34-744-HK
       - 34-749-RELAY
-      - 34-754-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.129443#34-251-US
+      - 34-754-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEa0E3T3hTYWJSdHRQSnpPOUNjZjdM@162.243.245.15131100#34-575-US
       - 34-759-RELAY
       - 34-764-NOWHERE
       - 34-769-NL
@@ -2265,7 +2265,6 @@ proxy-groups:
       - 34-560-RELAY
       - 34-565-RELAY
       - 34-570-RELAY
-      - 34-575-US
       - 34-580-JP
       - 34-585-NOWHERE
       - 34-590-CN
@@ -2298,6 +2297,7 @@ proxy-groups:
       - 34-735-CN
       - 34-740-CN
       - 34-750-RELAY
+      - 34-754-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEa0E3T3hTYWJSdHRQSnpPOUNjZjdM@162.243.245.15131100#34-575-US
       - 34-755-FR
       - 34-765-RELAY
       - 34-770-VN
