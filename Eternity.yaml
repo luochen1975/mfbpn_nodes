@@ -244,7 +244,6 @@ proxies:
   - {name: 34-200-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-201-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-202-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-203-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-204-US, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-205-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-206-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -604,6 +603,7 @@ proxies:
   - {name: 34-568-RELAY, server: iiiiop0.444752.xyz, port: 443, type: trojan, password: 0f7070cd-c91d-4532-a51f-56da4f0e94be, sni: iiiiop0.444752.xyz, skip-cert-verify: true, udp: true}
   - {name: 34-569-RELAY, server: tTtTttTttGgGGHHhnMk.iraN2035.DPDNS.ORG, port: 443, type: vmess, uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /CjJ9A46ZRHvgWvVcmjyiKVby2Lp, headers: {Host: tTtTttTttGgGGHHhnMk.iraN2035.DPDNS.ORG}}, udp: true}
   - {name: 34-570-RELAY, server: JJJjjjjjmMMmM.4444926.XYZ, port: 443, type: vmess, uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /awmqq79B17rfnpXiNaWb, headers: {Host: JJJjjjjjmMMmM.4444926.XYZ}}, udp: true}
+  - {name: 34-571-US, server: 162.243.245.151, port: 31100, type: ss, cipher: chacha20-ietf-poly1305, password: DkA7OxSabRttPJzO9Ccf7L, udp: true}
   - {name: 34-572-RELAY, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess, headers: {Host: test.flha.ru}}, udp: true}
   - {name: 34-573-RELAY, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess, headers: {Host: test.flha.ru}}, udp: true}
   - {name: 34-574-CN, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v8.heduian.link}}, udp: true}
@@ -770,7 +770,7 @@ proxies:
   - {name: 34-751-DE, server: universal.opengate.wiki, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: trErto8XzLALaQEslTp_jw, udp: true}
   - {name: 34-752-DE, server: 85.208.139.158, port: 25607, type: ss, cipher: chacha20-ietf-poly1305, password: 7PPaSwxp3LLgJmWcpSclK6, udp: true}
   - {name: 34-753-JP, server: 104.233.174.39, port: 34001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927}, udp: true}
-  - {name: 34-754-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEa0E3T3hTYWJSdHRQSnpPOUNjZjdM@162.243.245.15131100#34-571-US, server: sakura.outlinekeys.net, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: rhGz9UAp47At0PKbD4Lo5A, udp: true}
+  - {name: 34-754-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167443#34-203-US, server: sakura.outlinekeys.net, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: rhGz9UAp47At0PKbD4Lo5A, udp: true}
   - {name: 34-755-FR, server: 109.172.55.38, port: 22695, type: ss, cipher: chacha20-ietf-poly1305, password: uE1eKTXRZcZHOnPSfB6jgz, udp: true}
   - {name: 34-756-US, server: fox-usa.outlinekeys.net, port: 34868, type: ss, cipher: chacha20-ietf-poly1305, password: um2h1vWlmNLwKcN18ySgLQ, udp: true}
   - {name: 34-757-US, server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, udp: true}
@@ -988,7 +988,6 @@ proxy-groups:
       - 34-200-US
       - 34-201-US
       - 34-202-US
-      - 34-203-US
       - 34-204-US
       - 34-205-US
       - 34-206-US
@@ -1348,6 +1347,7 @@ proxy-groups:
       - 34-568-RELAY
       - 34-569-RELAY
       - 34-570-RELAY
+      - 34-571-US
       - 34-572-RELAY
       - 34-573-RELAY
       - 34-574-CN
@@ -1514,7 +1514,7 @@ proxy-groups:
       - 34-751-DE
       - 34-752-DE
       - 34-753-JP
-      - 34-754-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEa0E3T3hTYWJSdHRQSnpPOUNjZjdM@162.243.245.15131100#34-571-US
+      - 34-754-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167443#34-203-US
       - 34-755-FR
       - 34-756-US
       - 34-757-US
@@ -1654,6 +1654,7 @@ proxy-groups:
       - 34-556-RELAY
       - 34-561-RELAY
       - 34-566-RELAY
+      - 34-571-US
       - 34-576-CN
       - 34-581-KR
       - 34-586-IN
@@ -1688,7 +1689,6 @@ proxy-groups:
       - 34-741-CN
       - 34-746-HK
       - 34-751-DE
-      - 34-754-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEa0E3T3hTYWJSdHRQSnpPOUNjZjdM@162.243.245.15131100#34-571-US
       - 34-756-US
       - 34-761-NOWHERE
       - 34-766-NOWHERE
@@ -1887,7 +1887,6 @@ proxy-groups:
       - 34-188-RELAY
       - 34-193-US
       - 34-198-US
-      - 34-203-US
       - 34-208-US
       - 34-213-NL
       - 34-218-LT
@@ -1995,6 +1994,7 @@ proxy-groups:
       - 34-743-HK
       - 34-748-SG
       - 34-753-JP
+      - 34-754-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167443#34-203-US
       - 34-758-US
       - 34-763-RELAY
       - 34-768-NL
@@ -2143,7 +2143,7 @@ proxy-groups:
       - 34-734-CN
       - 34-744-HK
       - 34-749-RELAY
-      - 34-754-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEa0E3T3hTYWJSdHRQSnpPOUNjZjdM@162.243.245.15131100#34-571-US
+      - 34-754-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167443#34-203-US
       - 34-759-RELAY
       - 34-764-NOWHERE
       - 34-769-NL
