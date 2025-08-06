@@ -194,7 +194,6 @@ proxies:
   - {name: 34-150-US, server: 162.243.245.151, port: 31100, type: ss, cipher: chacha20-ietf-poly1305, password: DkA7OxSabRttPJzO9Ccf7L, udp: true}
   - {name: 34-151-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-152-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-153-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-154-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-155-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-156-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -212,10 +211,10 @@ proxies:
   - {name: 34-168-AE, server: 151.242.251.144, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-169-NL, server: 193.29.139.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-170-NL, server: 193.29.139.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-  - {name: 34-171-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 34-172-LT, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 34-173-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-174-FR, server: 45.158.171.110, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: 34-175-AE, server: 151.242.251.147, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-176-LT, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-177-FR, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-178-LT, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
@@ -716,8 +715,9 @@ proxies:
   - {name: 34-693-DE, server: universal.opengate.wiki, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: trErto8XzLALaQEslTp_jw, udp: true}
   - {name: 34-694-DE, server: 85.208.139.158, port: 25607, type: ss, cipher: chacha20-ietf-poly1305, password: 7PPaSwxp3LLgJmWcpSclK6, udp: true}
   - {name: 34-695-JP, server: 104.233.174.39, port: 34001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927}, udp: true}
-  - {name: 34-696-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1bTJoMXZXbG1OTHdLY04xOHlTZ0xR@fox-usa.outlinekeys.net34868#34-698-US, server: sakura.outlinekeys.net, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: rhGz9UAp47At0PKbD4Lo5A, udp: true}
+  - {name: 34-696-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243443#34-153-US, server: sakura.outlinekeys.net, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: rhGz9UAp47At0PKbD4Lo5A, udp: true}
   - {name: 34-697-FR, server: 109.172.55.38, port: 22695, type: ss, cipher: chacha20-ietf-poly1305, password: uE1eKTXRZcZHOnPSfB6jgz, udp: true}
+  - {name: 34-698-US, server: fox-usa.outlinekeys.net, port: 34868, type: ss, cipher: chacha20-ietf-poly1305, password: um2h1vWlmNLwKcN18ySgLQ, udp: true}
   - {name: 34-699-US, server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, udp: true}
   - {name: 34-700-US, server: vall.codefyinc.com, port: 443, type: vmess, uuid: 606ece17-7279-4a43-b879-f8502103de8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmessws, headers: {Host: vall.codefyinc.com}}, udp: true}
   - {name: 34-701-RELAY, server: 141.11.203.26, port: 8880, type: vmess, uuid: 1fcb582e-7ffb-3708-8a0f-96c2a070e40d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560"}, udp: true}
@@ -883,7 +883,6 @@ proxy-groups:
       - 34-150-US
       - 34-151-US
       - 34-152-US
-      - 34-153-US
       - 34-154-US
       - 34-155-US
       - 34-156-US
@@ -901,10 +900,10 @@ proxy-groups:
       - 34-168-AE
       - 34-169-NL
       - 34-170-NL
-      - 34-171-NL
       - 34-172-LT
       - 34-173-NL
       - 34-174-FR
+      - 34-175-AE
       - 34-176-LT
       - 34-177-FR
       - 34-178-LT
@@ -1405,8 +1404,9 @@ proxy-groups:
       - 34-693-DE
       - 34-694-DE
       - 34-695-JP
-      - 34-696-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1bTJoMXZXbG1OTHdLY04xOHlTZ0xR@fox-usa.outlinekeys.net34868#34-698-US
+      - 34-696-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243443#34-153-US
       - 34-697-FR
+      - 34-698-US
       - 34-699-US
       - 34-700-US
       - 34-701-RELAY
@@ -1466,7 +1466,6 @@ proxy-groups:
       - 34-156-US
       - 34-161-CA
       - 34-166-US
-      - 34-171-NL
       - 34-176-LT
       - 34-181-NL
       - 34-186-AE
@@ -1568,7 +1567,7 @@ proxy-groups:
       - 34-681-RELAY
       - 34-686-HK
       - 34-691-RELAY
-      - 34-696-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1bTJoMXZXbG1OTHdLY04xOHlTZ0xR@fox-usa.outlinekeys.net34868#34-698-US
+      - 34-696-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243443#34-153-US
       - 34-701-RELAY
       - 34-706-NOWHERE
       - 34-711-NL
@@ -1744,7 +1743,6 @@ proxy-groups:
       - 34-138-US
       - 34-143-CN
       - 34-148-MD
-      - 34-153-US
       - 34-158-US
       - 34-163-US
       - 34-168-AE
@@ -1848,7 +1846,8 @@ proxy-groups:
       - 34-678-CN
       - 34-688-HK
       - 34-693-DE
-      - 34-696-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1bTJoMXZXbG1OTHdLY04xOHlTZ0xR@fox-usa.outlinekeys.net34868#34-698-US
+      - 34-696-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243443#34-153-US
+      - 34-698-US
       - 34-703-NOWHERE
       - 34-708-NOWHERE
       - 34-713-VN
@@ -2031,6 +2030,7 @@ proxy-groups:
       - 34-160-US
       - 34-165-US
       - 34-170-NL
+      - 34-175-AE
       - 34-180-LT
       - 34-185-FR
       - 34-190-US
