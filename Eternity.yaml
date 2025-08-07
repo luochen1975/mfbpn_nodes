@@ -176,9 +176,9 @@ proxies:
   - {name: 34-131-NOWHERE, server: 103.160.204.241, port: 8880, type: vmess, uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in}, udp: true}
   - {name: 34-132-MD, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-133-RELAY, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess, headers: {Host: test.flha.ru}}, udp: true}
-  - {name: 34-134-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-135-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-136-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-137-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-138-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-139-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-140-CA, server: 79.127.233.170, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -197,6 +197,7 @@ proxies:
   - {name: 34-153-GB, server: 212.102.53.197, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-154-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-155-GB, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-156-GB, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-157-GB, server: 212.102.53.198, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-158-RELAY, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudgetservice.mcloudservice.site}}, udp: true}
   - {name: 34-159-RELAY, server: www.meter.net, port: 2083, type: vmess, uuid: d218dfe5-fae6-408e-b615-8666df7f0924, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.meter.net}}, udp: true}
@@ -807,7 +808,6 @@ proxies:
   - {name: 34-780-FR, server: 45.158.171.70, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-781-HK, server: 194.104.147.74, port: 1066, type: trojan, password: dda4f3bf-85fb-41bd-9d8e-77a8a02dbd59, skip-cert-verify: true, udp: true}
   - {name: 34-782-CN, server: pop.ultra.6341.0tk8a3a1q4t94dler.com, port: 4059, type: ss, cipher: 2022-blake3-aes-256-gcm, password: mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:JB1ueTCKNIGMbhzWNjs+0FnZjZXO3UyXcZhIJ28vifA=, udp: true}
-  - {name: 34-783-AE, server: 151.242.251.153, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-784-PL, server: 2.59.163.104, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: qscavF5UviIL-8V-E4raBA, udp: true}
   - {name: 34-785-CN, server: v24.heduian.link, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v24.heduian.link}}, udp: true}
   - {name: 34-786-NL, server: 164.92.156.41, port: 24206, type: ss, cipher: chacha20-ietf-poly1305, password: zI7kiNZ0UfV9cXB73a4nRD, udp: true}
@@ -847,7 +847,7 @@ proxies:
   - {name: 34-826-DE, server: universal.opengate.wiki, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: trErto8XzLALaQEslTp_jw, udp: true}
   - {name: 34-827-DE, server: 85.208.139.158, port: 25607, type: ss, cipher: chacha20-ietf-poly1305, password: 7PPaSwxp3LLgJmWcpSclK6, udp: true}
   - {name: 34-828-JP, server: 104.233.174.39, port: 34001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927}, udp: true}
-  - {name: 34-829-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170443#34-137-US, server: sakura.outlinekeys.net, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: rhGz9UAp47At0PKbD4Lo5A, udp: true}
+  - {name: 34-829-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-134-US, server: sakura.outlinekeys.net, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: rhGz9UAp47At0PKbD4Lo5A, udp: true}
   - {name: 34-830-FR, server: 109.172.55.38, port: 22695, type: ss, cipher: chacha20-ietf-poly1305, password: uE1eKTXRZcZHOnPSfB6jgz, udp: true}
   - {name: 34-831-US, server: fox-usa.outlinekeys.net, port: 34868, type: ss, cipher: chacha20-ietf-poly1305, password: um2h1vWlmNLwKcN18ySgLQ, udp: true}
   - {name: 34-832-US, server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, udp: true}
@@ -997,9 +997,9 @@ proxy-groups:
       - 34-131-NOWHERE
       - 34-132-MD
       - 34-133-RELAY
-      - 34-134-US
       - 34-135-US
       - 34-136-US
+      - 34-137-US
       - 34-138-US
       - 34-139-US
       - 34-140-CA
@@ -1018,6 +1018,7 @@ proxy-groups:
       - 34-153-GB
       - 34-154-NL
       - 34-155-GB
+      - 34-156-GB
       - 34-157-GB
       - 34-158-RELAY
       - 34-159-RELAY
@@ -1628,7 +1629,6 @@ proxy-groups:
       - 34-780-FR
       - 34-781-HK
       - 34-782-CN
-      - 34-783-AE
       - 34-784-PL
       - 34-785-CN
       - 34-786-NL
@@ -1668,7 +1668,7 @@ proxy-groups:
       - 34-826-DE
       - 34-827-DE
       - 34-828-JP
-      - 34-829-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170443#34-137-US
+      - 34-829-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-134-US
       - 34-830-FR
       - 34-831-US
       - 34-832-US
@@ -1728,6 +1728,7 @@ proxy-groups:
       - 34-141-US
       - 34-146-LT
       - 34-151-NL
+      - 34-156-GB
       - 34-161-GB
       - 34-166-US
       - 34-171-AE
@@ -1891,6 +1892,7 @@ proxy-groups:
       - 34-122-US
       - 34-127-CN
       - 34-132-MD
+      - 34-137-US
       - 34-142-US
       - 34-147-CA
       - 34-152-FR
@@ -2025,7 +2027,6 @@ proxy-groups:
       - 34-817-CN
       - 34-822-SG
       - 34-827-DE
-      - 34-829-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170443#34-137-US
       - 34-832-US
       - 34-837-RELAY
       - 34-842-GB
@@ -2183,7 +2184,6 @@ proxy-groups:
       - 34-768-AE
       - 34-773-US
       - 34-778-US
-      - 34-783-AE
       - 34-788-AT
       - 34-793-US
       - 34-798-VN
@@ -2224,7 +2224,6 @@ proxy-groups:
       - 34-119-US
       - 34-124-SI
       - 34-129-CN
-      - 34-134-US
       - 34-139-US
       - 34-144-US
       - 34-149-GB
@@ -2360,7 +2359,7 @@ proxy-groups:
       - 34-814-RELAY
       - 34-819-HK
       - 34-824-RELAY
-      - 34-829-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170443#34-137-US
+      - 34-829-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-134-US
       - 34-834-RELAY
       - 34-839-NOWHERE
       - 34-844-NL
