@@ -342,7 +342,6 @@ proxies:
   - {name: 34-297-US, server: 107.173.159.106, port: 16083, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
   - {name: 34-298-US, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-299-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-300-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-301-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-302-US, server: test13.huvicloud.com, port: 443, type: vmess, uuid: b7087817-b967-474a-8e38-027e7c92a980, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: test13.huvicloud.com}}, udp: true}
   - {name: 34-303-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -355,6 +354,7 @@ proxies:
   - {name: 34-310-US, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-311-US, server: 212.102.47.132, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-312-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 34-313-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-314-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-315-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-316-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -368,7 +368,7 @@ proxies:
   - {name: 34-325-NL, server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-326-FR, server: 45.158.171.136, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 34-327-NL, server: 193.29.139.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-  - {name: 34-328-LT, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: 34-328-AE, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 34-329-LT, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 34-330-LT, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-331-AE, server: 151.242.251.144, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
@@ -928,7 +928,7 @@ proxies:
   - {name: 34-908-DE, server: universal.opengate.wiki, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: trErto8XzLALaQEslTp_jw, udp: true}
   - {name: 34-909-DE, server: 85.208.139.158, port: 25607, type: ss, cipher: chacha20-ietf-poly1305, password: 7PPaSwxp3LLgJmWcpSclK6, udp: true}
   - {name: 34-910-JP, server: 104.233.174.39, port: 34001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927}, udp: true}
-  - {name: 34-911-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.236443#34-313-US, server: sakura.outlinekeys.net, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: rhGz9UAp47At0PKbD4Lo5A, udp: true}
+  - {name: 34-911-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169443#34-300-US, server: sakura.outlinekeys.net, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: rhGz9UAp47At0PKbD4Lo5A, udp: true}
   - {name: 34-912-FR, server: 109.172.55.38, port: 22695, type: ss, cipher: chacha20-ietf-poly1305, password: uE1eKTXRZcZHOnPSfB6jgz, udp: true}
   - {name: 34-913-US, server: fox-usa.outlinekeys.net, port: 34868, type: ss, cipher: chacha20-ietf-poly1305, password: um2h1vWlmNLwKcN18ySgLQ, udp: true}
   - {name: 34-914-US, server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, udp: true}
@@ -1244,7 +1244,6 @@ proxy-groups:
       - 34-297-US
       - 34-298-US
       - 34-299-US
-      - 34-300-US
       - 34-301-US
       - 34-302-US
       - 34-303-US
@@ -1257,6 +1256,7 @@ proxy-groups:
       - 34-310-US
       - 34-311-US
       - 34-312-US
+      - 34-313-US
       - 34-314-US
       - 34-315-US
       - 34-316-CA
@@ -1270,7 +1270,7 @@ proxy-groups:
       - 34-325-NL
       - 34-326-FR
       - 34-327-NL
-      - 34-328-LT
+      - 34-328-AE
       - 34-329-LT
       - 34-330-LT
       - 34-331-AE
@@ -1830,7 +1830,7 @@ proxy-groups:
       - 34-908-DE
       - 34-909-DE
       - 34-910-JP
-      - 34-911-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.236443#34-313-US
+      - 34-911-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169443#34-300-US
       - 34-912-FR
       - 34-913-US
       - 34-914-US
@@ -2037,7 +2037,7 @@ proxy-groups:
       - 34-891-US
       - 34-901-HK
       - 34-906-RELAY
-      - 34-911-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.236443#34-313-US
+      - 34-911-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169443#34-300-US
       - 34-916-RELAY
       - 34-921-NOWHERE
       - 34-926-NL
@@ -2285,9 +2285,10 @@ proxy-groups:
       - 34-298-US
       - 34-303-US
       - 34-308-CA
+      - 34-313-US
       - 34-318-JP
       - 34-323-GB
-      - 34-328-LT
+      - 34-328-AE
       - 34-333-NL
       - 34-338-RELAY
       - 34-343-NL
@@ -2400,7 +2401,6 @@ proxy-groups:
       - 34-898-CN
       - 34-903-HK
       - 34-908-DE
-      - 34-911-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.236443#34-313-US
       - 34-913-US
       - 34-918-NOWHERE
       - 34-923-NOWHERE
@@ -2655,7 +2655,6 @@ proxy-groups:
       - 34-285-US
       - 34-290-DE
       - 34-295-US
-      - 34-300-US
       - 34-305-US
       - 34-310-US
       - 34-315-US
@@ -2772,6 +2771,7 @@ proxy-groups:
       - 34-900-HK
       - 34-905-SG
       - 34-910-JP
+      - 34-911-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169443#34-300-US
       - 34-915-US
       - 34-920-RELAY
       - 34-925-NL
