@@ -196,7 +196,6 @@ proxies:
   - {name: 34-151-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-152-US, server: test13.huvicloud.com, port: 443, type: vmess, uuid: b7087817-b967-474a-8e38-027e7c92a980, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: test13.huvicloud.com}}, udp: true}
   - {name: 34-153-US, server: hicai5u.huvicloud.com, port: 443, type: vmess, uuid: bd33cc6a-5a55-4ae9-8a3a-7960138467c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hicai5u.huvicloud.com}}, udp: true}
-  - {name: 34-154-US, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-155-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-156-US, server: 142.171.224.111, port: 20086, type: vmess, uuid: 0908eadd-7337-49dd-8e9b-e325bca02910, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 34-157-US, server: 104.192.226.106, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -210,9 +209,10 @@ proxies:
   - {name: 34-165-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-166-US, server: 45.55.2.232, port: 14293, type: ss, cipher: aes-256-cfb, password: 2170f8, udp: true}
   - {name: 34-167-RELAY, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: test.flha.ru}}, udp: true}
+  - {name: 34-168-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-169-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-170-FR, server: 45.158.171.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-  - {name: 34-171-AE, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 34-171-LT, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-172-AE, server: 151.242.251.147, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-173-FR, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-174-LT, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
@@ -691,7 +691,7 @@ proxies:
   - {name: 34-672-DE, server: universal.opengate.wiki, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: trErto8XzLALaQEslTp_jw, udp: true}
   - {name: 34-673-DE, server: 85.208.139.158, port: 25607, type: ss, cipher: chacha20-ietf-poly1305, password: 7PPaSwxp3LLgJmWcpSclK6, udp: true}
   - {name: 34-674-JP, server: 104.233.174.39, port: 34001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927}, udp: true}
-  - {name: 34-675-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-168-US, server: sakura.outlinekeys.net, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: rhGz9UAp47At0PKbD4Lo5A, udp: true}
+  - {name: 34-675-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.6443#34-154-US, server: sakura.outlinekeys.net, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: rhGz9UAp47At0PKbD4Lo5A, udp: true}
   - {name: 34-676-FR, server: 109.172.55.38, port: 22695, type: ss, cipher: chacha20-ietf-poly1305, password: uE1eKTXRZcZHOnPSfB6jgz, udp: true}
   - {name: 34-677-US, server: fox-usa.outlinekeys.net, port: 34868, type: ss, cipher: chacha20-ietf-poly1305, password: um2h1vWlmNLwKcN18ySgLQ, udp: true}
   - {name: 34-678-US, server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, udp: true}
@@ -861,7 +861,6 @@ proxy-groups:
       - 34-151-US
       - 34-152-US
       - 34-153-US
-      - 34-154-US
       - 34-155-US
       - 34-156-US
       - 34-157-US
@@ -875,9 +874,10 @@ proxy-groups:
       - 34-165-US
       - 34-166-US
       - 34-167-RELAY
+      - 34-168-US
       - 34-169-US
       - 34-170-FR
-      - 34-171-AE
+      - 34-171-LT
       - 34-172-AE
       - 34-173-FR
       - 34-174-LT
@@ -1356,7 +1356,7 @@ proxy-groups:
       - 34-672-DE
       - 34-673-DE
       - 34-674-JP
-      - 34-675-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-168-US
+      - 34-675-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.6443#34-154-US
       - 34-676-FR
       - 34-677-US
       - 34-678-US
@@ -1422,7 +1422,7 @@ proxy-groups:
       - 34-156-US
       - 34-161-US
       - 34-166-US
-      - 34-171-AE
+      - 34-171-LT
       - 34-176-NL
       - 34-181-LT
       - 34-186-LT
@@ -1690,6 +1690,7 @@ proxy-groups:
       - 34-153-US
       - 34-158-US
       - 34-163-US
+      - 34-168-US
       - 34-173-FR
       - 34-178-AE
       - 34-183-FR
@@ -1785,7 +1786,6 @@ proxy-groups:
       - 34-663-CN
       - 34-668-SG
       - 34-673-DE
-      - 34-675-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-168-US
       - 34-678-US
       - 34-683-RELAY
       - 34-688-GB
@@ -1823,7 +1823,6 @@ proxy-groups:
       - 34-139-CN
       - 34-144-AT
       - 34-149-US
-      - 34-154-US
       - 34-159-US
       - 34-164-US
       - 34-169-US
@@ -1921,6 +1920,7 @@ proxy-groups:
       - 34-664-HK
       - 34-669-SG
       - 34-674-JP
+      - 34-675-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.6443#34-154-US
       - 34-679-US
       - 34-684-RELAY
       - 34-689-NL
@@ -2060,7 +2060,7 @@ proxy-groups:
       - 34-660-RELAY
       - 34-665-HK
       - 34-670-RELAY
-      - 34-675-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-168-US
+      - 34-675-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.6443#34-154-US
       - 34-680-RELAY
       - 34-685-NOWHERE
       - 34-690-NL
