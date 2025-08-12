@@ -69,7 +69,7 @@ proxies:
   - {name: 34-0018-RU, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, skip-cert-verify: true, udp: true}
   - {name: 34-0019-RELAY, server: 172.67.214.21, port: 443, type: trojan, password: 7248e825-887c-48b9-83bc-c26bc6392bf8, skip-cert-verify: true, udp: true}
   - {name: 34-0020-US, server: 94.131.22.134, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: DKe9AXeFnNwBSvzdMF6Lhqwf8Aej9q1aT5qnvTLPoUEU5NPgeHwkDeaFccUo8Ne7UtpzKwq9KEZfqMxXS1KRxpHxnMfXfdRq, udp: true}
-  - {name: 34-0021-JP, server: sakura.outlinekeys.net, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: DUsnjmWz0Bhz27aFh68WHr, udp: true}
+  - {name: 34-0021-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-0289-US, server: sakura.outlinekeys.net, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: DUsnjmWz0Bhz27aFh68WHr, udp: true}
   - {name: 34-0022-RELAY, server: www.visa.com.sg, port: 2053, type: trojan, password: 0F22D008-24D4-4DFE-947B-8D2FD64CD24C, sni: www.visa.com.sg, skip-cert-verify: true, udp: true}
   - {name: 34-0023-US, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, skip-cert-verify: true, udp: true}
   - {name: 34-0024-AU, server: 13.239.86.92, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -323,12 +323,11 @@ proxies:
   - {name: 34-0284-US, server: 212.102.47.129, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0285-US, server: 45.55.2.232, port: 14293, type: ss, cipher: aes-256-cfb, password: 2170f8, udp: true}
   - {name: 34-0286-US, server: 104.192.226.106, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 34-0287-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0288-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0289-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0290-US, server: 34.203.13.163, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 34-0291-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0292-JP, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0293-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 34-0294-RELAY, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: test.flha.ru}}, udp: true}
   - {name: 34-0295-FR, server: 45.158.171.60, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0296-US, server: v2ray.codefyinc.com, port: 443, type: vmess, uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v2ray.codefyinc.com}}, udp: true}
@@ -474,6 +473,7 @@ proxies:
   - {name: 34-0436-US, server: 38.68.134.196, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: 34-0437-SG, server: 180.215.130.123, port: 11584, type: vmess, uuid: 181472ed-0bb7-43be-dccb-74aca2b33ed5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 34-0438-AE, server: 151.242.251.144, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 34-0439-LT, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 34-0440-SG, server: 103.253.26.20, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 34-0441-SG, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 34-0442-SG, server: 180.215.130.123, port: 46452, type: vmess, uuid: c5414fe0-018b-473a-aa3b-f210f2ba42f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1173,6 +1173,7 @@ proxies:
   - {name: 34-1157-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 99129cef-f705-11ee-ada6-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 34-1158-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: f609abb4-ed17-11ee-9fa2-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 34-1159-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 0a335fd6-be0b-11ec-8dfa-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
+  - {name: 34-1160-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 28213b50-7ed5-11ee-add6-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 34-1161-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 34-1162-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 34-1163-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 1c641c86-5078-11ef-a585-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
@@ -1275,7 +1276,7 @@ proxy-groups:
       - 34-0018-RU
       - 34-0019-RELAY
       - 34-0020-US
-      - 34-0021-JP
+      - 34-0021-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-0289-US
       - 34-0022-RELAY
       - 34-0023-US
       - 34-0024-AU
@@ -1529,12 +1530,11 @@ proxy-groups:
       - 34-0284-US
       - 34-0285-US
       - 34-0286-US
+      - 34-0287-US
       - 34-0288-US
-      - 34-0289-US
       - 34-0290-US
       - 34-0291-US
       - 34-0292-JP
-      - 34-0293-NL
       - 34-0294-RELAY
       - 34-0295-FR
       - 34-0296-US
@@ -1680,6 +1680,7 @@ proxy-groups:
       - 34-0436-US
       - 34-0437-SG
       - 34-0438-AE
+      - 34-0439-LT
       - 34-0440-SG
       - 34-0441-SG
       - 34-0442-SG
@@ -2379,6 +2380,7 @@ proxy-groups:
       - 34-1157-HK
       - 34-1158-HK
       - 34-1159-HK
+      - 34-1160-HK
       - 34-1161-HK
       - 34-1162-HK
       - 34-1163-HK
@@ -2473,7 +2475,7 @@ proxy-groups:
       - 34-0006-US
       - 34-0011-CN
       - 34-0016-MD
-      - 34-0021-JP
+      - 34-0021-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-0289-US
       - 34-0036-CN
       - 34-0041-CN
       - 34-0046-US
@@ -2768,6 +2770,7 @@ proxy-groups:
       - 34-0272-US
       - 34-0277-CA
       - 34-0282-US
+      - 34-0287-US
       - 34-0292-JP
       - 34-0297-FR
       - 34-0302-GB
@@ -3013,7 +3016,6 @@ proxy-groups:
       - 34-0278-US
       - 34-0283-US
       - 34-0288-US
-      - 34-0293-NL
       - 34-0298-US
       - 34-0303-NL
       - 34-0308-GB
@@ -3204,6 +3206,7 @@ proxy-groups:
       - 34-0009-RELAY
       - 34-0014-US
       - 34-0019-RELAY
+      - 34-0021-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-0289-US
       - 34-0024-AU
       - 34-0029-CN
       - 34-0034-US
@@ -3257,7 +3260,6 @@ proxy-groups:
       - 34-0274-US
       - 34-0279-US
       - 34-0284-US
-      - 34-0289-US
       - 34-0294-RELAY
       - 34-0299-US
       - 34-0304-LT
@@ -3287,6 +3289,7 @@ proxy-groups:
       - 34-0424-SI
       - 34-0429-VN
       - 34-0434-NL
+      - 34-0439-LT
       - 34-0444-CH
       - 34-0449-DE
       - 34-0454-DE
@@ -3672,6 +3675,7 @@ proxy-groups:
       - 34-1145-CN
       - 34-1150-CN
       - 34-1155-HK
+      - 34-1160-HK
       - 34-1165-HK
       - 34-1170-HK
       - 34-1175-HK
