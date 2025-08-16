@@ -54,7 +54,9 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 34-0000-RELAY, server: fastcup.net, port: 80, type: vmess, uuid: 7577254b-c576-48cd-bbd0-69872aa3a9c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: fastcup.net}}, udp: true}
+  - {name: 34-0004-DE, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 34-0010-NO, server: 185.213.23.226, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 34-0013-RELAY, server: 185.170.166.15, port: 8880, type: vmess, uuid: f8b6c8a4-5633-3158-9c0e-77518e3fc356, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560"}, udp: true}
   - {name: 34-0014-CN, server: v33.heduian.link, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v33.heduian.link}}, udp: true}
   - {name: 34-0015-RELAY, server: 168.100.6.15, port: 8880, type: vmess, uuid: f8b6c8a4-5633-3158-9c0e-77518e3fc356, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560"}, udp: true}
   - {name: 34-0016-RELAY, server: 92.53.190.15, port: 8880, type: vmess, uuid: f8b6c8a4-5633-3158-9c0e-77518e3fc356, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560"}, udp: true}
@@ -413,9 +415,9 @@ proxies:
   - {name: 34-0381-US, server: 107.173.155.242, port: 2087, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
   - {name: 34-0382-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0383-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0384-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0385-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0386-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-0387-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0388-US, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, sni: us.blazeppn.info, skip-cert-verify: true, udp: true}
   - {name: 34-0389-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0390-US, server: 212.102.47.129, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -1071,7 +1073,7 @@ proxies:
   - {name: 34-1047-US, server: 23.95.20.15, port: 443, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
   - {name: 34-1048-KR, server: 211.213.104.144, port: 50000, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
   - {name: 34-1049-KR, server: 112.166.172.94, port: 12154, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
-  - {name: 34-1050-KR, server: 119.207.56.167, port: 14104, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
+  - {name: 34-1051-KR, server: 211.196.114.71, port: 50000, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
   - {name: 34-1052-KR, server: 220.81.82.20, port: 50001, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
   - {name: 34-1053-KR, server: 59.3.161.120, port: 30894, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
   - {name: 34-1054-RELAY, server: 188.164.159.241, port: 2096, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
@@ -1234,19 +1236,17 @@ proxies:
   - {name: 34-1215-RELAY, server: 155.46.213.38, port: 2083, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
   - {name: 34-1216-US, server: 192.200.160.35, port: 2083, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
   - {name: 34-1217-RELAY, server: 108.165.152.14, port: 2096, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
-  - {name: 34-1218-US, server: 63.141.128.66, port: 2087, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
   - {name: 34-1219-RELAY, server: 108.165.152.55, port: 2096, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
   - {name: 34-1220-RELAY, server: 104.129.166.131, port: 8443, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
   - {name: 34-1221-RELAY, server: 108.165.152.40, port: 2096, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
   - {name: 34-1339-HK, server: 103.149.183.154, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+  - {name: 34-1359-HK, server: v10.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v10.heduian.link}}, udp: true}
   - {name: 34-1371-MD, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-1397-DE, server: 18.184.59.16, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 34-1400-HK, server: 103.252.116.138, port: 443, type: trojan, password: 2ee85121-31de-4581-a492-eb00f606e392, sni: hk.freeguard.org, skip-cert-verify: true, udp: true}
   - {name: 34-1410-KR, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-1417-HK, server: 103.252.116.138, port: 443, type: trojan, password: 2ee85121-31de-4581-a492-eb00f606e392, sni: hk.freeguard.org, skip-cert-verify: true, udp: true}
   - {name: 34-1426-PY, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-1427-BR, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-1428-GR, server: 192.71.166.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 34-1429-DE, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 34-1448-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-1451-KR, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
@@ -1260,7 +1260,9 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 34-0000-RELAY
+      - 34-0004-DE
       - 34-0010-NO
+      - 34-0013-RELAY
       - 34-0014-CN
       - 34-0015-RELAY
       - 34-0016-RELAY
@@ -1619,9 +1621,9 @@ proxy-groups:
       - 34-0381-US
       - 34-0382-US
       - 34-0383-US
-      - 34-0384-US
       - 34-0385-US
       - 34-0386-US
+      - 34-0387-US
       - 34-0388-US
       - 34-0389-CA
       - 34-0390-US
@@ -2277,7 +2279,7 @@ proxy-groups:
       - 34-1047-US
       - 34-1048-KR
       - 34-1049-KR
-      - 34-1050-KR
+      - 34-1051-KR
       - 34-1052-KR
       - 34-1053-KR
       - 34-1054-RELAY
@@ -2440,19 +2442,17 @@ proxy-groups:
       - 34-1215-RELAY
       - 34-1216-US
       - 34-1217-RELAY
-      - 34-1218-US
       - 34-1219-RELAY
       - 34-1220-RELAY
       - 34-1221-RELAY
       - 34-1339-HK
+      - 34-1359-HK
       - 34-1371-MD
-      - 34-1397-DE
-      - 34-1400-HK
       - 34-1410-KR
-      - 34-1417-HK
       - 34-1426-PY
       - 34-1427-BR
       - 34-1428-GR
+      - 34-1429-DE
       - 34-1448-NL
       - 34-1451-KR
   - name: 自动选择
@@ -2674,6 +2674,7 @@ proxy-groups:
       - 34-1036-KR
       - 34-1041-US
       - 34-1046-US
+      - 34-1051-KR
       - 34-1056-PE
       - 34-1061-RELAY
       - 34-1066-RELAY
@@ -2786,6 +2787,7 @@ proxy-groups:
       - 34-0372-US
       - 34-0377-FR
       - 34-0382-US
+      - 34-0387-US
       - 34-0392-US
       - 34-0402-US
       - 34-0407-LT
@@ -2948,14 +2950,13 @@ proxy-groups:
       - 34-1207-US
       - 34-1212-US
       - 34-1217-RELAY
-      - 34-1397-DE
-      - 34-1417-HK
       - 34-1427-BR
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 34-0013-RELAY
       - 34-0018-RELAY
       - 34-0023-RELAY
       - 34-0028-RELAY
@@ -3190,7 +3191,6 @@ proxy-groups:
       - 34-1203-RELAY
       - 34-1208-US
       - 34-1213-RELAY
-      - 34-1218-US
       - 34-1428-GR
       - 34-1448-NL
   - name: 测速4分组
@@ -3198,6 +3198,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 34-0004-DE
       - 34-0014-CN
       - 34-0019-NO
       - 34-0024-DE
@@ -3270,7 +3271,6 @@ proxy-groups:
       - 34-0369-RELAY
       - 34-0374-RELAY
       - 34-0379-US
-      - 34-0384-US
       - 34-0389-CA
       - 34-0394-US
       - 34-0399-CA
@@ -3436,6 +3436,8 @@ proxy-groups:
       - 34-1214-RELAY
       - 34-1219-RELAY
       - 34-1339-HK
+      - 34-1359-HK
+      - 34-1429-DE
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -3649,7 +3651,6 @@ proxy-groups:
       - 34-1035-KR
       - 34-1040-KR
       - 34-1045-KR
-      - 34-1050-KR
       - 34-1055-US
       - 34-1060-RELAY
       - 34-1065-US
@@ -3684,7 +3685,6 @@ proxy-groups:
       - 34-1210-RELAY
       - 34-1215-RELAY
       - 34-1220-RELAY
-      - 34-1400-HK
       - 34-1410-KR
   - name: 广告拦截
     type: select
