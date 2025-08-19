@@ -102,7 +102,7 @@ proxies:
   - {name: 34-0049-CN, server: 36.156.102.125, port: 1256, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 34-0050-CN, server: 36.156.102.125, port: 406, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 34-0051-CN, server: free-relay.themars.top, port: 49102, type: vmess, uuid: 631484bb-c085-4384-8c3a-d93db3d587ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv1.m3u8, headers: {Host: free-relay.themars.top}}, udp: true}
-  - {name: 34-0052-MY, server: t.cnmjcn.cyou, port: 16618, type: vmess, uuid: 42c37c6c-9ad9-42dc-99d6-afd3c100a563, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cnmjcn.cyou}}, udp: true}
+  - {name: 34-0052-FR, server: t.cnmjcn.cyou, port: 16618, type: vmess, uuid: 42c37c6c-9ad9-42dc-99d6-afd3c100a563, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cnmjcn.cyou}}, udp: true}
   - {name: 34-0053-KR, server: 54.180.238.255, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 34-0054-RELAY, server: 172.67.214.21, port: 443, type: trojan, password: 7248e825-887c-48b9-83bc-c26bc6392bf8, sni: xXcdvFgt.191268.XYz, skip-cert-verify: true, udp: true}
   - {name: 34-0056-CN, server: 36.156.102.125, port: 347, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true, udp: true}
@@ -467,10 +467,9 @@ proxies:
   - {name: 34-0423-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0424-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0425-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0426-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0427-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0428-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0429-US, server: gy.58n.net, port: 30767, type: trojan, password: a6ba0ada-cef1-3009-98dc-a1300ca76ed6, sni: us.blazeppn.info, skip-cert-verify: true, udp: true}
+  - {name: 34-0429-US, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, sni: us.blazeppn.info, skip-cert-verify: true, udp: true}
   - {name: 34-0430-US, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0431-US, server: 104.192.226.106, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0432-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -1166,7 +1165,7 @@ proxy-groups:
       - 34-0049-CN
       - 34-0050-CN
       - 34-0051-CN
-      - 34-0052-MY
+      - 34-0052-FR
       - 34-0053-KR
       - 34-0054-RELAY
       - 34-0056-CN
@@ -1531,7 +1530,6 @@ proxy-groups:
       - 34-0423-US
       - 34-0424-US
       - 34-0425-US
-      - 34-0426-US
       - 34-0427-US
       - 34-0428-US
       - 34-0429-US
@@ -2271,7 +2269,6 @@ proxy-groups:
       - 34-0411-US
       - 34-0416-NL
       - 34-0421-US
-      - 34-0426-US
       - 34-0431-US
       - 34-0436-US
       - 34-0441-CA
@@ -2411,7 +2408,7 @@ proxy-groups:
       - 34-0037-DE
       - 34-0042-CN
       - 34-0047-FR
-      - 34-0052-MY
+      - 34-0052-FR
       - 34-0057-CN
       - 34-0062-PY
       - 34-0067-DE
