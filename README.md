@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `1055`
+高速节点数量: `1054`
 <details>
   <summary>展开复制节点</summary>
 
@@ -79,7 +79,7 @@ Fork from TopFreeProxies.
     trojan://253bc477d4e43c209f2d427272968280@36.156.102.125:1256?allowInsecure=1&sni=www.baidu.com#34-0049-CN
     trojan://253bc477d4e43c209f2d427272968280@36.156.102.125:406?allowInsecure=1&sni=www.baidu.com#34-0050-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMzQtMDA1MS1DTiIsImFkZCI6ImZyZWUtcmVsYXkudGhlbWFycy50b3AiLCJwb3J0IjoiNDkxMDIiLCJ0eXBlIjoibm9uZSIsImlkIjoiNjMxNDg0YmItYzA4NS00Mzg0LThjM2EtZDkzZGIzZDU4N2VmIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9jY3R2MS5tM3U4IiwiaG9zdCI6ImZyZWUtcmVsYXkudGhlbWFycy50b3AiLCJ0bHMiOiIifQ==
-    vmess://eyJ2IjoiMiIsInBzIjoiMzQtMDA1Mi1NWSIsImFkZCI6InQuY25tamNuLmN5b3UiLCJwb3J0IjoiMTY2MTgiLCJ0eXBlIjoibm9uZSIsImlkIjoiNDJjMzdjNmMtOWFkOS00MmRjLTk5ZDYtYWZkM2MxMDBhNTYzIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoidC5jbm1qY24uY3lvdSIsInRscyI6IiJ9
+    vmess://eyJ2IjoiMiIsInBzIjoiMzQtMDA1Mi1GUiIsImFkZCI6InQuY25tamNuLmN5b3UiLCJwb3J0IjoiMTY2MTgiLCJ0eXBlIjoibm9uZSIsImlkIjoiNDJjMzdjNmMtOWFkOS00MmRjLTk5ZDYtYWZkM2MxMDBhNTYzIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoidC5jbm1qY24uY3lvdSIsInRscyI6IiJ9
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@54.180.238.255:9898#34-0053-KR
     trojan://7248e825-887c-48b9-83bc-c26bc6392bf8@172.67.214.21:443?allowInsecure=1&sni=xXcdvFgt.191268.XYz#34-0054-RELAY
     trojan://253bc477d4e43c209f2d427272968280@36.156.102.125:347?allowInsecure=1&sni=www.baidu.com#34-0056-CN
@@ -444,10 +444,9 @@ Fork from TopFreeProxies.
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170:443#34-0423-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167:443#34-0424-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.168:443#34-0425-US
-    ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160:443#34-0426-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243:443#34-0427-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169:443#34-0428-US
-    trojan://a6ba0ada-cef1-3009-98dc-a1300ca76ed6@gy.58n.net:30767?allowInsecure=1&sni=us.blazeppn.info#34-0429-US
+    trojan://xxoo@us.blazeppn.info:443?allowInsecure=1&sni=us.blazeppn.info#34-0429-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.130:443#34-0430-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@104.192.226.106:990#34-0431-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.131:443#34-0432-US
