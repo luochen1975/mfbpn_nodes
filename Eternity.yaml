@@ -486,7 +486,6 @@ proxies:
   - {name: 34-0442-RELAY, server: rak1ding.89060004.xyz, port: 2083, type: vmess, uuid: 75d96365-1229-4fc4-dbda-855717f876cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rak1ding.89060004.xyz}}, udp: true}
   - {name: 34-0443-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0444-JP, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0445-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 34-0446-FR, server: 45.158.171.110, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0447-AE, server: 151.242.251.144, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-0448-FR, server: 45.158.171.60, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
@@ -1096,6 +1095,7 @@ proxies:
   - {name: 34-1080-RELAY, server: sy3.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sy3.620720.xyz}}, udp: true}
   - {name: 34-1081-RELAY, server: npmjs.com, port: 8080, type: vmess, uuid: vw6hjp6qlg, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /download/cdn, headers: {Host: npmjs.com}}, udp: true}
   - {name: 34-1082-RELAY, server: sj1.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj1.620720.xyz}}, udp: true}
+  - {name: 34-1083-RELAY, server: sj4.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj4.620720.xyz}}, udp: true}
   - {name: 34-1084-CN, server: v24.heduian.link, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v24.heduian.link}}, udp: true}
   - {name: 34-1085-US, server: nameyoui87.pdteyv343.com, port: 16792, type: ss, cipher: chacha20-ietf-poly1305, password: nHBhAa3B5BsgoG6T3VZHVdGLIItbzKyEQU9AbJaaCMI=, udp: true}
   - {name: 34-1086-CN, server: cyusd123.qeayr.cn, port: 14793, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MjdlZmY4YWIyZDU0OGNkNw==:NjJiNDE4NmMtM2U2YS00OQ==, udp: true}
@@ -1590,7 +1590,6 @@ proxy-groups:
       - 34-0442-RELAY
       - 34-0443-US
       - 34-0444-JP
-      - 34-0445-NL
       - 34-0446-FR
       - 34-0447-AE
       - 34-0448-FR
@@ -2200,6 +2199,7 @@ proxy-groups:
       - 34-1080-RELAY
       - 34-1081-RELAY
       - 34-1082-RELAY
+      - 34-1083-RELAY
       - 34-1084-CN
       - 34-1085-US
       - 34-1086-CN
@@ -2925,6 +2925,7 @@ proxy-groups:
       - 34-1068-CN
       - 34-1073-RELAY
       - 34-1078-JP
+      - 34-1083-RELAY
       - 34-1088-DE
       - 34-1093-US
       - 34-1098-US
@@ -3245,7 +3246,6 @@ proxy-groups:
       - 34-0430-US
       - 34-0435-US
       - 34-0440-US
-      - 34-0445-NL
       - 34-0450-LT
       - 34-0455-NL
       - 34-0460-GB
