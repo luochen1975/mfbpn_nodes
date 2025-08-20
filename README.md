@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `1106`
+高速节点数量: `1105`
 <details>
   <summary>展开复制节点</summary>
 
@@ -440,8 +440,7 @@ Fork from TopFreeProxies.
     trojan://Aimer@172.235.54.221:443?allowInsecure=1&sni=epgc.aimercc.dpdns.org#34-0419-US
     trojan://Aimer@104.168.58.31:443?allowInsecure=1&sni=epgc.aimercc.dpdns.org#34-0420-US
     trojan://Aimer@45.66.217.145:50007?allowInsecure=1&sni=epgc.aimercc.dpdns.org#34-0421-JP
-    trojan://a6ba0ada-cef1-3009-98dc-a1300ca76ed6@gy.58n.net:30767?allowInsecure=1&sni=us.blazeppn.info#34-0422-US
-    ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243:443#34-0423-US
+    trojan://xxoo@us.blazeppn.info:443?allowInsecure=1&sni=us.blazeppn.info#34-0422-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160:443#34-0424-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.168:443#34-0425-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170:443#34-0426-US
@@ -469,7 +468,6 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@45.158.171.136:8080#34-0448-FR
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@151.242.251.153:8080#34-0449-AE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.158.171.60:8080#34-0450-FR
-    ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.244.73.113:443#34-0451-IE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@45.87.175.171:8080#34-0452-LT
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.158.171.66:8080#34-0453-FR
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@151.242.251.147:8080#34-0454-AE
@@ -583,6 +581,7 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@154.205.159.100:990#34-0562-ID
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@103.104.247.47:8080#34-0563-NL
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@203.23.128.33:990#34-0564-HK
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.157:8080#34-0565-LT
     ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@194.71.126.31:989#34-0566-RS
     ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@192.71.166.102:989#34-0567-GR
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@38.54.45.129:990#34-0568-AR
@@ -1141,11 +1140,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1143`
+合并节点总数: `1148`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [mfbpn_node](https://github.com/huanjk1/nodelist), 节点数量: `1143`
+- [mfbpn_node](https://github.com/huanjk1/nodelist), 节点数量: `1148`
 
 
 ## 仓库声明
