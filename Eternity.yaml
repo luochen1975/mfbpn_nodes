@@ -101,7 +101,7 @@ proxies:
   - {name: 34-0048-CN, server: 36.156.102.125, port: 1256, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 34-0049-CN, server: 36.156.102.125, port: 406, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 34-0050-CN, server: free-relay.themars.top, port: 49102, type: vmess, uuid: 631484bb-c085-4384-8c3a-d93db3d587ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv1.m3u8, headers: {Host: free-relay.themars.top}}, udp: true}
-  - {name: 34-0051-MY, server: t.cnmjcn.cyou, port: 16618, type: vmess, uuid: 42c37c6c-9ad9-42dc-99d6-afd3c100a563, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cnmjcn.cyou}}, udp: true}
+  - {name: 34-0051-FR, server: t.cnmjcn.cyou, port: 16618, type: vmess, uuid: 42c37c6c-9ad9-42dc-99d6-afd3c100a563, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cnmjcn.cyou}}, udp: true}
   - {name: 34-0052-KR, server: 54.180.238.255, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 34-0053-RELAY, server: 172.67.214.21, port: 443, type: trojan, password: 7248e825-887c-48b9-83bc-c26bc6392bf8, sni: xXcdvFgt.191268.XYz, skip-cert-verify: true, udp: true}
   - {name: 34-0055-CN, server: 36.156.102.125, port: 347, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true, udp: true}
@@ -465,20 +465,20 @@ proxies:
   - {name: 34-0421-JP, server: 45.66.217.145, port: 50007, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
   - {name: 34-0422-US, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, sni: us.blazeppn.info, skip-cert-verify: true, udp: true}
   - {name: 34-0423-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-0424-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0425-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0426-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0427-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0428-US, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-  - {name: 34-0429-RELAY, server: sj4.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj4.620720.xyz}}, udp: true}
   - {name: 34-0430-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 34-0431-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0432-US, server: 212.102.47.132, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0433-NL, server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0434-LT, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: 34-0435-LT, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-0436-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 34-0437-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0438-LT, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: 34-0439-NL, server: 193.29.139.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-0440-LT, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 34-0441-NL, server: 193.29.139.138, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-0442-FR, server: 45.158.171.110, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
@@ -1225,7 +1225,7 @@ proxy-groups:
       - 34-0048-CN
       - 34-0049-CN
       - 34-0050-CN
-      - 34-0051-MY
+      - 34-0051-FR
       - 34-0052-KR
       - 34-0053-RELAY
       - 34-0055-CN
@@ -1589,20 +1589,20 @@ proxy-groups:
       - 34-0421-JP
       - 34-0422-US
       - 34-0423-US
+      - 34-0424-US
       - 34-0425-US
       - 34-0426-US
       - 34-0427-US
       - 34-0428-US
-      - 34-0429-RELAY
       - 34-0430-CA
       - 34-0431-US
-      - 34-0432-US
       - 34-0433-NL
       - 34-0434-LT
       - 34-0435-LT
       - 34-0436-NL
       - 34-0437-NL
       - 34-0438-LT
+      - 34-0439-NL
       - 34-0440-LT
       - 34-0441-NL
       - 34-0442-FR
@@ -2316,7 +2316,7 @@ proxy-groups:
       - 34-0036-DE
       - 34-0041-CN
       - 34-0046-FR
-      - 34-0051-MY
+      - 34-0051-FR
       - 34-0056-CN
       - 34-0061-PY
       - 34-0066-DE
@@ -2616,7 +2616,6 @@ proxy-groups:
       - 34-0417-US
       - 34-0422-US
       - 34-0427-US
-      - 34-0432-US
       - 34-0437-NL
       - 34-0442-FR
       - 34-0447-AE
@@ -3067,8 +3066,9 @@ proxy-groups:
       - 34-0409-RELAY
       - 34-0414-RELAY
       - 34-0419-US
-      - 34-0429-RELAY
+      - 34-0424-US
       - 34-0434-LT
+      - 34-0439-NL
       - 34-0444-LT
       - 34-0449-AE
       - 34-0454-AE
