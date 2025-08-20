@@ -465,8 +465,8 @@ proxies:
   - {name: 34-0421-JP, server: 45.66.217.145, port: 50007, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
   - {name: 34-0422-US, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, sni: us.blazeppn.info, skip-cert-verify: true, udp: true}
   - {name: 34-0423-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0424-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0425-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-0426-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0427-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0428-US, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 34-0429-RELAY, server: sj4.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sj4.620720.xyz}}, udp: true}
@@ -503,6 +503,7 @@ proxies:
   - {name: 34-0460-NL, server: 193.29.139.202, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0461-CZ, server: 195.181.160.6, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0462-NO, server: 185.213.23.226, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 34-0463-GB, server: 85.210.120.237, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
   - {name: 34-0464-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0465-NL, server: 164.92.156.41, port: 24206, type: ss, cipher: chacha20-ietf-poly1305, password: zI7kiNZ0UfV9cXB73a4nRD, udp: true}
   - {name: 34-0466-RELAY, server: rak1ding.89060004.xyz, port: 2083, type: vmess, uuid: 75d96365-1229-4fc4-dbda-855717f876cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rak1ding.89060004.xyz}}, udp: true}
@@ -1106,7 +1107,6 @@ proxies:
   - {name: 34-1089-TR, server: 77.83.245.195, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: i0Dn5sYOohtx, udp: true}
   - {name: 34-1090-RELAY, server: 162.159.153.2, port: 443, type: trojan, password: bpb-trojan, sni: zamim340.ggff.net, skip-cert-verify: true, udp: true}
   - {name: 34-1091-RELAY, server: japan.com, port: 443, type: trojan, password: bpb-trojan, sni: zamim340.ggff.net, skip-cert-verify: true, udp: true}
-  - {name: 34-1092-RELAY, server: fk4.620720.xyz, port: 8443, type: vmess, uuid: 516d8a7a-3f0b-41d3-bad0-246116381516, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fk4.620720.xyz}}, udp: true}
   - {name: 34-1093-CN, server: qc456987.qeayr.cn, port: 24795, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MjdlZmY4YWIyZDU0OGNkNw==:NjJiNDE4NmMtM2U2YS00OQ==, udp: true}
   - {name: 34-1094-CN, server: qc456987.qeayr.cn, port: 24791, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MjdlZmY4YWIyZDU0OGNkNw==:NjJiNDE4NmMtM2U2YS00OQ==, udp: true}
   - {name: 34-1095-CN, server: qc456987.qeayr.cn, port: 24792, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MjdlZmY4YWIyZDU0OGNkNw==:NjJiNDE4NmMtM2U2YS00OQ==, udp: true}
@@ -1589,8 +1589,8 @@ proxy-groups:
       - 34-0421-JP
       - 34-0422-US
       - 34-0423-US
-      - 34-0424-US
       - 34-0425-US
+      - 34-0426-US
       - 34-0427-US
       - 34-0428-US
       - 34-0429-RELAY
@@ -1627,6 +1627,7 @@ proxy-groups:
       - 34-0460-NL
       - 34-0461-CZ
       - 34-0462-NO
+      - 34-0463-GB
       - 34-0464-US
       - 34-0465-NL
       - 34-0466-RELAY
@@ -2230,7 +2231,6 @@ proxy-groups:
       - 34-1089-TR
       - 34-1090-RELAY
       - 34-1091-RELAY
-      - 34-1092-RELAY
       - 34-1093-CN
       - 34-1094-CN
       - 34-1095-CN
@@ -2390,6 +2390,7 @@ proxy-groups:
       - 34-0411-RELAY
       - 34-0416-RELAY
       - 34-0421-JP
+      - 34-0426-US
       - 34-0431-US
       - 34-0436-NL
       - 34-0441-NL
@@ -2742,7 +2743,6 @@ proxy-groups:
       - 34-1077-CN
       - 34-1082-CN
       - 34-1087-CN
-      - 34-1092-RELAY
       - 34-1097-JP
       - 34-1102-RELAY
       - 34-1107-DE
@@ -2848,6 +2848,7 @@ proxy-groups:
       - 34-0448-FR
       - 34-0453-FR
       - 34-0458-US
+      - 34-0463-GB
       - 34-0468-US
       - 34-0473-CA
       - 34-0478-US
@@ -3065,7 +3066,6 @@ proxy-groups:
       - 34-0409-RELAY
       - 34-0414-RELAY
       - 34-0419-US
-      - 34-0424-US
       - 34-0429-RELAY
       - 34-0434-LT
       - 34-0439-NL
