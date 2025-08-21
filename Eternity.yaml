@@ -464,6 +464,7 @@ proxies:
   - {name: 34-0421-US, server: 172.235.54.221, port: 443, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
   - {name: 34-0422-US, server: 104.168.58.31, port: 443, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
   - {name: 34-0423-JP, server: 45.66.217.145, port: 50007, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
+  - {name: 34-0424-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0425-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0426-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0427-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -472,7 +473,6 @@ proxies:
   - {name: 34-0430-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0431-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0432-US, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0433-US, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0434-US, server: 107.151.182.253, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 34-0435-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0436-LT, server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
@@ -1595,6 +1595,7 @@ proxy-groups:
       - 34-0421-US
       - 34-0422-US
       - 34-0423-JP
+      - 34-0424-US
       - 34-0425-US
       - 34-0426-US
       - 34-0427-US
@@ -1603,7 +1604,6 @@ proxy-groups:
       - 34-0430-CA
       - 34-0431-US
       - 34-0432-US
-      - 34-0433-US
       - 34-0434-US
       - 34-0435-US
       - 34-0436-LT
@@ -2861,7 +2861,6 @@ proxy-groups:
       - 34-0418-RELAY
       - 34-0423-JP
       - 34-0428-US
-      - 34-0433-US
       - 34-0438-US
       - 34-0443-FR
       - 34-0448-LT
@@ -3085,6 +3084,7 @@ proxy-groups:
       - 34-0409-RELAY
       - 34-0414-RELAY
       - 34-0419-US
+      - 34-0424-US
       - 34-0429-US
       - 34-0434-US
       - 34-0439-NL
