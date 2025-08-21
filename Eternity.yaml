@@ -466,7 +466,7 @@ proxies:
   - {name: 34-0423-JP, server: 45.66.217.145, port: 50007, type: trojan, password: Aimer, sni: epgc.aimercc.dpdns.org, skip-cert-verify: true, udp: true}
   - {name: 34-0424-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0425-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0426-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-0427-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0428-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0429-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0430-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -1593,7 +1593,7 @@ proxy-groups:
       - 34-0423-JP
       - 34-0424-US
       - 34-0425-US
-      - 34-0426-US
+      - 34-0427-US
       - 34-0428-US
       - 34-0429-US
       - 34-0430-CA
@@ -2396,7 +2396,6 @@ proxy-groups:
       - 34-0411-RELAY
       - 34-0416-RELAY
       - 34-0421-US
-      - 34-0426-US
       - 34-0431-US
       - 34-0436-LT
       - 34-0441-AE
@@ -2627,6 +2626,7 @@ proxy-groups:
       - 34-0412-US
       - 34-0417-NL
       - 34-0422-US
+      - 34-0427-US
       - 34-0432-US
       - 34-0437-FR
       - 34-0442-AE
