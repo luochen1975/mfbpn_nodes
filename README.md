@@ -443,7 +443,7 @@ Fork from TopFreeProxies.
     trojan://Aimer@45.66.217.145:50007?allowInsecure=1&sni=epgc.aimercc.dpdns.org#34-0423-JP
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160:443#34-0424-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243:443#34-0425-US
-    ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.168:443#34-0426-US
+    ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170:443#34-0427-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167:443#34-0428-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169:443#34-0429-US
     ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@79.127.233.170:989#34-0430-CA
@@ -1153,11 +1153,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1161`
+合并节点总数: `1162`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [mfbpn_node](https://github.com/huanjk1/nodelist), 节点数量: `1161`
+- [mfbpn_node](https://github.com/huanjk1/nodelist), 节点数量: `1162`
 
 
 ## 仓库声明
