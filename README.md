@@ -441,6 +441,7 @@ Fork from TopFreeProxies.
     trojan://Aimer@172.235.54.221:443?allowInsecure=1&sni=epgc.aimercc.dpdns.org#34-0421-US
     trojan://Aimer@104.168.58.31:443?allowInsecure=1&sni=epgc.aimercc.dpdns.org#34-0422-US
     trojan://Aimer@45.66.217.145:50007?allowInsecure=1&sni=epgc.aimercc.dpdns.org#34-0423-JP
+    ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160:443#34-0424-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243:443#34-0425-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.168:443#34-0426-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170:443#34-0427-US
@@ -449,7 +450,6 @@ Fork from TopFreeProxies.
     ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@79.127.233.170:989#34-0430-CA
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.131:443#34-0431-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.130:443#34-0432-US
-    ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.6:443#34-0433-US
     ss://cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg@107.151.182.253:8080#34-0434-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.9:443#34-0435-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@45.87.175.171:8080#34-0436-LT
@@ -1157,11 +1157,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1164`
+合并节点总数: `1159`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [mfbpn_node](https://github.com/huanjk1/nodelist), 节点数量: `1164`
+- [mfbpn_node](https://github.com/huanjk1/nodelist), 节点数量: `1159`
 
 
 ## 仓库声明
