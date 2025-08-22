@@ -86,7 +86,7 @@ proxies:
   - {name: 34-033-KR, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 34-034-CN, server: 36.156.102.78, port: 15015, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 34-035-CN, server: 36.156.102.78, port: 14568, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true, udp: true}
-  - {name: 34-036-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@beesyar.org8080#34-151-LT, server: usa022.tmdns-sing.top, port: 13892, type: ss, cipher: aes-128-gcm, password: 6b1e5475-7661-4921-aa26-d11758b2f3f1, udp: true}
+  - {name: 34-036-US, server: usa022.tmdns-sing.top, port: 13892, type: ss, cipher: aes-128-gcm, password: 6b1e5475-7661-4921-aa26-d11758b2f3f1, udp: true}
   - {name: 34-038-CN, server: 36.156.102.125, port: 347, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 34-039-CN, server: 36.156.102.78, port: 22006, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 34-040-VN, server: yuenan01.tmdns-sing.top, port: 13875, type: ss, cipher: aes-128-gcm, password: 6b1e5475-7661-4921-aa26-d11758b2f3f1, udp: true}
@@ -164,10 +164,10 @@ proxies:
   - {name: 34-121-RELAY, server: 66.81.247.171, port: 8880, type: vmess, uuid: bac7eb53-3470-3af0-a69f-b0561333cda1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560"}, udp: true}
   - {name: 34-122-RELAY, server: 88.216.69.171, port: 8880, type: vmess, uuid: bac7eb53-3470-3af0-a69f-b0561333cda1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560"}, udp: true}
   - {name: 34-123-RELAY, server: 1000ip.yangmie.online, port: 8080, type: vmess, uuid: e9123cce-e4bd-46cf-8466-708b363a9807, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1000ip.yangmie.online}}, udp: true}
-  - {name: 34-124-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-125-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-126-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-127-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-128-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-129-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-130-US, server: 212.102.47.132, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-131-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -190,6 +190,7 @@ proxies:
   - {name: 34-148-GB, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-149-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 34-150-AE, server: 151.242.251.153, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
+  - {name: 34-151-AE, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: 34-152-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-153-GB, server: 212.102.53.195, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-154-NL, server: 193.29.139.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
@@ -204,7 +205,6 @@ proxies:
   - {name: 34-163-FR, server: 45.158.171.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-164-GB, server: 212.102.53.81, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-165-GB, server: uk-dc1.yangon.club, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-166-GB, server: 212.102.53.197, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-167-FR, server: 45.158.171.136, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: 34-168-GB, server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-169-NL, server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
@@ -808,7 +808,6 @@ proxies:
   - {name: 34-794-RELAY, server: 45.159.216.216, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, udp: true}
   - {name: 34-795-RELAY, server: 45.159.217.216, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, udp: true}
   - {name: 34-796-RELAY, server: 46.254.92.216, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, udp: true}
-  - {name: 34-797-US, server: 50.62.91.216, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, udp: true}
   - {name: 34-798-RELAY, server: 104.16.83.8, port: 443, type: trojan, password: Ng35283528, sni: c2.validbv3528.eu.org, skip-cert-verify: true, udp: true}
   - {name: 34-799-RELAY, server: 104.16.83.43, port: 443, type: trojan, password: Ng35283528, sni: c2.validbv3528.eu.org, skip-cert-verify: true, udp: true}
   - {name: 34-800-RELAY, server: 104.17.148.22, port: 8443, type: trojan, password: 13253e6e-a1f7-4090-801f-a8dc2b083bef, sni: inVinciBLe.fafa20.sHop, skip-cert-verify: true, udp: true}
@@ -868,7 +867,7 @@ proxy-groups:
       - 34-033-KR
       - 34-034-CN
       - 34-035-CN
-      - 34-036-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@beesyar.org8080#34-151-LT
+      - 34-036-US
       - 34-038-CN
       - 34-039-CN
       - 34-040-VN
@@ -946,10 +945,10 @@ proxy-groups:
       - 34-121-RELAY
       - 34-122-RELAY
       - 34-123-RELAY
-      - 34-124-US
       - 34-125-US
       - 34-126-US
       - 34-127-US
+      - 34-128-US
       - 34-129-US
       - 34-130-US
       - 34-131-US
@@ -972,6 +971,7 @@ proxy-groups:
       - 34-148-GB
       - 34-149-NL
       - 34-150-AE
+      - 34-151-AE
       - 34-152-NL
       - 34-153-GB
       - 34-154-NL
@@ -986,7 +986,6 @@ proxy-groups:
       - 34-163-FR
       - 34-164-GB
       - 34-165-GB
-      - 34-166-GB
       - 34-167-FR
       - 34-168-GB
       - 34-169-NL
@@ -1590,7 +1589,6 @@ proxy-groups:
       - 34-794-RELAY
       - 34-795-RELAY
       - 34-796-RELAY
-      - 34-797-US
       - 34-798-RELAY
       - 34-799-RELAY
       - 34-800-RELAY
@@ -1629,7 +1627,7 @@ proxy-groups:
       - 34-021-IE
       - 34-026-CN
       - 34-031-CN
-      - 34-036-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@beesyar.org8080#34-151-LT
+      - 34-036-US
       - 34-041-RELAY
       - 34-046-DE
       - 34-051-RELAY
@@ -1649,9 +1647,9 @@ proxy-groups:
       - 34-136-US
       - 34-141-US
       - 34-146-RELAY
+      - 34-151-AE
       - 34-156-US
       - 34-161-LT
-      - 34-166-GB
       - 34-171-GB
       - 34-176-CZ
       - 34-181-GB
@@ -1928,7 +1926,6 @@ proxy-groups:
       - 34-782-US
       - 34-787-RELAY
       - 34-792-RELAY
-      - 34-797-US
       - 34-802-CN
       - 34-807-RELAY
       - 34-812-KR
@@ -1959,6 +1956,7 @@ proxy-groups:
       - 34-113-RELAY
       - 34-118-CN
       - 34-123-RELAY
+      - 34-128-US
       - 34-133-US
       - 34-138-RELAY
       - 34-143-US
@@ -2119,7 +2117,6 @@ proxy-groups:
       - 34-109-RELAY
       - 34-114-DE
       - 34-119-RELAY
-      - 34-124-US
       - 34-129-US
       - 34-134-US
       - 34-139-RELAY
