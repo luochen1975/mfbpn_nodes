@@ -460,7 +460,6 @@ proxies:
   - {name: 34-0416-CA, server: 79.127.233.170, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0417-US, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0418-US, server: 212.102.47.132, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0419-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0420-US, server: 107.151.182.253, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 34-0421-US, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0422-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -468,6 +467,7 @@ proxies:
   - {name: 34-0424-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0425-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0426-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-0427-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0428-US, server: 45.55.2.232, port: 14293, type: ss, cipher: aes-256-cfb, password: 2170f8, udp: true}
   - {name: 34-0429-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0430-RELAY, server: rak1ding.89060004.xyz, port: 2083, type: vmess, uuid: 75d96365-1229-4fc4-dbda-855717f876cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rak1ding.89060004.xyz}}, udp: true}
@@ -1577,7 +1577,6 @@ proxy-groups:
       - 34-0416-CA
       - 34-0417-US
       - 34-0418-US
-      - 34-0419-US
       - 34-0420-US
       - 34-0421-US
       - 34-0422-CA
@@ -1585,6 +1584,7 @@ proxy-groups:
       - 34-0424-US
       - 34-0425-US
       - 34-0426-US
+      - 34-0427-US
       - 34-0428-US
       - 34-0429-US
       - 34-0430-RELAY
@@ -2596,6 +2596,7 @@ proxy-groups:
       - 34-0412-FR
       - 34-0417-US
       - 34-0422-CA
+      - 34-0427-US
       - 34-0432-US
       - 34-0437-RELAY
       - 34-0442-RELAY
@@ -3052,7 +3053,6 @@ proxy-groups:
       - 34-0404-US
       - 34-0409-NL
       - 34-0414-US
-      - 34-0419-US
       - 34-0424-US
       - 34-0429-US
       - 34-0434-RELAY
