@@ -437,7 +437,6 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@79.127.233.170:990#34-0416-CA
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.130:443#34-0417-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.132:443#34-0418-US
-    ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.131:443#34-0419-US
     ss://cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg@107.151.182.253:8080#34-0420-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.6:443#34-0421-US
     ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@79.127.233.170:989#34-0422-CA
@@ -445,6 +444,7 @@ Fork from TopFreeProxies.
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.168:443#34-0424-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167:443#34-0425-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169:443#34-0426-US
+    ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.9:443#34-0427-US
     ss://YWVzLTI1Ni1jZmI6MjE3MGY4@45.55.2.232:14293#34-0428-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160:443#34-0429-US
     vmess://eyJ2IjoiMiIsInBzIjoiMzQtMDQzMC1SRUxBWSIsImFkZCI6InJhazFkaW5nLjg5MDYwMDA0Lnh5eiIsInBvcnQiOiIyMDgzIiwidHlwZSI6Im5vbmUiLCJpZCI6Ijc1ZDk2MzY1LTEyMjktNGZjNC1kYmRhLTg1NTcxN2Y4NzZjZiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InJhazFkaW5nLjg5MDYwMDA0Lnh5eiIsInRscyI6InRscyJ9
@@ -1143,11 +1143,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1146`
+合并节点总数: `967`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [mfbpn_node](https://github.com/huanjk1/nodelist), 节点数量: `1146`
+- [mfbpn_node](https://github.com/huanjk1/nodelist), 节点数量: `967`
 
 
 ## 仓库声明
