@@ -196,6 +196,7 @@ proxies:
   - {name: 34-154-AE, server: 151.242.251.153, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-155-LT, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-156-FR, server: 45.158.171.136, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
+  - {name: 34-157-LT, server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: 34-158-FR, server: 45.158.171.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-159-NL, server: 193.29.139.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-160-IE, server: 34.244.73.113, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -412,7 +413,6 @@ proxies:
   - {name: 34-372-RU, server: 45.136.245.177, port: 23160, type: vmess, uuid: 47bd0459-723a-42cc-8f20-e81442759b30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 34-373-TW, server: cdntwa.xiaomispeed.com, port: 39765, type: trojan, password: a66c69cf-c8f5-436d-a7e7-efdbfd7143af, sni: cdntwa.xiaomispeed.com, skip-cert-verify: true, udp: true}
   - {name: 34-374-GR, server: 192.71.166.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-375-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-376-CN, server: v33.heduian.link, port: 30833, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v33.heduian.link}}, udp: true}
   - {name: 34-377-US, server: usa022.tmdns-sing.top, port: 13892, type: ss, cipher: aes-128-gcm, password: 6b1e5475-7661-4921-aa26-d11758b2f3f1, udp: true}
   - {name: 34-378-BR, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -1024,6 +1024,7 @@ proxy-groups:
       - 34-154-AE
       - 34-155-LT
       - 34-156-FR
+      - 34-157-LT
       - 34-158-FR
       - 34-159-NL
       - 34-160-IE
@@ -1240,7 +1241,6 @@ proxy-groups:
       - 34-372-RU
       - 34-373-TW
       - 34-374-GR
-      - 34-375-NL
       - 34-376-CN
       - 34-377-US
       - 34-378-BR
@@ -1911,6 +1911,7 @@ proxy-groups:
       - 34-142-CA
       - 34-147-FR
       - 34-152-LT
+      - 34-157-LT
       - 34-162-GB
       - 34-167-LT
       - 34-172-GB
@@ -2461,7 +2462,6 @@ proxy-groups:
       - 34-355-CN
       - 34-360-CN
       - 34-365-RELAY
-      - 34-375-NL
       - 34-380-CN
       - 34-385-RELAY
       - 34-390-RELAY
