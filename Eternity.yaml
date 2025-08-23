@@ -168,7 +168,7 @@ proxies:
   - {name: 34-125-MD, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-126-RELAY, server: 1000ip.yangmie.online, port: 8080, type: vmess, uuid: e9123cce-e4bd-46cf-8466-708b363a9807, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1000ip.yangmie.online}}, udp: true}
   - {name: 34-127-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-128-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-129-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-130-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-131-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-132-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -996,7 +996,7 @@ proxy-groups:
       - 34-125-MD
       - 34-126-RELAY
       - 34-127-US
-      - 34-128-US
+      - 34-129-US
       - 34-130-US
       - 34-131-US
       - 34-132-US
@@ -2070,7 +2070,6 @@ proxy-groups:
       - 34-113-SG
       - 34-118-MY
       - 34-123-HR
-      - 34-128-US
       - 34-133-US
       - 34-138-US
       - 34-143-US
@@ -2241,6 +2240,7 @@ proxy-groups:
       - 34-114-US
       - 34-119-CN
       - 34-124-US
+      - 34-129-US
       - 34-134-CA
       - 34-139-US
       - 34-144-US
