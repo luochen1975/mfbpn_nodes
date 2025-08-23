@@ -163,7 +163,6 @@ proxies:
   - {name: 34-121-RELAY, server: 1000ip.yangmie.online, port: 8080, type: vmess, uuid: e9123cce-e4bd-46cf-8466-708b363a9807, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1000ip.yangmie.online}}, udp: true}
   - {name: 34-122-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-123-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-124-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-125-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-126-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-127-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -173,6 +172,7 @@ proxies:
   - {name: 34-131-US, server: 212.102.47.132, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-132-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-133-US, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-134-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-135-US, server: 104.192.226.106, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-136-RELAY, server: rak1ding.89060004.xyz, port: 2083, type: vmess, uuid: 75d96365-1229-4fc4-dbda-855717f876cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rak1ding.89060004.xyz}}, udp: true}
   - {name: 34-137-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -985,7 +985,6 @@ proxy-groups:
       - 34-121-RELAY
       - 34-122-US
       - 34-123-US
-      - 34-124-US
       - 34-125-US
       - 34-126-US
       - 34-127-US
@@ -995,6 +994,7 @@ proxy-groups:
       - 34-131-US
       - 34-132-US
       - 34-133-US
+      - 34-134-US
       - 34-135-US
       - 34-136-RELAY
       - 34-137-CA
@@ -2227,8 +2227,8 @@ proxy-groups:
       - 34-109-IE
       - 34-114-RELAY
       - 34-119-RELAY
-      - 34-124-US
       - 34-129-CA
+      - 34-134-US
       - 34-139-US
       - 34-144-LT
       - 34-149-AE
