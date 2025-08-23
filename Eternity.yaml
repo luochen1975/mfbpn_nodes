@@ -162,7 +162,7 @@ proxies:
   - {name: 34-120-RELAY, server: 88.216.69.171, port: 8880, type: vmess, uuid: bac7eb53-3470-3af0-a69f-b0561333cda1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560"}, udp: true}
   - {name: 34-121-RELAY, server: 1000ip.yangmie.online, port: 8080, type: vmess, uuid: e9123cce-e4bd-46cf-8466-708b363a9807, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1000ip.yangmie.online}}, udp: true}
   - {name: 34-122-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-124-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-123-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-125-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-126-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-127-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -181,7 +181,6 @@ proxies:
   - {name: 34-140-LT, server: 45.87.175.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-141-FR, server: 45.158.171.70, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-142-FR, server: 45.158.171.110, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-  - {name: 34-143-AE, server: 151.242.251.144, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-144-LT, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 34-145-GB, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-146-LT, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
@@ -223,6 +222,7 @@ proxies:
   - {name: 34-182-NL, server: 193.29.139.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-183-AE, server: 151.242.251.131, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-184-CZ, server: 195.181.160.6, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 34-185-GB, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-186-SK, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-187-SE, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-188-NL, server: 164.92.156.41, port: 24206, type: ss, cipher: chacha20-ietf-poly1305, password: zI7kiNZ0UfV9cXB73a4nRD, udp: true}
@@ -958,7 +958,7 @@ proxy-groups:
       - 34-120-RELAY
       - 34-121-RELAY
       - 34-122-US
-      - 34-124-US
+      - 34-123-US
       - 34-125-US
       - 34-126-US
       - 34-127-US
@@ -977,7 +977,6 @@ proxy-groups:
       - 34-140-LT
       - 34-141-FR
       - 34-142-FR
-      - 34-143-AE
       - 34-144-LT
       - 34-145-GB
       - 34-146-LT
@@ -1019,6 +1018,7 @@ proxy-groups:
       - 34-182-NL
       - 34-183-AE
       - 34-184-CZ
+      - 34-185-GB
       - 34-186-SK
       - 34-187-SE
       - 34-188-NL
@@ -1997,10 +1997,10 @@ proxy-groups:
       - 34-108-RELAY
       - 34-113-RELAY
       - 34-118-US
+      - 34-123-US
       - 34-128-US
       - 34-133-US
       - 34-138-US
-      - 34-143-AE
       - 34-148-NL
       - 34-153-FR
       - 34-158-GB
@@ -2158,7 +2158,6 @@ proxy-groups:
       - 34-109-IE
       - 34-114-RELAY
       - 34-119-RELAY
-      - 34-124-US
       - 34-129-CA
       - 34-134-US
       - 34-139-US
@@ -2335,6 +2334,7 @@ proxy-groups:
       - 34-170-GB
       - 34-175-FR
       - 34-180-NO
+      - 34-185-GB
       - 34-190-NO
       - 34-195-CH
       - 34-200-RELAY
