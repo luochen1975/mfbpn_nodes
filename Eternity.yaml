@@ -168,7 +168,6 @@ proxies:
   - {name: 34-125-MD, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-126-RELAY, server: 1000ip.yangmie.online, port: 8080, type: vmess, uuid: e9123cce-e4bd-46cf-8466-708b363a9807, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1000ip.yangmie.online}}, udp: true}
   - {name: 34-127-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-128-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-129-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-130-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-131-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -348,6 +347,7 @@ proxies:
   - {name: 34-306-CH, server: sws.ftpcomand.com, port: 110, type: trojan, password: LG7HKcZFIJ, sni: sws.ftpcomand.com, skip-cert-verify: true, udp: true}
   - {name: 34-307-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 34-308-IE, server: 176.34.150.214, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 34-309-US, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-310-US, server: 107.151.182.253, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 34-311-SG, server: 180.215.130.123, port: 11584, type: vmess, uuid: 181472ed-0bb7-43be-dccb-74aca2b33ed5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 34-312-SG, server: 103.253.26.20, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -947,7 +947,6 @@ proxy-groups:
       - 34-125-MD
       - 34-126-RELAY
       - 34-127-US
-      - 34-128-US
       - 34-129-US
       - 34-130-US
       - 34-131-US
@@ -1127,6 +1126,7 @@ proxy-groups:
       - 34-306-CH
       - 34-307-CA
       - 34-308-IE
+      - 34-309-US
       - 34-310-US
       - 34-311-SG
       - 34-312-SG
@@ -1953,7 +1953,6 @@ proxy-groups:
       - 34-113-SG
       - 34-118-MY
       - 34-123-HR
-      - 34-128-US
       - 34-133-US
       - 34-138-US
       - 34-143-US
@@ -2149,6 +2148,7 @@ proxy-groups:
       - 34-294-NL
       - 34-299-US
       - 34-304-US
+      - 34-309-US
       - 34-314-SG
       - 34-319-RELAY
       - 34-324-RELAY
