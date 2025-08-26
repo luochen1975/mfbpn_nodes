@@ -186,7 +186,6 @@ proxies:
   - {name: 34-0144-LT, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 34-0145-FR, server: 45.158.171.110, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0146-LT, server: 45.87.175.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-  - {name: 34-0147-AE, server: 151.242.251.144, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-0148-LT, server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: 34-0149-NL, server: 193.29.139.179, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 34-0150-NL, server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
@@ -203,7 +202,7 @@ proxies:
   - {name: 34-0161-LT, server: 45.87.175.92, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0162-NL, server: 193.29.139.240, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0163-FR, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-0164-AE, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 34-0164-LT, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-0165-NL, server: 193.29.139.227, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-0166-CZ, server: 195.181.160.6, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0167-FR, server: 45.158.171.66, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
@@ -282,6 +281,7 @@ proxies:
   - {name: 34-0240-CO, server: 154.223.16.212, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0241-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 34-0242-RELAY, server: 205.233.181.3, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 34-0243-LT, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-0244-TW, server: 125.228.162.233, port: 10145, type: ss, cipher: chacha20-ietf-poly1305, password: ae223226-ead3-450c-b4dc-803072b2decb, udp: true}
   - {name: 34-0245-HR, server: 46.183.184.60, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0246-GR, server: 192.71.166.102, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -434,7 +434,7 @@ proxies:
   - {name: 34-0393-TW, server: 36.232.106.237, port: 10131, type: ss, cipher: chacha20-ietf-poly1305, password: 3b90ab29-4a87-4d3c-8334-449cf3df0a75, udp: true}
   - {name: 34-0394-TW, server: 114.46.88.93, port: 10012, type: ss, cipher: chacha20-ietf-poly1305, password: b12d7bef-dbe6-4eca-bc40-9a2333dcf918, udp: true}
   - {name: 34-0395-TW, server: 118.170.220.53, port: 10028, type: ss, cipher: chacha20-ietf-poly1305, password: 2663374d-ebd2-4cea-b3bd-fb274b857632, udp: true}
-  - {name: 34-0396-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243443#34-0122-US, server: 114.46.92.220, port: 10038, type: ss, cipher: chacha20-ietf-poly1305, password: b79d6a0c-9b90-4f39-8755-b7f4f84d4042, udp: true}
+  - {name: 34-0396-TW, server: 114.46.92.220, port: 10038, type: ss, cipher: chacha20-ietf-poly1305, password: b79d6a0c-9b90-4f39-8755-b7f4f84d4042, udp: true}
   - {name: 34-0397-TW, server: 125.229.88.58, port: 10121, type: ss, cipher: chacha20-ietf-poly1305, password: d45329b9-8a29-41a0-8101-7f9cab1a773a, udp: true}
   - {name: 34-0398-TW, server: 1.170.41.78, port: 10101, type: ss, cipher: chacha20-ietf-poly1305, password: 8a83c67e-9d6d-4f40-8617-fbdb5f0dba76, udp: true}
   - {name: 34-0399-TW, server: 125.228.34.244, port: 10105, type: ss, cipher: chacha20-ietf-poly1305, password: 99a82766-3973-4bc0-8b5b-e04327db4bb7, udp: true}
@@ -866,7 +866,6 @@ proxies:
   - {name: 34-0835-HK, server: gy.58n.net, port: 20071, type: trojan, password: a6ba0ada-cef1-3009-98dc-a1300ca76ed6, sni: x71.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 34-0836-HK, server: gy.58n.net, port: 20076, type: trojan, password: a6ba0ada-cef1-3009-98dc-a1300ca76ed6, sni: x76.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 34-0837-HK, server: gyl.58n.net, port: 20309, type: trojan, password: a6ba0ada-cef1-3009-98dc-a1300ca76ed6, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 34-0838-HK, server: gy.58n.net, port: 43337, type: trojan, password: a6ba0ada-cef1-3009-98dc-a1300ca76ed6, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 34-0839-HK, server: gy.58n.net, port: 20307, type: trojan, password: a6ba0ada-cef1-3009-98dc-a1300ca76ed6, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 34-0840-HK, server: gy.58n.net, port: 28678, type: trojan, password: a6ba0ada-cef1-3009-98dc-a1300ca76ed6, sni: z143.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 34-0841-HK, server: gy.58n.net, port: 24603, type: trojan, password: a6ba0ada-cef1-3009-98dc-a1300ca76ed6, sni: z259.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -1330,7 +1329,6 @@ proxy-groups:
       - 34-0144-LT
       - 34-0145-FR
       - 34-0146-LT
-      - 34-0147-AE
       - 34-0148-LT
       - 34-0149-NL
       - 34-0150-NL
@@ -1347,7 +1345,7 @@ proxy-groups:
       - 34-0161-LT
       - 34-0162-NL
       - 34-0163-FR
-      - 34-0164-AE
+      - 34-0164-LT
       - 34-0165-NL
       - 34-0166-CZ
       - 34-0167-FR
@@ -1426,6 +1424,7 @@ proxy-groups:
       - 34-0240-CO
       - 34-0241-HK
       - 34-0242-RELAY
+      - 34-0243-LT
       - 34-0244-TW
       - 34-0245-HR
       - 34-0246-GR
@@ -1578,7 +1577,7 @@ proxy-groups:
       - 34-0393-TW
       - 34-0394-TW
       - 34-0395-TW
-      - 34-0396-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243443#34-0122-US
+      - 34-0396-TW
       - 34-0397-TW
       - 34-0398-TW
       - 34-0399-TW
@@ -2010,7 +2009,6 @@ proxy-groups:
       - 34-0835-HK
       - 34-0836-HK
       - 34-0837-HK
-      - 34-0838-HK
       - 34-0839-HK
       - 34-0840-HK
       - 34-0841-HK
@@ -2424,7 +2422,7 @@ proxy-groups:
       - 34-0381-RELAY
       - 34-0386-TW
       - 34-0391-TW
-      - 34-0396-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243443#34-0122-US
+      - 34-0396-TW
       - 34-0401-CN
       - 34-0406-GR
       - 34-0411-RU
@@ -2608,7 +2606,6 @@ proxy-groups:
       - 34-0132-CA
       - 34-0137-LT
       - 34-0142-LT
-      - 34-0147-AE
       - 34-0152-AE
       - 34-0157-NL
       - 34-0162-NL
@@ -2658,7 +2655,6 @@ proxy-groups:
       - 34-0382-TW
       - 34-0387-RELAY
       - 34-0392-TW
-      - 34-0396-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243443#34-0122-US
       - 34-0397-TW
       - 34-0402-RELAY
       - 34-0407-RELAY
@@ -2860,6 +2856,7 @@ proxy-groups:
       - 34-0228-CH
       - 34-0233-DK
       - 34-0238-FR
+      - 34-0243-LT
       - 34-0248-BR
       - 34-0253-RELAY
       - 34-0258-LT
@@ -2977,7 +2974,6 @@ proxy-groups:
       - 34-0823-HK
       - 34-0828-HK
       - 34-0833-HK
-      - 34-0838-HK
       - 34-0843-HK
       - 34-0848-HK
       - 34-0853-HK
@@ -3074,7 +3070,7 @@ proxy-groups:
       - 34-0149-NL
       - 34-0154-LT
       - 34-0159-NL
-      - 34-0164-AE
+      - 34-0164-LT
       - 34-0169-GB
       - 34-0174-AT
       - 34-0179-NO
