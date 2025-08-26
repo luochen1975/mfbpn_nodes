@@ -69,7 +69,7 @@ proxies:
   - {name: 34-0013-SE, server: 45.91.171.116, port: 443, type: trojan, password: 2ee85121-31de-4581-a492-eb00f606e392, sni: sto.freeguard.org, skip-cert-verify: true, udp: true}
   - {name: 34-0014-TR, server: 77.83.245.190, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: haQpIdcLwwtb, udp: true}
   - {name: 34-0015-CN, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}, udp: true}
-  - {name: 34-0016-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.9443#34-0130-US, server: japan001.tmdns-sing.top, port: 13890, type: ss, cipher: aes-128-gcm, password: 6b1e5475-7661-4921-aa26-d11758b2f3f1, udp: true}
+  - {name: "34-0016-JPtrojan//xxoo@us.blazeppn.info443?allowInsecure=1&sni=us.blazeppn.info#34-0128-US", server: japan001.tmdns-sing.top, port: 13890, type: ss, cipher: aes-128-gcm, password: 6b1e5475-7661-4921-aa26-d11758b2f3f1, udp: true}
   - {name: 34-0017-RELAY, server: 45.80.110.216, port: 2096, type: trojan, password: ttfang, skip-cert-verify: true, udp: true}
   - {name: 34-0018-VN, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
   - {name: 34-0019-JP, server: japan001.tmdns-sing.top, port: 13890, type: ss, cipher: aes-128-gcm, password: 6b1e5475-7661-4921-aa26-d11758b2f3f1, udp: true}
@@ -168,8 +168,8 @@ proxies:
   - {name: 34-0125-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0126-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: 3d76ac40-80c4-11f0-b432-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, udp: true}
   - {name: 34-0127-US, server: 64.74.163.130, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-0128-US, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, sni: us.blazeppn.info, skip-cert-verify: true, udp: true}
   - {name: 34-0129-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-0130-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0131-CA, server: 79.127.233.170, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0132-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0133-US, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -203,7 +203,8 @@ proxies:
   - {name: 34-0161-LT, server: 45.87.175.92, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0162-NL, server: 193.29.139.240, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0163-FR, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-0164-AE, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 34-0164-LT, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 34-0165-NL, server: 193.29.139.227, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-0166-CZ, server: 195.181.160.6, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0167-FR, server: 45.158.171.66, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0168-GB, server: 212.102.53.78, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -281,7 +282,6 @@ proxies:
   - {name: 34-0240-CO, server: 154.223.16.212, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0241-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 34-0242-RELAY, server: 205.233.181.3, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 34-0243-LT, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-0244-TW, server: 125.228.162.233, port: 10145, type: ss, cipher: chacha20-ietf-poly1305, password: ae223226-ead3-450c-b4dc-803072b2decb, udp: true}
   - {name: 34-0245-HR, server: 46.183.184.60, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0246-GR, server: 192.71.166.102, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -1224,7 +1224,7 @@ proxy-groups:
       - 34-0013-SE
       - 34-0014-TR
       - 34-0015-CN
-      - 34-0016-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.9443#34-0130-US
+      - 34-0016-JPtrojan//xxoo@us.blazeppn.info443?allowInsecure=1&sni=us.blazeppn.info#34-0128-US
       - 34-0017-RELAY
       - 34-0018-VN
       - 34-0019-JP
@@ -1323,8 +1323,8 @@ proxy-groups:
       - 34-0125-US
       - 34-0126-RELAY
       - 34-0127-US
-      - 34-0128-US
       - 34-0129-US
+      - 34-0130-US
       - 34-0131-CA
       - 34-0132-CA
       - 34-0133-US
@@ -1358,7 +1358,8 @@ proxy-groups:
       - 34-0161-LT
       - 34-0162-NL
       - 34-0163-FR
-      - 34-0164-AE
+      - 34-0164-LT
+      - 34-0165-NL
       - 34-0166-CZ
       - 34-0167-FR
       - 34-0168-GB
@@ -1436,7 +1437,6 @@ proxy-groups:
       - 34-0240-CO
       - 34-0241-HK
       - 34-0242-RELAY
-      - 34-0243-LT
       - 34-0244-TW
       - 34-0245-HR
       - 34-0246-GR
@@ -2371,7 +2371,7 @@ proxy-groups:
       - 34-0001-CN
       - 34-0006-RELAY
       - 34-0011-RELAY
-      - 34-0016-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.9443#34-0130-US
+      - 34-0016-JPtrojan//xxoo@us.blazeppn.info443?allowInsecure=1&sni=us.blazeppn.info#34-0128-US
       - 34-0021-RELAY
       - 34-0026-RELAY
       - 34-0031-HK
@@ -2843,6 +2843,7 @@ proxy-groups:
       - 34-0003-RELAY
       - 34-0008-RELAY
       - 34-0013-SE
+      - 34-0016-JPtrojan//xxoo@us.blazeppn.info443?allowInsecure=1&sni=us.blazeppn.info#34-0128-US
       - 34-0018-VN
       - 34-0023-RELAY
       - 34-0028-CN
@@ -2863,7 +2864,6 @@ proxy-groups:
       - 34-0113-CN
       - 34-0118-US
       - 34-0123-US
-      - 34-0128-US
       - 34-0133-US
       - 34-0138-LT
       - 34-0143-NL
@@ -2886,7 +2886,6 @@ proxy-groups:
       - 34-0228-CH
       - 34-0233-DK
       - 34-0238-FR
-      - 34-0243-LT
       - 34-0248-BR
       - 34-0253-RELAY
       - 34-0258-LT
@@ -3101,7 +3100,7 @@ proxy-groups:
       - 34-0149-NL
       - 34-0154-LT
       - 34-0159-NL
-      - 34-0164-AE
+      - 34-0164-LT
       - 34-0169-GB
       - 34-0174-AT
       - 34-0179-NO
@@ -3311,7 +3310,6 @@ proxy-groups:
       - 34-0005-RELAY
       - 34-0010-RELAY
       - 34-0015-CN
-      - 34-0016-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.9443#34-0130-US
       - 34-0020-RELAY
       - 34-0025-RELAY
       - 34-0030-CN
@@ -3329,12 +3327,14 @@ proxy-groups:
       - 34-0115-SK
       - 34-0120-RELAY
       - 34-0125-US
+      - 34-0130-US
       - 34-0135-US
       - 34-0140-LT
       - 34-0145-FR
       - 34-0150-NL
       - 34-0155-LT
       - 34-0160-LT
+      - 34-0165-NL
       - 34-0170-GB
       - 34-0175-GB
       - 34-0180-NL
