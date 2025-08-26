@@ -69,7 +69,7 @@ proxies:
   - {name: 34-0013-SE, server: 45.91.171.116, port: 443, type: trojan, password: 2ee85121-31de-4581-a492-eb00f606e392, sni: sto.freeguard.org, skip-cert-verify: true, udp: true}
   - {name: 34-0014-TR, server: 77.83.245.190, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: haQpIdcLwwtb, udp: true}
   - {name: 34-0015-CN, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}, udp: true}
-  - {name: "34-0016-JPtrojan//xxoo@us.blazeppn.info443?allowInsecure=1&sni=us.blazeppn.info#34-0128-US", server: japan001.tmdns-sing.top, port: 13890, type: ss, cipher: aes-128-gcm, password: 6b1e5475-7661-4921-aa26-d11758b2f3f1, udp: true}
+  - {name: 34-0016-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.9443#34-0130-US, server: japan001.tmdns-sing.top, port: 13890, type: ss, cipher: aes-128-gcm, password: 6b1e5475-7661-4921-aa26-d11758b2f3f1, udp: true}
   - {name: 34-0017-RELAY, server: 45.80.110.216, port: 2096, type: trojan, password: ttfang, skip-cert-verify: true, udp: true}
   - {name: 34-0018-VN, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
   - {name: 34-0019-JP, server: japan001.tmdns-sing.top, port: 13890, type: ss, cipher: aes-128-gcm, password: 6b1e5475-7661-4921-aa26-d11758b2f3f1, udp: true}
@@ -168,8 +168,8 @@ proxies:
   - {name: 34-0125-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0126-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: 3d76ac40-80c4-11f0-b432-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, udp: true}
   - {name: 34-0127-US, server: 64.74.163.130, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 34-0128-US, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, sni: us.blazeppn.info, skip-cert-verify: true, udp: true}
   - {name: 34-0129-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0130-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0131-CA, server: 79.127.233.170, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0132-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0133-US, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -1224,7 +1224,7 @@ proxy-groups:
       - 34-0013-SE
       - 34-0014-TR
       - 34-0015-CN
-      - 34-0016-JPtrojan//xxoo@us.blazeppn.info443?allowInsecure=1&sni=us.blazeppn.info#34-0128-US
+      - 34-0016-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.9443#34-0130-US
       - 34-0017-RELAY
       - 34-0018-VN
       - 34-0019-JP
@@ -1323,8 +1323,8 @@ proxy-groups:
       - 34-0125-US
       - 34-0126-RELAY
       - 34-0127-US
+      - 34-0128-US
       - 34-0129-US
-      - 34-0130-US
       - 34-0131-CA
       - 34-0132-CA
       - 34-0133-US
@@ -2371,7 +2371,7 @@ proxy-groups:
       - 34-0001-CN
       - 34-0006-RELAY
       - 34-0011-RELAY
-      - 34-0016-JPtrojan//xxoo@us.blazeppn.info443?allowInsecure=1&sni=us.blazeppn.info#34-0128-US
+      - 34-0016-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.9443#34-0130-US
       - 34-0021-RELAY
       - 34-0026-RELAY
       - 34-0031-HK
@@ -2843,7 +2843,6 @@ proxy-groups:
       - 34-0003-RELAY
       - 34-0008-RELAY
       - 34-0013-SE
-      - 34-0016-JPtrojan//xxoo@us.blazeppn.info443?allowInsecure=1&sni=us.blazeppn.info#34-0128-US
       - 34-0018-VN
       - 34-0023-RELAY
       - 34-0028-CN
@@ -2864,6 +2863,7 @@ proxy-groups:
       - 34-0113-CN
       - 34-0118-US
       - 34-0123-US
+      - 34-0128-US
       - 34-0133-US
       - 34-0138-LT
       - 34-0143-NL
@@ -3311,6 +3311,7 @@ proxy-groups:
       - 34-0005-RELAY
       - 34-0010-RELAY
       - 34-0015-CN
+      - 34-0016-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.9443#34-0130-US
       - 34-0020-RELAY
       - 34-0025-RELAY
       - 34-0030-CN
@@ -3328,7 +3329,6 @@ proxy-groups:
       - 34-0115-SK
       - 34-0120-RELAY
       - 34-0125-US
-      - 34-0130-US
       - 34-0135-US
       - 34-0140-LT
       - 34-0145-FR
