@@ -148,10 +148,10 @@ proxies:
   - {name: 34-0101-US, server: usa022.tmdns-sing.top, port: 13892, type: ss, cipher: aes-128-gcm, password: 6b1e5475-7661-4921-aa26-d11758b2f3f1, udp: true}
   - {name: 34-0102-MD, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0103-RELAY, server: 1000ip.yangmie.online, port: 8080, type: vmess, uuid: e9123cce-e4bd-46cf-8466-708b363a9807, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1000ip.yangmie.online}}, udp: true}
+  - {name: 34-0104-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0105-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0106-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0107-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0108-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0109-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: 3d76ac40-80c4-11f0-b432-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, udp: true}
   - {name: 34-0110-US, server: 64.74.163.130, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0111-US, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, sni: us.blazeppn.info, skip-cert-verify: true, udp: true}
@@ -173,6 +173,7 @@ proxies:
   - {name: 34-0127-LT, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 34-0128-FR, server: 45.158.171.110, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0129-LT, server: 45.87.175.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: 34-0130-AE, server: 151.242.251.144, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-0131-LT, server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: 34-0132-NL, server: 193.29.139.179, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 34-0133-NL, server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
@@ -184,7 +185,6 @@ proxies:
   - {name: 34-0139-LT, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-0140-NL, server: 193.29.139.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-0141-FR, server: 45.158.171.70, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-  - {name: 34-0142-NL, server: 193.29.139.138, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-0143-LT, server: 45.87.175.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0144-LT, server: 45.87.175.92, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0145-NL, server: 193.29.139.240, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
@@ -875,7 +875,7 @@ proxies:
   - {name: 34-0853-TW, server: 36.232.85.67, port: 10143, type: ss, cipher: chacha20-ietf-poly1305, password: 517d8f0a-6636-42f2-8580-62c94779d7ba, udp: true}
   - {name: 34-0854-TW, server: 125.228.180.215, port: 10089, type: ss, cipher: chacha20-ietf-poly1305, password: ad14ac91-6101-4888-9d17-ca11150d823e, udp: true}
   - {name: 34-0855-TW, server: 36.235.20.162, port: 10117, type: ss, cipher: chacha20-ietf-poly1305, password: 26997e99-57a0-48e3-8aea-8cebab89fecd, udp: true}
-  - {name: 34-0856-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-0104-US, server: 36.232.94.130, port: 10136, type: ss, cipher: chacha20-ietf-poly1305, password: 1c2fa5ce-bb64-4e10-8b22-fa5d81c095fd, udp: true}
+  - {name: 34-0856-TW, server: 36.232.94.130, port: 10136, type: ss, cipher: chacha20-ietf-poly1305, password: 1c2fa5ce-bb64-4e10-8b22-fa5d81c095fd, udp: true}
   - {name: 34-0857-TW, server: 36.232.75.180, port: 10124, type: ss, cipher: chacha20-ietf-poly1305, password: 26997e99-57a0-48e3-8aea-8cebab89fecd, udp: true}
   - {name: 34-0858-TW, server: 1.165.83.47, port: 10025, type: ss, cipher: chacha20-ietf-poly1305, password: bc60ddcd-d5bc-4212-a319-7dd59e991d25, udp: true}
   - {name: 34-0859-TW, server: 114.33.53.80, port: 10047, type: ss, cipher: chacha20-ietf-poly1305, password: c13cbbd6-3630-4800-bf20-bec5f81497e9, udp: true}
@@ -910,7 +910,7 @@ proxies:
   - {name: 34-0889-TR, server: 83.217.9.120, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 7bO8akoRoM2M, udp: true}
   - {name: 34-0890-DE, server: 91.99.210.3, port: 31412, type: ss, cipher: 2022-blake3-aes-256-gcm, password: 5oEPxEBMFwO2n+UkBdy7BXtHSR8V9eEKPX5drffWnGw=:U2BAUGCRDlDsp+0i5ez96qZABcz1ECAyddHAUJK4iFg=, udp: true}
   - {name: 34-0891-RELAY, server: 104.26.4.60, port: 443, type: trojan, password: bpb-trojan, sni: zamim340.ggff.net, skip-cert-verify: true, udp: true}
-  - {name: 34-0892-SG, server: 165.22.61.177, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: GhYEufnq9M9yvgAc1ylvfq, udp: true}
+  - {name: 34-0892-SGss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167443#34-0108-US, server: 165.22.61.177, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: GhYEufnq9M9yvgAc1ylvfq, udp: true}
   - {name: 34-0893-CN, server: free-relay.t01.themars.top, port: 49901, type: ss, cipher: chacha20-ietf-poly1305, password: c376082c-95c3-452e-88e4-6bb6a5daab41, udp: true}
   - {name: 34-0894-CN, server: awes35lesl.blhao0o.dpdns.org, port: 12020, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
   - {name: 34-0895-CN, server: tun.tuzivip.pw, port: 47296, type: ss, cipher: chacha20-ietf-poly1305, password: fe8858b3-715a-4442-a99d-5bf3be4cb17b, udp: true}
@@ -1136,10 +1136,10 @@ proxy-groups:
       - 34-0101-US
       - 34-0102-MD
       - 34-0103-RELAY
+      - 34-0104-US
       - 34-0105-US
       - 34-0106-US
       - 34-0107-US
-      - 34-0108-US
       - 34-0109-RELAY
       - 34-0110-US
       - 34-0111-US
@@ -1161,6 +1161,7 @@ proxy-groups:
       - 34-0127-LT
       - 34-0128-FR
       - 34-0129-LT
+      - 34-0130-AE
       - 34-0131-LT
       - 34-0132-NL
       - 34-0133-NL
@@ -1172,7 +1173,6 @@ proxy-groups:
       - 34-0139-LT
       - 34-0140-NL
       - 34-0141-FR
-      - 34-0142-NL
       - 34-0143-LT
       - 34-0144-LT
       - 34-0145-NL
@@ -1863,7 +1863,7 @@ proxy-groups:
       - 34-0853-TW
       - 34-0854-TW
       - 34-0855-TW
-      - 34-0856-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-0104-US
+      - 34-0856-TW
       - 34-0857-TW
       - 34-0858-TW
       - 34-0859-TW
@@ -1898,7 +1898,7 @@ proxy-groups:
       - 34-0889-TR
       - 34-0890-DE
       - 34-0891-RELAY
-      - 34-0892-SG
+      - 34-0892-SGss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167443#34-0108-US
       - 34-0893-CN
       - 34-0894-CN
       - 34-0895-CN
@@ -2199,7 +2199,7 @@ proxy-groups:
       - 34-0841-TW
       - 34-0846-TW
       - 34-0851-TW
-      - 34-0856-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-0104-US
+      - 34-0856-TW
       - 34-0861-TW
       - 34-0866-TW
       - 34-0871-TW
@@ -2262,7 +2262,6 @@ proxy-groups:
       - 34-0127-LT
       - 34-0132-NL
       - 34-0137-LT
-      - 34-0142-NL
       - 34-0147-LT
       - 34-0152-GB
       - 34-0157-AT
@@ -2408,7 +2407,7 @@ proxy-groups:
       - 34-0877-TW
       - 34-0882-TW
       - 34-0887-CN
-      - 34-0892-SG
+      - 34-0892-SGss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167443#34-0108-US
       - 34-0897-FR
       - 34-0902-RELAY
       - 34-0907-RELAY
@@ -2454,7 +2453,6 @@ proxy-groups:
       - 34-0078-RELAY
       - 34-0098-SK
       - 34-0103-RELAY
-      - 34-0108-US
       - 34-0113-US
       - 34-0118-US
       - 34-0123-LT
@@ -2606,6 +2604,7 @@ proxy-groups:
       - 34-0878-TW
       - 34-0883-TW
       - 34-0888-HK
+      - 34-0892-SGss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167443#34-0108-US
       - 34-0893-CN
       - 34-0898-RELAY
       - 34-0903-RELAY
@@ -2653,6 +2652,7 @@ proxy-groups:
       - 34-0089-CN
       - 34-0094-CN
       - 34-0099-CN
+      - 34-0104-US
       - 34-0109-RELAY
       - 34-0114-CA
       - 34-0119-US
@@ -2799,7 +2799,6 @@ proxy-groups:
       - 34-0844-TW
       - 34-0849-TW
       - 34-0854-TW
-      - 34-0856-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160443#34-0104-US
       - 34-0859-TW
       - 34-0864-TW
       - 34-0869-TW
@@ -2861,6 +2860,7 @@ proxy-groups:
       - 34-0115-CA
       - 34-0120-LT
       - 34-0125-LT
+      - 34-0130-AE
       - 34-0135-AE
       - 34-0140-NL
       - 34-0145-NL
