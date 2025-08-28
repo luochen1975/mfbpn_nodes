@@ -164,7 +164,7 @@ Fork from TopFreeProxies.
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170:443#34-0141-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.181:8080#34-0142-LT
     ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@104.192.226.106:989#34-0143-US
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@beesyar.org:8080#34-0144-LT
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@beesyar.org:8080#34-0144-AE
     vmess://eyJ2IjoiMiIsInBzIjoiMzQtMDE0NS1SRUxBWSIsImFkZCI6InJhazFkaW5nLjg5MDYwMDA0Lnh5eiIsInBvcnQiOiIyMDgzIiwidHlwZSI6Im5vbmUiLCJpZCI6Ijc1ZDk2MzY1LTEyMjktNGZjNC1kYmRhLTg1NTcxN2Y4NzZjZiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InJhazFkaW5nLjg5MDYwMDA0Lnh5eiIsInRscyI6InRscyJ9
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.53.79:443#34-0146-GB
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.213.23.226:990#34-0147-NO
@@ -1159,11 +1159,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1155`
+合并节点总数: `1143`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [mfbpn_node](https://github.com/huanjk1/nodelist), 节点数量: `1155`
+- [mfbpn_node](https://github.com/huanjk1/nodelist), 节点数量: `1143`
 
 
 ## 仓库声明
