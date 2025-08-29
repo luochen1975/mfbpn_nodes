@@ -147,6 +147,7 @@ proxies:
   - {name: 34-0099-US, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 34-0100-CA, server: 79.127.233.170, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0101-US, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-0102-US, server: 212.102.47.132, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0103-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0104-US, server: 107.151.182.253, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 34-0105-US, server: 104.192.226.106, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -157,7 +158,6 @@ proxies:
   - {name: 34-0110-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0111-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0112-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0113-US, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, sni: us.blazeppn.info, skip-cert-verify: true, udp: true}
   - {name: 34-0114-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0115-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 34-0116-US, server: 64.74.163.130, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -173,15 +173,15 @@ proxies:
   - {name: 34-0126-NL, server: 103.104.247.49, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0127-LT, server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: 34-0128-LT, server: 45.87.175.69, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-  - {name: 34-0129-NL, server: 193.29.139.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-0130-AE, server: 151.242.251.144, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-0131-LT, server: 45.87.175.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0132-NL, server: 193.29.139.227, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-0133-LT, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-0134-AE, server: 151.242.251.131, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-  - {name: 34-0135-LT, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 34-0135-AE, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-0136-LT, server: 45.87.175.65, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0137-FR, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 34-0138-FR, server: 45.158.171.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-0139-FR, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0140-LT, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-0141-NL, server: 193.29.139.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
@@ -915,7 +915,7 @@ proxies:
   - {name: 34-0892-TR, server: 83.217.9.120, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 7bO8akoRoM2M, udp: true}
   - {name: 34-0893-DE, server: 91.99.210.3, port: 31412, type: ss, cipher: 2022-blake3-aes-256-gcm, password: 5oEPxEBMFwO2n+UkBdy7BXtHSR8V9eEKPX5drffWnGw=:U2BAUGCRDlDsp+0i5ez96qZABcz1ECAyddHAUJK4iFg=, udp: true}
   - {name: 34-0894-RELAY, server: 104.26.4.60, port: 443, type: trojan, password: bpb-trojan, sni: zamim340.ggff.net, skip-cert-verify: true, udp: true}
-  - {name: 34-0895-SGss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.132443#34-0102-US, server: 165.22.61.177, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: GhYEufnq9M9yvgAc1ylvfq, udp: true}
+  - {name: "34-0895-SGtrojan//xxoo@us.blazeppn.info443?allowInsecure=1&sni=us.blazeppn.info#34-0113-US", server: 165.22.61.177, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: GhYEufnq9M9yvgAc1ylvfq, udp: true}
   - {name: 34-0896-CN, server: free-relay.t01.themars.top, port: 49901, type: ss, cipher: chacha20-ietf-poly1305, password: c376082c-95c3-452e-88e4-6bb6a5daab41, udp: true}
   - {name: 34-0897-CN, server: awes35lesl.blhao0o.dpdns.org, port: 12020, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
   - {name: 34-0898-CN, server: tun.tuzivip.pw, port: 47296, type: ss, cipher: chacha20-ietf-poly1305, password: fe8858b3-715a-4442-a99d-5bf3be4cb17b, udp: true}
@@ -1140,6 +1140,7 @@ proxy-groups:
       - 34-0099-US
       - 34-0100-CA
       - 34-0101-US
+      - 34-0102-US
       - 34-0103-US
       - 34-0104-US
       - 34-0105-US
@@ -1150,7 +1151,6 @@ proxy-groups:
       - 34-0110-US
       - 34-0111-US
       - 34-0112-US
-      - 34-0113-US
       - 34-0114-US
       - 34-0115-CA
       - 34-0116-US
@@ -1166,15 +1166,15 @@ proxy-groups:
       - 34-0126-NL
       - 34-0127-LT
       - 34-0128-LT
-      - 34-0129-NL
       - 34-0130-AE
       - 34-0131-LT
       - 34-0132-NL
       - 34-0133-LT
       - 34-0134-AE
-      - 34-0135-LT
+      - 34-0135-AE
       - 34-0136-LT
       - 34-0137-FR
+      - 34-0138-FR
       - 34-0139-FR
       - 34-0140-LT
       - 34-0141-NL
@@ -1908,7 +1908,7 @@ proxy-groups:
       - 34-0892-TR
       - 34-0893-DE
       - 34-0894-RELAY
-      - 34-0895-SGss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.132443#34-0102-US
+      - 34-0895-SGtrojan//xxoo@us.blazeppn.info443?allowInsecure=1&sni=us.blazeppn.info#34-0113-US
       - 34-0896-CN
       - 34-0897-CN
       - 34-0898-CN
@@ -2265,6 +2265,7 @@ proxy-groups:
       - 34-0087-RELAY
       - 34-0092-RELAY
       - 34-0097-US
+      - 34-0102-US
       - 34-0107-US
       - 34-0112-US
       - 34-0117-US
@@ -2419,7 +2420,6 @@ proxy-groups:
       - 34-0882-TW
       - 34-0887-TW
       - 34-0892-TR
-      - 34-0895-SGss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.132443#34-0102-US
       - 34-0897-CN
       - 34-0902-US
       - 34-0907-RELAY
@@ -2469,11 +2469,11 @@ proxy-groups:
       - 34-0098-CA
       - 34-0103-US
       - 34-0108-US
-      - 34-0113-US
       - 34-0118-JP
       - 34-0123-AE
       - 34-0128-LT
       - 34-0133-LT
+      - 34-0138-FR
       - 34-0143-LT
       - 34-0148-GB
       - 34-0153-GB
@@ -2622,6 +2622,7 @@ proxy-groups:
       - 34-0883-TW
       - 34-0888-TW
       - 34-0893-DE
+      - 34-0895-SGtrojan//xxoo@us.blazeppn.info443?allowInsecure=1&sni=us.blazeppn.info#34-0113-US
       - 34-0898-CN
       - 34-0903-US
       - 34-0908-US
@@ -2673,7 +2674,6 @@ proxy-groups:
       - 34-0114-US
       - 34-0119-FR
       - 34-0124-LT
-      - 34-0129-NL
       - 34-0134-AE
       - 34-0139-FR
       - 34-0144-NO
@@ -2877,7 +2877,7 @@ proxy-groups:
       - 34-0120-NL
       - 34-0125-NL
       - 34-0130-AE
-      - 34-0135-LT
+      - 34-0135-AE
       - 34-0140-LT
       - 34-0145-GB
       - 34-0150-GB
@@ -3023,7 +3023,7 @@ proxy-groups:
       - 34-0880-TW
       - 34-0885-TW
       - 34-0890-CN
-      - 34-0895-SGss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.132443#34-0102-US
+      - 34-0895-SGtrojan//xxoo@us.blazeppn.info443?allowInsecure=1&sni=us.blazeppn.info#34-0113-US
       - 34-0900-FR
       - 34-0905-RELAY
       - 34-0910-RELAY
