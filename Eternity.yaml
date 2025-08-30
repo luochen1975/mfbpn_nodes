@@ -179,8 +179,8 @@ proxies:
   - {name: 34-131-US, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, udp: true}
   - {name: 34-132-US, server: 198.62.62.67, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, udp: true}
   - {name: 34-137-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-138-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-139-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-140-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-141-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-142-US, server: 107.151.182.253, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 34-143-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -919,7 +919,7 @@ proxies:
   - {name: 34-899-TW, server: 111.253.198.186, port: 10136, type: ss, cipher: chacha20-ietf-poly1305, password: 2459869f-df49-42bd-b03b-0208aa1c7f8f, udp: true}
   - {name: 34-900-TW, server: 125.230.5.24, port: 10011, type: ss, cipher: chacha20-ietf-poly1305, password: 5480b95f-e98e-48e6-802e-dbd73021332b, udp: true}
   - {name: 34-901-TW, server: 114.46.67.243, port: 10064, type: ss, cipher: chacha20-ietf-poly1305, password: c408f6c1-c3e7-4577-b8ad-2b28af94781a, udp: true}
-  - {name: 34-902-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167443#34-140-US, server: 111.253.194.82, port: 10127, type: ss, cipher: chacha20-ietf-poly1305, password: 22b11ef8-05e9-429a-b3c2-1ea9692aa0fe, udp: true}
+  - {name: 34-902-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169443#34-138-US, server: 111.253.194.82, port: 10127, type: ss, cipher: chacha20-ietf-poly1305, password: 22b11ef8-05e9-429a-b3c2-1ea9692aa0fe, udp: true}
   - {name: 34-903-TW, server: 118.170.205.122, port: 10059, type: ss, cipher: chacha20-ietf-poly1305, password: ce7149cd-ea77-4e46-af7d-d4f6930ea541, udp: true}
   - {name: 34-904-TW, server: 125.230.20.86, port: 10010, type: ss, cipher: chacha20-ietf-poly1305, password: abc8d148-7593-4b0a-8c75-5dcbcee0b2d4, udp: true}
   - {name: 34-905-TW, server: 111.253.198.186, port: 10136, type: ss, cipher: chacha20-ietf-poly1305, password: 4ac3d5f9-60e1-4ac2-ac54-81dea887e010, udp: true}
@@ -1098,8 +1098,8 @@ proxy-groups:
       - 34-131-US
       - 34-132-US
       - 34-137-US
-      - 34-138-US
       - 34-139-US
+      - 34-140-US
       - 34-141-US
       - 34-142-US
       - 34-143-CA
@@ -1838,7 +1838,7 @@ proxy-groups:
       - 34-899-TW
       - 34-900-TW
       - 34-901-TW
-      - 34-902-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167443#34-140-US
+      - 34-902-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169443#34-138-US
       - 34-903-TW
       - 34-904-TW
       - 34-905-TW
@@ -2256,7 +2256,7 @@ proxy-groups:
       - 34-887-TW
       - 34-892-TW
       - 34-897-TW
-      - 34-902-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167443#34-140-US
+      - 34-902-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169443#34-138-US
       - 34-907-TW
       - 34-912-TW
       - 34-917-TW
@@ -2292,7 +2292,6 @@ proxy-groups:
       - 34-118-CN
       - 34-123-CN
       - 34-128-KZ
-      - 34-138-US
       - 34-143-CA
       - 34-148-US
       - 34-153-FR
@@ -2442,6 +2441,7 @@ proxy-groups:
       - 34-888-TW
       - 34-893-TW
       - 34-898-TW
+      - 34-902-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169443#34-138-US
       - 34-903-TW
       - 34-908-TW
       - 34-913-TW
@@ -2671,6 +2671,7 @@ proxy-groups:
       - 34-120-CN
       - 34-125-IE
       - 34-130-RU
+      - 34-140-US
       - 34-145-CA
       - 34-155-AE
       - 34-160-NL
@@ -2817,7 +2818,6 @@ proxy-groups:
       - 34-890-TW
       - 34-895-TW
       - 34-900-TW
-      - 34-902-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167443#34-140-US
       - 34-905-TW
       - 34-910-TW
       - 34-915-TW
