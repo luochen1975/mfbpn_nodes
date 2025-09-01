@@ -152,9 +152,9 @@ proxies:
   - {name: 34-104-TW, server: 36.232.72.237, port: 10130, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZmNmYWE1Yy01Y2UxLTQyMmEtYmNiNi1iOTYyODRhYWRhOTA, udp: true}
   - {name: 34-109-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-110-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-111-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-112-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-113-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-114-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-115-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-116-US, server: 107.151.182.253, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 34-117-US, server: 212.102.47.132, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -165,9 +165,9 @@ proxies:
   - {name: 34-122-NL, server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-123-AE, server: 151.242.251.153, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-124-FR, server: 45.158.171.110, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: 34-125-LT, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-126-NL, server: 193.29.139.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-127-NL, server: 193.29.139.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 34-128-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 34-129-AE, server: 151.242.251.144, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-130-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-131-FR, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -871,7 +871,7 @@ proxies:
   - {name: 34-851-TW, server: 114.46.78.106, port: 10043, type: ss, cipher: chacha20-ietf-poly1305, password: 95911f0e-ca9e-4570-89a3-2622ac71ada0, udp: true}
   - {name: 34-852-TW, server: 59.126.32.59, port: 10066, type: ss, cipher: chacha20-ietf-poly1305, password: ec37a3e3-d17b-4ffc-a9c0-3c7f91b2cf98, udp: true}
   - {name: 34-853-TW, server: 125.228.180.215, port: 10089, type: ss, cipher: chacha20-ietf-poly1305, password: e73c8f9f-d53e-4f34-9237-2212ccc12d63, udp: true}
-  - {name: 34-855-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.168443#34-111-US, server: 114.46.79.69, port: 10070, type: ss, cipher: chacha20-ietf-poly1305, password: 7fc173fa-fbad-4cf1-94d3-3c7fe576a1ce, udp: true}
+  - {name: 34-855-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169443#34-114-US, server: 114.46.79.69, port: 10070, type: ss, cipher: chacha20-ietf-poly1305, password: 7fc173fa-fbad-4cf1-94d3-3c7fe576a1ce, udp: true}
   - {name: 34-856-CN, server: awes35lesl.blhao0o.dpdns.org, port: 12008, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
   - {name: 34-857-TR, server: 62.133.63.226, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: qscavF5UviIL-8V-E4raBA, udp: true}
   - {name: 34-858-DE, server: 18.196.64.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -1013,9 +1013,9 @@ proxy-groups:
       - 34-104-TW
       - 34-109-US
       - 34-110-US
+      - 34-111-US
       - 34-112-US
       - 34-113-US
-      - 34-114-US
       - 34-115-US
       - 34-116-US
       - 34-117-US
@@ -1026,9 +1026,9 @@ proxy-groups:
       - 34-122-NL
       - 34-123-AE
       - 34-124-FR
+      - 34-125-LT
       - 34-126-NL
       - 34-127-NL
-      - 34-128-NL
       - 34-129-AE
       - 34-130-NL
       - 34-131-FR
@@ -1732,7 +1732,7 @@ proxy-groups:
       - 34-851-TW
       - 34-852-TW
       - 34-853-TW
-      - 34-855-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.168443#34-111-US
+      - 34-855-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169443#34-114-US
       - 34-856-CN
       - 34-857-TR
       - 34-858-DE
@@ -1799,6 +1799,7 @@ proxy-groups:
       - 34-091-TW
       - 34-096-CN
       - 34-101-CN
+      - 34-111-US
       - 34-116-US
       - 34-121-FR
       - 34-126-NL
@@ -1943,7 +1944,6 @@ proxy-groups:
       - 34-841-CN
       - 34-846-CN
       - 34-851-TW
-      - 34-855-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.168443#34-111-US
       - 34-856-CN
       - 34-861-US
       - 34-866-RELAY
@@ -2150,7 +2150,6 @@ proxy-groups:
       - 34-113-US
       - 34-118-CA
       - 34-123-AE
-      - 34-128-NL
       - 34-133-LT
       - 34-138-US
       - 34-143-NL
@@ -2327,7 +2326,6 @@ proxy-groups:
       - 34-099-CN
       - 34-104-TW
       - 34-109-US
-      - 34-114-US
       - 34-119-US
       - 34-124-FR
       - 34-129-AE
@@ -2469,6 +2467,7 @@ proxy-groups:
       - 34-834-TW
       - 34-839-CN
       - 34-849-TW
+      - 34-855-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169443#34-114-US
       - 34-859-RU
       - 34-864-RELAY
       - 34-869-RELAY
@@ -2504,6 +2503,7 @@ proxy-groups:
       - 34-110-US
       - 34-115-US
       - 34-120-US
+      - 34-125-LT
       - 34-130-NL
       - 34-135-GB
       - 34-140-GB
@@ -2645,7 +2645,7 @@ proxy-groups:
       - 34-840-CN
       - 34-845-CN
       - 34-850-TW
-      - 34-855-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.168443#34-111-US
+      - 34-855-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169443#34-114-US
       - 34-860-US
       - 34-865-RELAY
       - 34-870-RELAY
