@@ -165,9 +165,9 @@ proxies:
   - {name: 34-120-US, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, sni: us.blazeppn.info, skip-cert-verify: true, udp: true}
   - {name: 34-121-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-122-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-123-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-124-US, server: 64.74.163.130, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-125-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-126-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-127-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 34-128-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-129-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -177,7 +177,6 @@ proxies:
   - {name: 34-133-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-134-FR, server: 45.158.171.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-135-FR, server: 45.158.171.60, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-  - {name: 34-136-LT, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-137-NL, server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-138-NL, server: 103.104.247.47, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-139-AE, server: 151.242.251.144, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
@@ -187,6 +186,7 @@ proxies:
   - {name: 34-143-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 34-144-GB, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-145-LT, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
+  - {name: 34-146-LT, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: 34-147-LT, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 34-148-LT, server: 45.87.175.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-149-LT, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
@@ -231,7 +231,7 @@ proxies:
   - {name: 34-188-GB, server: 141.98.101.178, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-189-NL, server: 193.29.139.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-190-LT, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 34-191-LT, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
+  - {name: 34-191-AE, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-192-NL, server: 193.29.139.227, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-193-FR, server: 81.19.137.222, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: a58fa62b4944ddbf, udp: true}
   - {name: 34-194-DE, server: 147.45.178.200, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: a58fa62b4944ddbf, udp: true}
@@ -864,7 +864,7 @@ proxies:
   - {name: 34-844-TW, server: 114.46.78.106, port: 10043, type: ss, cipher: chacha20-ietf-poly1305, password: 95911f0e-ca9e-4570-89a3-2622ac71ada0, udp: true}
   - {name: 34-845-TW, server: 59.126.32.59, port: 10066, type: ss, cipher: chacha20-ietf-poly1305, password: ec37a3e3-d17b-4ffc-a9c0-3c7f91b2cf98, udp: true}
   - {name: 34-846-TW, server: 125.228.180.215, port: 10089, type: ss, cipher: chacha20-ietf-poly1305, password: e73c8f9f-d53e-4f34-9237-2212ccc12d63, udp: true}
-  - {name: 34-848-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170443#34-123-US, server: 114.46.79.69, port: 10070, type: ss, cipher: chacha20-ietf-poly1305, password: 7fc173fa-fbad-4cf1-94d3-3c7fe576a1ce, udp: true}
+  - {name: 34-848-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.9443#34-126-US, server: 114.46.79.69, port: 10070, type: ss, cipher: chacha20-ietf-poly1305, password: 7fc173fa-fbad-4cf1-94d3-3c7fe576a1ce, udp: true}
   - {name: 34-849-CN, server: awes35lesl.blhao0o.dpdns.org, port: 12008, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
   - {name: 34-850-TR, server: 62.133.63.226, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: qscavF5UviIL-8V-E4raBA, udp: true}
   - {name: 34-851-DE, server: 18.196.64.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -1019,9 +1019,9 @@ proxy-groups:
       - 34-120-US
       - 34-121-US
       - 34-122-US
+      - 34-123-US
       - 34-124-US
       - 34-125-US
-      - 34-126-US
       - 34-127-CA
       - 34-128-CA
       - 34-129-US
@@ -1031,7 +1031,6 @@ proxy-groups:
       - 34-133-US
       - 34-134-FR
       - 34-135-FR
-      - 34-136-LT
       - 34-137-NL
       - 34-138-NL
       - 34-139-AE
@@ -1041,6 +1040,7 @@ proxy-groups:
       - 34-143-NL
       - 34-144-GB
       - 34-145-LT
+      - 34-146-LT
       - 34-147-LT
       - 34-148-LT
       - 34-149-LT
@@ -1085,7 +1085,7 @@ proxy-groups:
       - 34-188-GB
       - 34-189-NL
       - 34-190-LT
-      - 34-191-LT
+      - 34-191-AE
       - 34-192-NL
       - 34-193-FR
       - 34-194-DE
@@ -1718,7 +1718,7 @@ proxy-groups:
       - 34-844-TW
       - 34-845-TW
       - 34-846-TW
-      - 34-848-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170443#34-123-US
+      - 34-848-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.9443#34-126-US
       - 34-849-CN
       - 34-850-TR
       - 34-851-DE
@@ -1790,10 +1790,9 @@ proxy-groups:
       - 34-106-CN
       - 34-111-CN
       - 34-121-US
-      - 34-126-US
       - 34-131-US
-      - 34-136-LT
       - 34-141-AE
+      - 34-146-LT
       - 34-151-NL
       - 34-156-FR
       - 34-161-AE
@@ -1802,7 +1801,7 @@ proxy-groups:
       - 34-176-SK
       - 34-181-FI
       - 34-186-CH
-      - 34-191-LT
+      - 34-191-AE
       - 34-196-RO
       - 34-201-DE
       - 34-206-HK
@@ -1929,6 +1928,7 @@ proxy-groups:
       - 34-836-CN
       - 34-841-TW
       - 34-846-TW
+      - 34-848-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.9443#34-126-US
       - 34-851-DE
       - 34-856-US
       - 34-861-RELAY
@@ -2133,6 +2133,7 @@ proxy-groups:
       - 34-103-CN
       - 34-108-CN
       - 34-113-DE
+      - 34-123-US
       - 34-128-CA
       - 34-133-US
       - 34-138-NL
@@ -2274,7 +2275,7 @@ proxy-groups:
       - 34-833-JP
       - 34-838-JP
       - 34-843-TW
-      - 34-848-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170443#34-123-US
+      - 34-848-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.9443#34-126-US
       - 34-853-US
       - 34-858-RELAY
       - 34-863-RELAY
