@@ -165,7 +165,6 @@ proxies:
   - {name: 34-120-US, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, sni: us.blazeppn.info, skip-cert-verify: true, udp: true}
   - {name: 34-121-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-122-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-123-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-124-US, server: 64.74.163.130, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-125-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-126-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -304,6 +303,7 @@ proxies:
   - {name: 34-260-HK, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com}}, udp: true}
   - {name: 34-261-LV, server: 89.46.238.35, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-262-IN, server: 134.209.147.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 34-263-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-264-NL, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
   - {name: 34-265-FR, server: 45.158.171.70, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-266-MK, server: 46.183.185.37, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -864,7 +864,7 @@ proxies:
   - {name: 34-844-TW, server: 114.46.78.106, port: 10043, type: ss, cipher: chacha20-ietf-poly1305, password: 95911f0e-ca9e-4570-89a3-2622ac71ada0, udp: true}
   - {name: 34-845-TW, server: 59.126.32.59, port: 10066, type: ss, cipher: chacha20-ietf-poly1305, password: ec37a3e3-d17b-4ffc-a9c0-3c7f91b2cf98, udp: true}
   - {name: 34-846-TW, server: 125.228.180.215, port: 10089, type: ss, cipher: chacha20-ietf-poly1305, password: e73c8f9f-d53e-4f34-9237-2212ccc12d63, udp: true}
-  - {name: 34-848-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243443#34-263-US, server: 114.46.79.69, port: 10070, type: ss, cipher: chacha20-ietf-poly1305, password: 7fc173fa-fbad-4cf1-94d3-3c7fe576a1ce, udp: true}
+  - {name: 34-848-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170443#34-123-US, server: 114.46.79.69, port: 10070, type: ss, cipher: chacha20-ietf-poly1305, password: 7fc173fa-fbad-4cf1-94d3-3c7fe576a1ce, udp: true}
   - {name: 34-849-CN, server: awes35lesl.blhao0o.dpdns.org, port: 12008, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
   - {name: 34-850-TR, server: 62.133.63.226, port: 2222, type: ss, cipher: chacha20-ietf-poly1305, password: qscavF5UviIL-8V-E4raBA, udp: true}
   - {name: 34-851-DE, server: 18.196.64.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -1019,7 +1019,6 @@ proxy-groups:
       - 34-120-US
       - 34-121-US
       - 34-122-US
-      - 34-123-US
       - 34-124-US
       - 34-125-US
       - 34-126-US
@@ -1158,6 +1157,7 @@ proxy-groups:
       - 34-260-HK
       - 34-261-LV
       - 34-262-IN
+      - 34-263-US
       - 34-264-NL
       - 34-265-FR
       - 34-266-MK
@@ -1718,7 +1718,7 @@ proxy-groups:
       - 34-844-TW
       - 34-845-TW
       - 34-846-TW
-      - 34-848-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243443#34-263-US
+      - 34-848-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170443#34-123-US
       - 34-849-CN
       - 34-850-TR
       - 34-851-DE
@@ -2133,7 +2133,6 @@ proxy-groups:
       - 34-103-CN
       - 34-108-CN
       - 34-113-DE
-      - 34-123-US
       - 34-128-CA
       - 34-133-US
       - 34-138-NL
@@ -2161,6 +2160,7 @@ proxy-groups:
       - 34-248-EC
       - 34-253-CY
       - 34-258-HK
+      - 34-263-US
       - 34-268-ID
       - 34-273-RELAY
       - 34-278-VN
@@ -2274,7 +2274,7 @@ proxy-groups:
       - 34-833-JP
       - 34-838-JP
       - 34-843-TW
-      - 34-848-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243443#34-263-US
+      - 34-848-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170443#34-123-US
       - 34-853-US
       - 34-858-RELAY
       - 34-863-RELAY
