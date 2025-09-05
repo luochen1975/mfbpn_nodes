@@ -237,6 +237,7 @@ proxies:
   - {name: 34-202-NL, server: 193.29.139.227, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-203-GB, server: uk-dc1.yangon.club, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-204-SK, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 34-205-NL, server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-206-NL, server: 149.34.244.68, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-207-AE, server: 151.242.251.144, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-208-FI, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -247,7 +248,6 @@ proxies:
   - {name: 34-213-BG, server: 37.19.203.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-214-CH, server: 156.146.62.163, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-215-NL, server: 193.29.139.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 34-216-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 34-217-MD, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-218-AE, server: 151.242.251.131, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-219-JP, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -1199,6 +1199,7 @@ proxy-groups:
       - 34-202-NL
       - 34-203-GB
       - 34-204-SK
+      - 34-205-NL
       - 34-206-NL
       - 34-207-AE
       - 34-208-FI
@@ -1209,7 +1210,6 @@ proxy-groups:
       - 34-213-BG
       - 34-214-CH
       - 34-215-NL
-      - 34-216-NL
       - 34-217-MD
       - 34-218-AE
       - 34-219-JP
@@ -2022,7 +2022,6 @@ proxy-groups:
       - 34-201-FR
       - 34-206-NL
       - 34-211-CH
-      - 34-216-NL
       - 34-221-CH
       - 34-226-PY
       - 34-231-RELAY
@@ -2803,6 +2802,7 @@ proxy-groups:
       - 34-190-GB
       - 34-195-GB
       - 34-200-GB
+      - 34-205-NL
       - 34-210-SE
       - 34-215-NL
       - 34-220-LT
