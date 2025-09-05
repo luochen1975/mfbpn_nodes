@@ -928,7 +928,7 @@ proxies:
   - {name: 34-0904-KR, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 34-0905-TW, server: 125.228.162.163, port: 10137, type: ss, cipher: chacha20-ietf-poly1305, password: a755cba8-8567-406e-8c42-c717784079c4, udp: true}
   - {name: 34-0906-TW, server: 114.33.53.80, port: 10047, type: ss, cipher: chacha20-ietf-poly1305, password: 2a1c0a77-0c34-44b8-a412-1d1caa01489c, udp: true}
-  - {name: 34-0907-TW, server: 118.170.199.80, port: 10034, type: ss, cipher: chacha20-ietf-poly1305, password: 2b6be601-6c1e-4df7-a7a8-7198a6915cb6, udp: true}
+  - {name: 34-0907-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.131443#34-0236-US, server: 118.170.199.80, port: 10034, type: ss, cipher: chacha20-ietf-poly1305, password: 2b6be601-6c1e-4df7-a7a8-7198a6915cb6, udp: true}
   - {name: 34-0908-TW, server: 118.170.212.53, port: 10018, type: ss, cipher: chacha20-ietf-poly1305, password: 2b6be601-6c1e-4df7-a7a8-7198a6915cb6, udp: true}
   - {name: 34-0909-CN, server: ssjp01.go52pokemon.com, port: 54225, type: trojan, password: bf32001e-5d49-42cb-b77d-9ff4be3eca86, sni: itunes.apple.com, skip-cert-verify: true, udp: true}
   - {name: 34-0910-TW, server: 114.33.53.80, port: 10047, type: ss, cipher: chacha20-ietf-poly1305, password: 5695443d-9206-49b5-99be-e1276218c54e, udp: true}
@@ -984,50 +984,52 @@ proxies:
   - {name: 34-0965-JP, server: xingxing.jiasu123.org, port: 4801, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
   - {name: 34-0966-JP, server: xingxing.jiasu123.org, port: 4317, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
   - {name: 34-0967-TW, server: 114.33.53.213, port: 10037, type: ss, cipher: chacha20-ietf-poly1305, password: ed7b6c5e-4658-426e-9764-13226b4256d8, udp: true}
-  - {name: 34-0968-TW, server: 59.126.32.59, port: 10066, type: ss, cipher: chacha20-ietf-poly1305, password: 6b9e151f-10bb-4ef9-8607-fe3ad53f7dc1, udp: true}
-  - {name: 34-0969-HK, server: awes35lesl.blhao0o.dpdns.org, port: 12006, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
+  - {name: 34-0968-TW, server: 59.126.32.59, port: 10066, type: ss, cipher: chacha20-ietf-poly1305, password: 674ee5a2-42e6-4c9f-ab6f-885f9c8e71c9, udp: true}
+  - {name: 34-0969-TW, server: 59.126.32.59, port: 10066, type: ss, cipher: chacha20-ietf-poly1305, password: 140e4cb2-a874-414b-a58b-c0300720fa7d, udp: true}
   - {name: 34-0970-TW, server: okanc.iepl.cac.cab, port: 23001, type: trojan, password: 82d0fb76-b9ff-41c2-ba15-2aec44f78e7c, sni: www.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 34-0971-TR, server: tr-1.stunnel.cc, port: 8444, type: ss, cipher: chacha20-ietf-poly1305, password: tunnel-fbrof, udp: true}
-  - {name: 34-0972-DE, server: 63.176.195.141, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 34-0973-TW, server: cdntwa.xiaomispeed.com, port: 39769, type: trojan, password: 321dc037-d0c7-4e56-b868-4d2d17789f85, sni: cdntwa.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 34-0974-US, server: 38.107.226.160, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 34-0975-US, server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, udp: true}
-  - {name: 34-0976-US, server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: cWCt8FRw9qXHQaG59JrNLi, udp: true}
-  - {name: 34-0977-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-0978-US, server: 94.131.22.134, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: 2JK8CwhNFuy3uQo5yHwHvRuEXKLnnrKW7T3snXFQ25yt27PGLKoLXMFrSFFoVgB5SQMeAHx8ZaQXx9mAY55cYskUyVaP6Rum, udp: true}
-  - {name: 34-0979-RELAY, server: 188.244.122.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-0980-RELAY, server: 185.238.228.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-0981-RELAY, server: 185.18.250.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-0982-FR, server: 185.16.110.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-0983-AT, server: 212.183.88.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-0984-RELAY, server: 185.59.218.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-0971-AT, server: 77.110.110.117, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9JeYy8SkViXuSHVs9GFeSe, udp: true}
+  - {name: 34-0972-AT, server: promo6v.bystrivpn.ru, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9JeYy8SkViXuSHVs9GFeSe, udp: true}
+  - {name: 34-0973-AT, server: 95.163.176.37, port: 8506, type: ss, cipher: chacha20-ietf-poly1305, password: VdswxetVc6AhIps18rtYbm, udp: true}
+  - {name: 34-0974-NO, server: 185.213.23.226, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 34-0975-FR, server: 51.44.106.132, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 34-0976-US, server: 38.107.226.160, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 34-0977-US, server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, udp: true}
+  - {name: 34-0978-US, server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: cWCt8FRw9qXHQaG59JrNLi, udp: true}
+  - {name: 34-0979-US, server: pupas-shirting-unsung.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: p78naCf2EfOlRSLTX0wFVx, udp: true}
+  - {name: 34-0980-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 34-0981-RELAY, server: 188.244.122.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-0982-RELAY, server: 185.148.105.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-0983-RELAY, server: 185.18.250.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-0984-FR, server: 185.16.110.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
   - {name: 34-0985-RELAY, server: 195.26.229.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
   - {name: 34-0986-US, server: 199.68.156.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-0987-RELAY, server: 185.176.24.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-0988-RELAY, server: 185.221.160.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-0989-RELAY, server: 185.148.107.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-0990-RELAY, server: 185.18.184.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-0991-RELAY, server: 185.251.80.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-0992-RELAY, server: 185.251.82.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-0987-RELAY, server: 185.251.81.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-0988-RELAY, server: 185.176.24.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-0989-RELAY, server: 185.221.160.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-0990-RELAY, server: 185.148.107.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-0991-RELAY, server: 185.251.83.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-0992-RELAY, server: 185.251.80.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
   - {name: 34-0993-RELAY, server: 185.7.240.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
   - {name: 34-0994-RELAY, server: 194.36.55.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-0995-RELAY, server: 188.42.89.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-0996-RELAY, server: 188.164.248.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-0997-RELAY, server: 213.219.247.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-0998-RELAY, server: 188.42.145.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-0999-RELAY, server: 195.13.54.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-1000-RELAY, server: 195.13.55.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-1001-US, server: 192.0.54.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-0995-RELAY, server: 188.164.248.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-0996-RELAY, server: 193.9.49.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-0997-RELAY, server: 188.42.145.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-0998-RELAY, server: 195.13.54.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-0999-RELAY, server: 195.13.55.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-1000-US, server: 192.0.54.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-1001-US, server: 192.200.160.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
   - {name: 34-1002-RELAY, server: 185.148.104.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
   - {name: 34-1003-US, server: 216.24.57.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
   - {name: 34-1004-RELAY, server: 185.148.106.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-1005-US, server: 199.34.230.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-1006-RELAY, server: 193.124.224.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-1007-US, server: 209.94.90.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-1005-RELAY, server: 193.124.224.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-1006-US, server: 199.34.229.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-1007-US, server: 192.0.63.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
   - {name: 34-1008-RELAY, server: 209.46.30.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
   - {name: 34-1009-RELAY, server: 205.233.181.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
   - {name: 34-1010-RELAY, server: 199.181.197.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-1013-NL, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
+  - {name: 34-1012-RELAY, server: 195.13.45.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-1013-RELAY, server: 192.65.217.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-1014-NL, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1913,7 +1915,7 @@ proxy-groups:
       - 34-0904-KR
       - 34-0905-TW
       - 34-0906-TW
-      - 34-0907-TW
+      - 34-0907-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.131443#34-0236-US
       - 34-0908-TW
       - 34-0909-CN
       - 34-0910-TW
@@ -1970,22 +1972,22 @@ proxy-groups:
       - 34-0966-JP
       - 34-0967-TW
       - 34-0968-TW
-      - 34-0969-HK
+      - 34-0969-TW
       - 34-0970-TW
-      - 34-0971-TR
-      - 34-0972-DE
-      - 34-0973-TW
-      - 34-0974-US
-      - 34-0975-US
+      - 34-0971-AT
+      - 34-0972-AT
+      - 34-0973-AT
+      - 34-0974-NO
+      - 34-0975-FR
       - 34-0976-US
       - 34-0977-US
       - 34-0978-US
-      - 34-0979-RELAY
-      - 34-0980-RELAY
+      - 34-0979-US
+      - 34-0980-US
       - 34-0981-RELAY
-      - 34-0982-FR
-      - 34-0983-AT
-      - 34-0984-RELAY
+      - 34-0982-RELAY
+      - 34-0983-RELAY
+      - 34-0984-FR
       - 34-0985-RELAY
       - 34-0986-US
       - 34-0987-RELAY
@@ -2001,18 +2003,20 @@ proxy-groups:
       - 34-0997-RELAY
       - 34-0998-RELAY
       - 34-0999-RELAY
-      - 34-1000-RELAY
+      - 34-1000-US
       - 34-1001-US
       - 34-1002-RELAY
       - 34-1003-US
       - 34-1004-RELAY
-      - 34-1005-US
-      - 34-1006-RELAY
+      - 34-1005-RELAY
+      - 34-1006-US
       - 34-1007-US
       - 34-1008-RELAY
       - 34-1009-RELAY
       - 34-1010-RELAY
-      - 34-1013-NL
+      - 34-1012-RELAY
+      - 34-1013-RELAY
+      - 34-1014-NL
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2202,6 +2206,7 @@ proxy-groups:
       - 34-0896-CN
       - 34-0901-TW
       - 34-0906-TW
+      - 34-0907-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.131443#34-0236-US
       - 34-0911-TW
       - 34-0916-TW
       - 34-0921-CN
@@ -2213,14 +2218,14 @@ proxy-groups:
       - 34-0956-TW
       - 34-0961-JP
       - 34-0966-JP
-      - 34-0971-TR
+      - 34-0971-AT
       - 34-0976-US
       - 34-0981-RELAY
       - 34-0986-US
       - 34-0991-RELAY
       - 34-0996-RELAY
       - 34-1001-US
-      - 34-1006-RELAY
+      - 34-1006-US
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2401,7 +2406,7 @@ proxy-groups:
       - 34-0892-CN
       - 34-0897-SG
       - 34-0902-CN
-      - 34-0907-TW
+      - 34-0907-TWss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.131443#34-0236-US
       - 34-0912-TW
       - 34-0917-TW
       - 34-0922-TW
@@ -2413,14 +2418,15 @@ proxy-groups:
       - 34-0952-HK
       - 34-0962-JP
       - 34-0967-TW
-      - 34-0972-DE
+      - 34-0972-AT
       - 34-0977-US
-      - 34-0982-FR
+      - 34-0982-RELAY
       - 34-0987-RELAY
       - 34-0992-RELAY
       - 34-0997-RELAY
       - 34-1002-RELAY
       - 34-1007-US
+      - 34-1012-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2616,15 +2622,15 @@ proxy-groups:
       - 34-0953-HK
       - 34-0963-CN
       - 34-0968-TW
-      - 34-0973-TW
+      - 34-0973-AT
       - 34-0978-US
-      - 34-0983-AT
+      - 34-0983-RELAY
       - 34-0988-RELAY
       - 34-0993-RELAY
       - 34-0998-RELAY
       - 34-1003-US
       - 34-1008-RELAY
-      - 34-1013-NL
+      - 34-1013-RELAY
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2815,15 +2821,16 @@ proxy-groups:
       - 34-0949-DE
       - 34-0954-TW
       - 34-0959-JP
-      - 34-0969-HK
-      - 34-0974-US
-      - 34-0979-RELAY
-      - 34-0984-RELAY
+      - 34-0969-TW
+      - 34-0974-NO
+      - 34-0979-US
+      - 34-0984-FR
       - 34-0989-RELAY
       - 34-0994-RELAY
       - 34-0999-RELAY
       - 34-1004-RELAY
       - 34-1009-RELAY
+      - 34-1014-NL
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -3015,13 +3022,13 @@ proxy-groups:
       - 34-0960-JP
       - 34-0965-JP
       - 34-0970-TW
-      - 34-0975-US
-      - 34-0980-RELAY
+      - 34-0975-FR
+      - 34-0980-US
       - 34-0985-RELAY
       - 34-0990-RELAY
       - 34-0995-RELAY
-      - 34-1000-RELAY
-      - 34-1005-US
+      - 34-1000-US
+      - 34-1005-RELAY
       - 34-1010-RELAY
   - name: 广告拦截
     type: select
