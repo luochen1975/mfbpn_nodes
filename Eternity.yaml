@@ -78,14 +78,14 @@ proxies:
   - {name: 34-0023-NOWHERE, server: xx.avxqx.cn, port: 443, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: fe2.update.microsoft.com, skip-cert-verify: true, udp: true}
   - {name: 34-0024-HK, server: awes35lesl.blhao0o.dpdns.org, port: 12008, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
   - {name: 34-0025-TW, server: 125.228.180.215, port: 10089, type: ss, cipher: chacha20-ietf-poly1305, password: 60f661f4-579c-45c9-8156-e0db88911dc6, udp: true}
-  - {name: 34-0027-JP, server: xx.baku7.com, port: 1924, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
-  - {name: 34-0029-JP, server: xx.baku7.com, port: 9160, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
-  - {name: 34-0030-JP, server: xx.baku7.com, port: 4613, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
-  - {name: 34-0031-JP, server: xx.baku7.com, port: 3206, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
+  - {name: 34-0027-NOWHERE, server: xx.baku7.com, port: 1924, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
+  - {name: 34-0029-NOWHERE, server: xx.baku7.com, port: 9160, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
+  - {name: 34-0030-NOWHERE, server: xx.baku7.com, port: 4613, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
+  - {name: 34-0031-NOWHERE, server: xx.baku7.com, port: 3206, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
   - {name: 34-0032-CN, server: v39.heduian.link, port: 30839, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v39.heduian.link}}, udp: true}
   - {name: 34-0033-HK, server: awes35lesl.blhao0o.dpdns.org, port: 12020, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
-  - {name: 34-0035-JP, server: xx.baku7.com, port: 4801, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
-  - {name: 34-0036-JP, server: xx.baku7.com, port: 4317, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
+  - {name: 34-0035-NOWHERE, server: xx.baku7.com, port: 4801, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
+  - {name: 34-0036-NOWHERE, server: xx.baku7.com, port: 4317, type: trojan, password: 253bc477d4e43c209f2d427272968280, sni: 23.45.86.28, skip-cert-verify: true, udp: true}
   - {name: 34-0037-RELAY, server: csgo.com, port: 80, type: vmess, uuid: 457f64d5-cc68-4911-82ee-636ebb568a46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: csgo.com}}, udp: true}
   - {name: 34-0038-PT, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0039-RELAY, server: fastcup.net, port: 80, type: vmess, uuid: 457f64d5-cc68-4911-82ee-636ebb568a46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: fastcup.net}}, udp: true}
@@ -235,7 +235,7 @@ proxies:
   - {name: 34-0196-RELAY, server: 185.148.105.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
   - {name: 34-0197-US, server: 199.68.156.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
   - {name: 34-0198-US, server: 216.24.57.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-0204-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-0203-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0205-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0206-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0207-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -280,8 +280,8 @@ proxies:
   - {name: 34-0246-BG, server: 37.19.203.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0247-CH, server: 156.146.62.163, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0248-NL, server: 193.29.139.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 34-0249-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 34-0250-MD, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-0251-AE, server: 151.242.251.131, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-0252-JP, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0253-LT, server: 45.87.175.69, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0254-CH, server: 156.146.62.164, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -1086,14 +1086,14 @@ proxy-groups:
       - 34-0023-NOWHERE
       - 34-0024-HK
       - 34-0025-TW
-      - 34-0027-JP
-      - 34-0029-JP
-      - 34-0030-JP
-      - 34-0031-JP
+      - 34-0027-NOWHERE
+      - 34-0029-NOWHERE
+      - 34-0030-NOWHERE
+      - 34-0031-NOWHERE
       - 34-0032-CN
       - 34-0033-HK
-      - 34-0035-JP
-      - 34-0036-JP
+      - 34-0035-NOWHERE
+      - 34-0036-NOWHERE
       - 34-0037-RELAY
       - 34-0038-PT
       - 34-0039-RELAY
@@ -1243,7 +1243,7 @@ proxy-groups:
       - 34-0196-RELAY
       - 34-0197-US
       - 34-0198-US
-      - 34-0204-US
+      - 34-0203-US
       - 34-0205-US
       - 34-0206-US
       - 34-0207-US
@@ -1288,8 +1288,8 @@ proxy-groups:
       - 34-0246-BG
       - 34-0247-CH
       - 34-0248-NL
+      - 34-0249-NL
       - 34-0250-MD
-      - 34-0251-AE
       - 34-0252-JP
       - 34-0253-LT
       - 34-0254-CH
@@ -2079,8 +2079,8 @@ proxy-groups:
       - 34-0011-HK
       - 34-0016-RELAY
       - 34-0021-HK
-      - 34-0031-JP
-      - 34-0036-JP
+      - 34-0031-NOWHERE
+      - 34-0036-NOWHERE
       - 34-0041-RELAY
       - 34-0046-RELAY
       - 34-0051-CN
@@ -2119,7 +2119,6 @@ proxy-groups:
       - 34-0236-GB
       - 34-0241-FI
       - 34-0246-BG
-      - 34-0251-AE
       - 34-0256-RO
       - 34-0261-HK
       - 34-0266-CH
@@ -2283,7 +2282,7 @@ proxy-groups:
       - 34-0012-RELAY
       - 34-0017-DE
       - 34-0022-HK
-      - 34-0027-JP
+      - 34-0027-NOWHERE
       - 34-0032-CN
       - 34-0037-RELAY
       - 34-0042-FI
@@ -2523,6 +2522,7 @@ proxy-groups:
       - 34-0188-RELAY
       - 34-0193-RELAY
       - 34-0198-US
+      - 34-0203-US
       - 34-0208-US
       - 34-0213-US
       - 34-0218-NL
@@ -2698,7 +2698,7 @@ proxy-groups:
       - 34-0009-HK
       - 34-0014-NL
       - 34-0024-HK
-      - 34-0029-JP
+      - 34-0029-NOWHERE
       - 34-0039-RELAY
       - 34-0044-CN
       - 34-0049-CN
@@ -2727,7 +2727,6 @@ proxy-groups:
       - 34-0184-TW
       - 34-0189-RELAY
       - 34-0194-RELAY
-      - 34-0204-US
       - 34-0209-US
       - 34-0214-FR
       - 34-0219-LT
@@ -2736,6 +2735,7 @@ proxy-groups:
       - 34-0234-FR
       - 34-0239-NL
       - 34-0244-CH
+      - 34-0249-NL
       - 34-0254-CH
       - 34-0259-PY
       - 34-0264-RELAY
@@ -2898,8 +2898,8 @@ proxy-groups:
       - 34-0015-VN
       - 34-0020-CN
       - 34-0025-TW
-      - 34-0030-JP
-      - 34-0035-JP
+      - 34-0030-NOWHERE
+      - 34-0035-NOWHERE
       - 34-0040-RELAY
       - 34-0045-TR
       - 34-0050-SC
