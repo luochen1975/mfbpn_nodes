@@ -235,8 +235,8 @@ proxies:
   - {name: 34-0196-RELAY, server: 185.148.105.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
   - {name: 34-0197-US, server: 199.68.156.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
   - {name: 34-0198-US, server: 216.24.57.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-0203-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0204-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-0205-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0206-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0207-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0208-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -250,7 +250,6 @@ proxies:
   - {name: 34-0216-NL, server: 193.29.139.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-0217-LT, server: 45.87.175.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0218-AE, server: 151.242.251.144, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 34-0219-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 34-0220-LT, server: 45.87.175.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0221-NL, server: 193.29.139.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 34-0222-FR, server: 45.158.171.110, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
@@ -272,6 +271,7 @@ proxies:
   - {name: 34-0238-FR, server: 45.158.171.60, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0239-LT, server: 45.87.175.69, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0240-NL, server: 193.29.139.138, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
+  - {name: 34-0241-FR, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0242-GB, server: 212.102.53.81, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0243-GB, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0244-CZ, server: 195.181.160.6, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -1253,8 +1253,8 @@ proxy-groups:
       - 34-0196-RELAY
       - 34-0197-US
       - 34-0198-US
-      - 34-0203-US
       - 34-0204-US
+      - 34-0205-US
       - 34-0206-US
       - 34-0207-US
       - 34-0208-US
@@ -1268,7 +1268,6 @@ proxy-groups:
       - 34-0216-NL
       - 34-0217-LT
       - 34-0218-AE
-      - 34-0219-NL
       - 34-0220-LT
       - 34-0221-NL
       - 34-0222-FR
@@ -1290,6 +1289,7 @@ proxy-groups:
       - 34-0238-FR
       - 34-0239-LT
       - 34-0240-NL
+      - 34-0241-FR
       - 34-0242-GB
       - 34-0243-GB
       - 34-0244-CZ
@@ -2137,6 +2137,7 @@ proxy-groups:
       - 34-0226-NL
       - 34-0231-GB
       - 34-0236-NL
+      - 34-0241-FR
       - 34-0246-GB
       - 34-0251-NO
       - 34-0256-CA
@@ -2546,7 +2547,6 @@ proxy-groups:
       - 34-0188-RELAY
       - 34-0193-RELAY
       - 34-0198-US
-      - 34-0203-US
       - 34-0208-US
       - 34-0213-US
       - 34-0218-AE
@@ -2755,7 +2755,6 @@ proxy-groups:
       - 34-0204-US
       - 34-0209-US
       - 34-0214-US
-      - 34-0219-NL
       - 34-0224-LT
       - 34-0229-NL
       - 34-0234-LT
@@ -2960,6 +2959,7 @@ proxy-groups:
       - 34-0185-TW
       - 34-0190-RELAY
       - 34-0195-US
+      - 34-0205-US
       - 34-0210-US
       - 34-0215-AE
       - 34-0220-LT
