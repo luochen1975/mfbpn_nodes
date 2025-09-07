@@ -263,10 +263,10 @@ proxies:
   - {name: 34-0223-US, server: 192.0.54.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
   - {name: 34-0224-RELAY, server: 185.148.106.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
   - {name: 34-0225-US, server: 192.200.160.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
-  - {name: 34-0230-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0231-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0232-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0233-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-0234-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0235-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0236-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0237-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -284,10 +284,10 @@ proxies:
   - {name: 34-0249-NL, server: 193.29.139.227, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-0250-NL, server: 193.29.139.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 34-0251-AE, server: 151.242.251.153, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-  - {name: 34-0252-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 34-0253-NL, server: 193.29.139.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-0254-US, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 34-0255-LT, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: 34-0256-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0257-FR, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0258-GB, server: 212.102.53.79, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0259-GB, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -1308,10 +1308,10 @@ proxy-groups:
       - 34-0223-US
       - 34-0224-RELAY
       - 34-0225-US
-      - 34-0230-US
       - 34-0231-US
       - 34-0232-US
       - 34-0233-US
+      - 34-0234-US
       - 34-0235-US
       - 34-0236-US
       - 34-0237-US
@@ -1329,10 +1329,10 @@ proxy-groups:
       - 34-0249-NL
       - 34-0250-NL
       - 34-0251-AE
-      - 34-0252-NL
       - 34-0253-NL
       - 34-0254-US
       - 34-0255-LT
+      - 34-0256-NL
       - 34-0257-FR
       - 34-0258-GB
       - 34-0259-GB
@@ -2193,6 +2193,7 @@ proxy-groups:
       - 34-0241-LT
       - 34-0246-FR
       - 34-0251-AE
+      - 34-0256-NL
       - 34-0261-GB
       - 34-0266-US
       - 34-0271-CH
@@ -2406,7 +2407,6 @@ proxy-groups:
       - 34-0237-US
       - 34-0242-AE
       - 34-0247-AE
-      - 34-0252-NL
       - 34-0257-FR
       - 34-0262-GB
       - 34-0267-FI
@@ -2826,6 +2826,7 @@ proxy-groups:
       - 34-0214-RELAY
       - 34-0219-RELAY
       - 34-0224-RELAY
+      - 34-0234-US
       - 34-0239-US
       - 34-0244-LT
       - 34-0249-NL
@@ -3037,7 +3038,6 @@ proxy-groups:
       - 34-0215-US
       - 34-0220-RELAY
       - 34-0225-US
-      - 34-0230-US
       - 34-0235-US
       - 34-0240-FR
       - 34-0245-AE
