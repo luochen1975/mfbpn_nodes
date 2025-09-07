@@ -267,10 +267,10 @@ proxies:
   - {name: 34-0231-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0232-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0233-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0234-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0235-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0236-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0237-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-0238-CA, server: 79.127.233.170, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0239-US, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0240-FR, server: 45.158.171.146, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-0241-LT, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
@@ -289,6 +289,7 @@ proxies:
   - {name: 34-0254-US, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 34-0255-LT, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 34-0256-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 34-0257-FR, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0258-GB, server: 212.102.53.79, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0259-GB, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0260-GB, server: 212.102.53.197, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -311,7 +312,6 @@ proxies:
   - {name: 34-0277-GB, server: 212.102.53.196, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0278-FR, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0279-RO, server: 185.126.237.38, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-0280-GB, server: uk-dc1.yangon.club, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0281-NO, server: 185.213.23.226, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0282-US, server: 64.74.163.130, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0283-PY, server: 38.165.233.18, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -1311,10 +1311,10 @@ proxy-groups:
       - 34-0231-US
       - 34-0232-US
       - 34-0233-US
-      - 34-0234-US
       - 34-0235-US
       - 34-0236-US
       - 34-0237-US
+      - 34-0238-CA
       - 34-0239-US
       - 34-0240-FR
       - 34-0241-LT
@@ -1333,6 +1333,7 @@ proxy-groups:
       - 34-0254-US
       - 34-0255-LT
       - 34-0256-NL
+      - 34-0257-FR
       - 34-0258-GB
       - 34-0259-GB
       - 34-0260-GB
@@ -1355,7 +1356,6 @@ proxy-groups:
       - 34-0277-GB
       - 34-0278-FR
       - 34-0279-RO
-      - 34-0280-GB
       - 34-0281-NO
       - 34-0282-US
       - 34-0283-PY
@@ -2406,6 +2406,7 @@ proxy-groups:
       - 34-0242-AE
       - 34-0247-AE
       - 34-0252-NL
+      - 34-0257-FR
       - 34-0262-GB
       - 34-0267-FI
       - 34-0272-CH
@@ -2611,6 +2612,7 @@ proxy-groups:
       - 34-0218-US
       - 34-0223-US
       - 34-0233-US
+      - 34-0238-CA
       - 34-0243-NL
       - 34-0248-NL
       - 34-0253-NL
@@ -2822,7 +2824,6 @@ proxy-groups:
       - 34-0214-RELAY
       - 34-0219-RELAY
       - 34-0224-RELAY
-      - 34-0234-US
       - 34-0239-US
       - 34-0244-LT
       - 34-0249-NL
@@ -3044,7 +3045,6 @@ proxy-groups:
       - 34-0265-GB
       - 34-0270-CA
       - 34-0275-GB
-      - 34-0280-GB
       - 34-0285-US
       - 34-0290-GB
       - 34-0295-HK
