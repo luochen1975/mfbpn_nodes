@@ -54,7 +54,6 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 34-0000-VN, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
-  - {name: 34-0002-RELAY, server: 185.148.107.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
   - {name: 34-0003-RELAY, server: 185.251.80.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
   - {name: 34-0004-RELAY, server: 185.18.250.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
   - {name: 34-0005-RELAY, server: 185.18.250.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
@@ -898,18 +897,17 @@ proxies:
   - {name: 34-0859-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0860-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0861-US, server: 64.74.163.130, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-0862-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 34-0863-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0864-US, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
-  - {name: 34-0865-US, server: seribus.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: seribus.org}}, udp: true}
+  - {name: 34-0865-CA, server: seribus.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: seribus.org}}, udp: true}
   - {name: 34-0866-JP, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0867-PL, server: lammaland.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lammaland.org}}, udp: true}
+  - {name: 34-0867-FR, server: lammaland.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lammaland.org}}, udp: true}
   - {name: 34-0868-US, server: masjide.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: masjide.org}}, udp: true}
-  - {name: 34-0869-CA, server: fapeng.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fapeng.org}}, udp: true}
+  - {name: 34-0869-FR, server: fapeng.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fapeng.org}}, udp: true}
   - {name: 34-0870-LT, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-0871-NL, server: 193.29.139.217, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-0872-LT, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 34-0873-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-0874-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 34-0875-GB, server: 212.102.53.79, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0876-FR, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0877-GB, server: uk-dc1.yangon.club, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -930,11 +928,12 @@ proxies:
   - {name: 34-0892-SK, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0893-GB, server: 212.102.53.81, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0894-FR, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-0895-DE, server: jamekk.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jamekk.org}}, udp: true}
+  - {name: 34-0895-PL, server: jamekk.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jamekk.org}}, udp: true}
   - {name: 34-0896-GB, server: 212.102.53.78, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0897-SE, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 34-0898-FR, server: 45.158.171.110, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0899-NL, server: 149.34.244.68, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 34-0900-US, server: yichueng.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yichueng.org}}, udp: true}
+  - {name: 34-0900-DE, server: yichueng.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yichueng.org}}, udp: true}
   - {name: 34-0901-NL, server: 193.29.139.227, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 34-0902-GB, server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 34-0903-CH, server: 156.146.62.163, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -968,7 +967,7 @@ proxies:
   - {name: 34-0931-CO, server: 181.119.30.20, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0932-DK, server: 192.36.27.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 34-0933-BE, server: 192.71.249.78, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 34-0934-FR, server: serkat.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: serkat.org}}, udp: true}
+  - {name: 34-0934-DE, server: serkat.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: serkat.org}}, udp: true}
   - {name: 34-0935-LT, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 34-0936-FR, server: 45.158.171.70, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 34-0937-US, server: 38.107.226.159, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
@@ -1248,6 +1247,7 @@ proxies:
   - {name: 34-1220-RELAY, server: 213.241.198.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
   - {name: 34-1221-RELAY, server: 185.174.138.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
   - {name: 34-1222-RELAY, server: 185.59.218.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, udp: true}
+  - {name: 34-1346-DE, server: de.viefast.net, port: 443, type: trojan, password: 9e76767d-4bfa-4f04-a800-42e2f63afed2, sni: csapp.catch.net.tw, skip-cert-verify: true, udp: true}
   - {name: 34-1509-MD, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -1260,7 +1260,6 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 34-0000-VN
-      - 34-0002-RELAY
       - 34-0003-RELAY
       - 34-0004-RELAY
       - 34-0005-RELAY
@@ -2104,18 +2103,17 @@ proxy-groups:
       - 34-0859-US
       - 34-0860-US
       - 34-0861-US
-      - 34-0862-US
+      - 34-0863-US
       - 34-0864-US
-      - 34-0865-US
+      - 34-0865-CA
       - 34-0866-JP
-      - 34-0867-PL
+      - 34-0867-FR
       - 34-0868-US
-      - 34-0869-CA
+      - 34-0869-FR
       - 34-0870-LT
       - 34-0871-NL
       - 34-0872-LT
       - 34-0873-NL
-      - 34-0874-NL
       - 34-0875-GB
       - 34-0876-FR
       - 34-0877-GB
@@ -2136,11 +2134,12 @@ proxy-groups:
       - 34-0892-SK
       - 34-0893-GB
       - 34-0894-FR
-      - 34-0895-DE
+      - 34-0895-PL
       - 34-0896-GB
       - 34-0897-SE
+      - 34-0898-FR
       - 34-0899-NL
-      - 34-0900-US
+      - 34-0900-DE
       - 34-0901-NL
       - 34-0902-GB
       - 34-0903-CH
@@ -2174,7 +2173,7 @@ proxy-groups:
       - 34-0931-CO
       - 34-0932-DK
       - 34-0933-BE
-      - 34-0934-FR
+      - 34-0934-DE
       - 34-0935-LT
       - 34-0936-FR
       - 34-0937-US
@@ -2454,6 +2453,7 @@ proxy-groups:
       - 34-1220-RELAY
       - 34-1221-RELAY
       - 34-1222-RELAY
+      - 34-1346-DE
       - 34-1509-MD
   - name: 自动选择
     type: url-test
@@ -2708,12 +2708,12 @@ proxy-groups:
       - 34-1211-RELAY
       - 34-1216-RELAY
       - 34-1221-RELAY
+      - 34-1346-DE
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 34-0002-RELAY
       - 34-0007-RELAY
       - 34-0012-RELAY
       - 34-0017-FR
@@ -2881,8 +2881,7 @@ proxy-groups:
       - 34-0842-US
       - 34-0852-US
       - 34-0857-US
-      - 34-0862-US
-      - 34-0867-PL
+      - 34-0867-FR
       - 34-0872-LT
       - 34-0877-GB
       - 34-0882-NL
@@ -3126,12 +3125,14 @@ proxy-groups:
       - 34-0843-US
       - 34-0853-US
       - 34-0858-US
+      - 34-0863-US
       - 34-0868-US
       - 34-0873-NL
       - 34-0878-FR
       - 34-0883-NO
       - 34-0888-CZ
       - 34-0893-GB
+      - 34-0898-FR
       - 34-0903-CH
       - 34-0908-CH
       - 34-0913-CH
@@ -3372,8 +3373,7 @@ proxy-groups:
       - 34-0854-CA
       - 34-0859-US
       - 34-0864-US
-      - 34-0869-CA
-      - 34-0874-NL
+      - 34-0869-FR
       - 34-0879-GB
       - 34-0884-GB
       - 34-0889-GB
@@ -3385,7 +3385,7 @@ proxy-groups:
       - 34-0919-HK
       - 34-0924-VN
       - 34-0929-DE
-      - 34-0934-FR
+      - 34-0934-DE
       - 34-0939-US
       - 34-0944-NL
       - 34-0949-ES
@@ -3616,14 +3616,14 @@ proxy-groups:
       - 34-0850-US
       - 34-0855-US
       - 34-0860-US
-      - 34-0865-US
+      - 34-0865-CA
       - 34-0870-LT
       - 34-0875-GB
       - 34-0880-AE
       - 34-0885-GB
       - 34-0890-GB
-      - 34-0895-DE
-      - 34-0900-US
+      - 34-0895-PL
+      - 34-0900-DE
       - 34-0905-GB
       - 34-0910-PY
       - 34-0915-BG
